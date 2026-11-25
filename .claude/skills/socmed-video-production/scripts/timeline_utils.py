@@ -2,6 +2,7 @@
 from __future__ import annotations
 import json
 import math
+import os
 from pathlib import Path
 from typing import Any
 
@@ -10,15 +11,33 @@ AUDIO_CODECS = {"aac", "libopus", "libmp3lame", "pcm_s16le"}
 FIT_MODES = {"contain", "cover"}
 
 
-def load_timeline(path: Path) -> tuple[dict[str, Any] | None, list[str], Path | None]:
+def resolve_project_root(timeline: Path, explicit: Path | None = None) -> Path:
+    """Project root: explicit --root, else CLAUDE_PROJECT_DIR, else <timeline>/../.. (edit/timeline.json layout)."""
+    if explicit is not None:
+        return explicit.expanduser().resolve()
+    env_root = os.environ.get("CLAUDE_PROJECT_DIR")
+    if env_root:
+        return Path(env_root).expanduser().resolve()
+    resolved = timeline.resolve()
+    if resolved.parent.name != "edit":
+        raise ValueError("Cannot infer the project root: keep the timeline in <project>/edit/ or pass --root")
+    return resolved.parent.parent
+
+
+def load_timeline(path: Path, root: Path | None = None) -> tuple[dict[str, Any] | None, list[str], Path | None]:
     errors: list[str] = []
+    try:
+        root = resolve_project_root(path, root)
+    except ValueError as exc:
+        return None, [str(exc)], None
+    if not path.resolve().is_relative_to(root) or path.resolve().parent == root:
+        return None, [f"Timeline must live in a subfolder (normally edit/) of the project root {root}"], None
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         return None, [f"Cannot read timeline JSON: {exc}"], None
     if not isinstance(data, dict):
         return None, ["Timeline root must be a JSON object."], None
-    root = path.resolve().parent.parent
     profile = data.get("profile")
     if not isinstance(profile, dict):
         errors.append("profile must be an object")

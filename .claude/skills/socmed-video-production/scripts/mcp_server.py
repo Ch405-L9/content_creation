@@ -90,7 +90,7 @@ def validate_timeline(timeline_path: str = "edit/timeline.json") -> dict[str, An
     script = root / ".claude/skills/socmed-video-production/scripts/validate_timeline.py"
     if not script.is_file():
         raise RuntimeError("The project skill tools are missing; rerun the workspace bootstrapper")
-    return run_json([sys.executable, str(script), str(timeline)], timeout=90)
+    return run_json([sys.executable, str(script), str(timeline), "--root", str(root)], timeout=90)
 
 
 @mcp.tool()
@@ -104,7 +104,7 @@ def render_roughcut(timeline_path: str = "edit/timeline.json", output_path: str 
     script = root / ".claude/skills/socmed-video-production/scripts/render_roughcut.py"
     if not script.is_file():
         raise RuntimeError("The project skill tools are missing; rerun the workspace bootstrapper")
-    return run_json([sys.executable, str(script), str(timeline), "--output", str(output)], timeout=7200)
+    return run_json([sys.executable, str(script), str(timeline), "--root", str(root), "--output", str(output)], timeout=7200)
 
 
 @mcp.tool()

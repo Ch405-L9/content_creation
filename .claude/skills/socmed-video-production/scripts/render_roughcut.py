@@ -3,6 +3,7 @@
 from __future__ import annotations
 import argparse
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -18,13 +19,21 @@ def ffprobe_json(ffprobe: str, source: Path) -> dict:
     return json.loads(proc.stdout)
 
 
+def write_log(log: Path, text: str) -> None:
+    """Write the render log without following a planted symlink."""
+    fd = os.open(log, os.O_WRONLY | os.O_CREAT | os.O_TRUNC | os.O_NOFOLLOW, 0o644)
+    with os.fdopen(fd, 'w', encoding='utf-8') as fh:
+        fh.write(text)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('timeline', type=Path)
+    ap.add_argument('--root', type=Path, default=None, help='Project root (default: CLAUDE_PROJECT_DIR, else two levels above the timeline)')
     ap.add_argument('--output', required=True, type=Path, help='New MP4 path inside project root; existing outputs are never overwritten')
     args = ap.parse_args()
     timeline_path = args.timeline.expanduser().resolve()
-    data, errors, root = load_timeline(timeline_path)
+    data, errors, root = load_timeline(timeline_path, args.root)
     if errors or data is None or root is None:
         print(json.dumps({'valid': False, 'errors': errors}, indent=2), file=sys.stderr)
         return 2
@@ -52,6 +61,8 @@ def main() -> int:
         ap.error('MP4 draft renderer currently supports libx264/libx265 video and AAC audio only')
     output.parent.mkdir(parents=True, exist_ok=True)
     errors_log = output.with_suffix(output.suffix + '.render.log')
+    if errors_log.is_symlink() or errors_log.exists() or not errors_log.parent.resolve().is_relative_to(root):
+        ap.error(f'refusing to reuse existing or external render log: {errors_log}')
     try:
         with tempfile.TemporaryDirectory(prefix='.roughcut-', dir=str(output.parent)) as work_name:
             work = Path(work_name)
@@ -91,12 +102,12 @@ def main() -> int:
             if not any(s.get('codec_type') == 'audio' for s in meta.get('streams', [])):
                 raise RuntimeError('Rendered output has no audio stream')
     except Exception as exc:
-        errors_log.write_text(str(exc) + '\n', encoding='utf-8')
+        write_log(errors_log, str(exc) + '\n')
         if output.exists():
             output.unlink()
         print(f'ERROR: {exc}\nRender log: {errors_log}', file=sys.stderr)
         return 1
-    errors_log.write_text('Render completed. This rough cut still requires visual and audio review.\n', encoding='utf-8')
+    write_log(errors_log, 'Render completed. This rough cut still requires visual and audio review.\n')
     print(json.dumps({'output': str(output), 'duration_seconds': meta.get('format', {}).get('duration'), 'video': next((s for s in meta.get('streams', []) if s.get('codec_type') == 'video'), {}), 'audio': next((s for s in meta.get('streams', []) if s.get('codec_type') == 'audio'), {}), 'render_log': str(errors_log), 'note': 'Review the full export; this tool performs sequential hard cuts only.'}, indent=2))
     return 0
 

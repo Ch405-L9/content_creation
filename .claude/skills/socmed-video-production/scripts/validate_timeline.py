@@ -9,8 +9,9 @@ from timeline_utils import load_timeline
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('timeline', type=Path)
+    ap.add_argument('--root', type=Path, default=None, help='Project root (default: CLAUDE_PROJECT_DIR, else two levels above the timeline)')
     args = ap.parse_args()
-    data, errors, root = load_timeline(args.timeline.expanduser().resolve())
+    data, errors, root = load_timeline(args.timeline.expanduser().resolve(), args.root)
     duration = None
     if data:
         try:
