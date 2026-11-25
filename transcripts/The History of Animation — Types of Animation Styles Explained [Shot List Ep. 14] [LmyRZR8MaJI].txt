@@ -1,0 +1,311 @@
+Films are made up of sequences.
+Sequences are made up of scenes.
+And scenes are made up of shots.
+In previous episodes, we covered close-ups.
+All right, Mr. DeMille, I'm ready for my close-ups.
+Lighting and composition.
+In this episode, we'll be examining animation.
+This is gonna be good.
+This is episode 14 of The Shot List.
+Animation.
+Before we get started, make sure to subscribe and click the bell
+to stay in the know on all things filmmaking.
+Let's begin.
+The word animation comes from the Latin word animatio,
+which means a bestowing of life.
+Animation is a type of filmmaking in which a still object
+is captured in multiple positions.
+And these images are projected in rapid succession
+to create the illusion of movement.
+This still object can be anything from a drawing, a puppet, or a computer-generated image.
+Animation has been a part of filmmaking from the very beginning.
+In many ways, its roots predate filmmaking.
+For centuries, artists have been trying to convince their audience their drawings are moving.
+With magic lanterns which arose in the 17th century,
+artists could simulate movement by moving two slides in front of each other.
+Formatropes would use the rapid movement of two pictures
+to create the illusion of one cohesive image.
+With kineographs or flip books,
+a viewer could flip through drawings rapidly to simulate one fluid movement.
+Edward Muybridge pioneered the moving image with his rapid photography system.
+called chronophotography.
+His horse in motion is considered one of the earliest motion pictures
+and Muybridge went on to make animations of his photographs.
+Like this couple dancing which was made on a phenakistoscope,
+a rotating disc with various images.
+Muybridge and others were employing what is called persistence of vision
+to convince the audience their images were moving.
+The persistence of vision refers to when a person continues to see an object
+for a moment after the light has entered the eye.
+This phenomena means that the succession of images
+can be interpreted as one fluid motion.
+All of these pre-cinema revelations and techniques
+meant that when film came along, animation was quick to follow.
+There are many forms of animation
+and today we are going to cover some common types
+starting with traditional animation.
+was the dominant type of animation of the 20th century.
+In traditional animation, animators drew each frame by hand onto translucent paper.
+J. Stuart Blackton's The Enchanted Drawing from 1900
+is regarded as the first film with elements of hand-drawn animation.
+In 1908, Emile Cole took a massive step forward with Phantasmagoriae.
+Considered the earliest animated film
+using traditional animation methods.
+Cole drew each frame by hand
+and captured them with negative film
+inverting its colors.
+Animation continued to evolve in the 1910s
+with more complicated imagery.
+But animators were faced with a problem.
+They had to redraw entire frames
+including the background
+over and over again.
+Creating inadvertent movement in the background
+So in 1915, Earl Hurd and John Bray
+came up with the cell animation process
+where moving subjects would be drawn onto transparent sheets
+and placed on a static background.
+The result was more efficient and effective animation.
+One of the most popular styles of early animation
+was the rubber hose,
+which featured characters with bendy and bouncy limbs
+and which often used looping.
+reusing frames to create a looped action.
+Entrepreneurial animators of the 1910s and 20s began to create studios
+moving away from the solo animator method to churn out animation quickly.
+One of these animators was Walt Disney.
+Disney streamlined the animation process
+borrowing techniques from various animation studios
+to create an assembly line production style
+that quickly became the industry norm.
+By the release of the first traditional animation feature,
+Disney's 1937 film, Snow White and the Seven Dwarfs,
+animation studios had developed a relatively consistent process.
+Like with live action, everything started with a script.
+Then artists would develop a detailed storyboard for the entire film.
+Voice recording would then begin.
+And sound engineers would put together a soundtrack
+At Disney, the next step is the creation of an animatic.
+When the pre-existing storyboard is cut to the soundtrack.
+Your voice may crack when you try to sing.
+But you can't be good at everything.
+Then artists would paint backgrounds.
+And key animators drew the most important frames of characters' movements in each scene.
+These frames are called keyframes.
+An assistant animator would then add details and missing frames
+to the key animator's work to smooth out movements.
+The animated elements would be handed over to cleanup animators
+who would trace all of the drawings onto new sheets
+so that there would be consistency from frame to frame.
+With the animated images complete, the ink and paint process would begin.
+The drawings would be transferred onto the backside of transparent sheets of plastic called cells.
+This is also where color would be added.
+The sheets were then placed on the background paintings
+and would be photographed using special animation cameras,
+also called rostrum cameras.
+As Disney's animators honed their skills,
+a specific style emerged which would become known
+as the 12 principles of animation.
+A list codified by Disney animators Ollie Johnston and Frank Thomas.
+The 12 principles are aimed at making animation realistic and fluid such as squash and stretch,
+follow through and overlapping action and anticipation.
+These principles spread far beyond Disney and became guiding rules for many animators
+across the world. In the 1960s, United Productions of America or UPA took Disney's approach
+and pushed animation towards more abstract styles
+which allowed for experimentation and smaller budgets.
+Animators continue to use the 12 principles to push boundaries today
+even though the animation process itself is much different.
+Since Disney's Little Mermaid in 1989
+traditional animation has shifted onto computers for most of the industry.
+as well as the photography process.
+But depending on where you look,
+the foundations of traditional animation remains.
+The traditional animation style has resulted in some of the most
+beloved movies and characters of all time
+and has many offshoots like the following technique.
+Rotoscoping.
+Rotoscoping is one of the most crucial technologies in animation's evolution.
+The term refers to drawing over live-action footage frame by frame.
+Before rotoscoping, animation artists had difficulty creating realistic movement in their characters.
+Animator Max Fleischer presented a solution with a technique he quickly patented.
+He would project live-action footage onto a translucent easel
+and draw a silhouette of the subject otherwise called a mat.
+while still being able to put the subject in any context.
+He called the process rotoscoping
+and he employed it throughout his groundbreaking Out of the Inkwell series.
+Fleischer went on to create famous cartoons like Popeye and Betty Boop
+and would use rotoscoping to create complex dance sequences.
+"- But you never find another sweet man like me."
+Walt Disney quickly brought the tool to his studio.
+Rotoscoping continued to be used throughout the 20th century.
+The technique was employed in Star Wars to create lightsabers.
+The tool is still used today albeit with the help of a computer
+on films like Richard Linklater's A Scanner Darkly.
+Linklater and his team used a program called Rotoshop
+"- Gentlemen, you are about to witness for approximately 61 cents of ordinary household materials,
+the perfect homemade silencer.
+Sure is some silencer.
+Rotoscoping can also be seen as a precursor to motion tracking,
+which uses its same principles, but with more control afforded by new technology.
+Therefore, rotoscoping has made an indelible mark on filmmaking in animation and beyond.
+Japan is another animation powerhouse.
+Which leads us to our next topic, anime.
+Anime simply refers to any type of animation coming out of Japan.
+So there is a wide variety of material which fits under the term.
+But there are several qualities that recur in a majority of anime
+which differentiates itself from US animation.
+The most significant difference between anime and US animation
+is that anime emphasizes detailed visuals
+while the US and Disney in particular focuses often more so on movement.
+Most traditional animation in America is animated on ones or twos
+meaning that there is a new image every one or two frames accordingly.
+In anime, movement is on threes with a new image every three frames.
+but less drawings allow for more detail in each image.
+The 1988 anime film Akira, for example,
+boasted background detail and glowing lights
+that were groundbreaking for the time.
+Famed anime director Hayao Miyazaki
+often will animate on ones, twos, and threes
+depending on the detail and importance of the action in a scene.
+As Miyazaki producer Hirokazu Kihara explains,
+before CGI, studio Ghibli films contained 8 cells and 24 frames per second.
+But those cells are not always distributed evenly.
+Put simply, hold a single cell for a number of frames
+and use the remaining 7 cells to glide through a specific motion.
+Anime often has a slightly altered production process than traditional animation in the U.S.
+The voice recording process typically happens after the animation is produced.
+Usually, the camera in anime is more active than in the U.S.
+with pans, dutch tilts, and zooms.
+creating motion outside of its character animations.
+Anime's distinctive style has had a wide-ranging influence
+and is often credited with being on the forefront
+of creating animation with adult themes,
+growing the audience for animation exponentially.
+Not all animation, however, is rooted in drawing.
+There is also stop motion.
+Stop motion refers to animating any object
+in slightly altered positions including puppet work and claymation.
+Stop motion has its roots in the very earliest days of cinema.
+When filmmakers like Georges Méliès were trying to find new ways to shock their audience,
+Méliès and others discovered that they could make inanimate objects move by using stop motion
+and started to employ the technique in their live action settings.
+it remained intertwined with live action used to create a variety of special effects.
+In 1925's The Lost World, entire scenes of dinosaurs would use stop-motion animation.
+Eventually, stop-motion films independent of live action began to proliferate
+resulting in iconic films which are still beloved to this day.
+for stop-motion work that employed plasticine clay
+or other malleable substances
+which allows for characters to be more freely shaped.
+The process is laborious and expensive
+and so a claymation feature didn't appear
+until Vinton's The Adventures of Mark Twain in 1985.
+Today, stop-motion continues to be seen in work
+from directors like Henry Selick,
+Tim Burton and Wes Anderson.
+are generally made with pliable and metal skeletons underneath silicon layers.
+It is now done with the assistance of computers
+which can erase elements that are holding characters in place and smooth out movement.
+Stop motion remains a tool which is still going strong today.
+Its aesthetic is instantly recognizable
+and sometimes even replicated in films which aren't in fact stop motion.
+Let's look at a style.
+that uses stop motions approach.
+Cutout animation.
+Cutout is one of the earliest forms of animation.
+The technique refers to two-dimensional stop motion.
+Capturing objects like paper or fabric
+and adjusting them from frame to frame
+in order to create the illusion of movement.
+Because the subjects in cutout animation
+are reusable from shot to shot,
+the technique proved to be cheaper
+and less time intensive than traditional animation.
+Argentinian artist Quirinal Cristiani pioneered cutout techniques
+and made the feature El Apostol in 1917.
+But the film unfortunately was destroyed.
+But the earliest surviving animated feature also used the cutout style.
+In 1926, Lotte Reiniger created The Adventures of Prince Ahmed.
+She borrowed practices from shadow play,
+where puppets would be moved around in front of a light.
+Cutout waned in popularity as cell animation became dominant
+but the technique still found life in smaller budget formats.
+Terry Gilliam, for example, used cutouts in much of Monty Python's work.
+"- Stop that. Go on, clear. Go on. And you, clear."
+One of the most popular animated television programs
+initially used the cutout technique.
+Shut up, dude, you're being totally immature.
+You see, this was the pilot episode,
+done before we had a series.
+So Matt and I had to do the whole thing by ourselves.
+For several months, we were locked
+into a cold, dark little room for long periods of time.
+Today, South Park has kept its cutout style,
+but it's all computer generated using the program Maya.
+While cutout animation may seem like a dated style,
+Its techniques are crucial to much of the computer-animated 2D projects we see today.
+Using software like Adobe Animate, After Effects, or Toon Boom Harmony,
+computer animators will create individual elements within parts of characters
+and move them just as Lott Reiniger would have by hand.
+This technique is called puppet animation.
+Just like in the 1920s, this method saves time.
+since animators don't need to redraw characters from frame to frame.
+The cutout animation style is linked to our next technique.
+3D computer animation.
+While traditional cell animation was the dominant technique of the 20th century,
+3D computer animation is the dominant form of animation today.
+The practice refers to any animation which is created digitally
+and which has a sense of depth.
+that is not usually achieved by traditional animation.
+Scientists began developing computer animation technology
+as early as the 1960s.
+In 1972, Edwin Catmull and Fred Park
+developed a computer-animated hand and face
+at the University of Utah.
+Just like with stop-motion,
+computer animation first started
+as a way to create special effects in live-action films.
+heavily relied on computer animation to create its virtual world.
+"- Ready? Ready."
+In the 90s, technology had finally advanced enough
+to create entirely computer-generated animations.
+VeggieTales, which premiered in 1993,
+became the first TV show completely made of 3D computer animation.
+In 1995, Pixar released Toy Story.
+The first feature with 3D computer animation
+and it changed the industry forever.
+The creation of 3D computer animation varies by studio.
+Usually the animation team begins with modeling
+where the character's shape and size is sculpted on geometric planes.
+Then an animator will create a skeletal version of a character.
+This skeleton contains AVARs,
+points which can be moved from frame to frame.
+The animator then moves the AVARs into their desired positions for each keyframe
+in a process ingeniously called keyframing.
+And the computer does the tweening, animating the in-between frames.
+Do these words sound familiar?
+That's because it's a similar process to traditional animation.
+Just this time, the computer has automated some of the roles.
+Some 3D animation objects will use motion capture
+to make movement more realistic,
+harkening back to Fleischer and his rotoscoping.
+Since Toy Story's release,
+3D computer animation has advanced rapidly.
+In 1995, Woody had 700 controls.
+Joe Gardner in Seoul has 1,266.
+Due to advances in textures and hair movement,
+some animation today can be nearly indistinguishable from live action.
+Animation is a testament to experimentation.
+For over a century, animators have been pushing their medium forward,
+inventing new technologies and combining styles,
+creating unforgettable movies along the way.
+And no matter the form of animation,
+storyboards are almost always present.
+Don't get lost at your keyframes
+and click the link below to use StudioBinder's storyboard software.
+Let us know in the comments.
+Until next time, keep moving one frame at a time.
+Just keep swimming. Just keep swimming.
+Just keep swimming, swimming, swimming.
+What do we do? We swim, swim.
+Dory, no singing.
+Dory!

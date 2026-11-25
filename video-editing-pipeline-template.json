@@ -1,0 +1,255 @@
+{
+  "": "https://json-schema.org/draft/2020-12/schema",
+  "template_name": "Automated_Video_Production_Pipeline_Spec",
+  "version": "1.0.0",
+  "metadata": {
+    "description": "Execution parameters and thresholds for automated video assembly, styling, typography, audio mastering, and rendering.",
+    "target_engine": "Premiere Pro / Automated Video Rendering Engine"
+  },
+  "pipeline_stages": {
+    "stage_1_sequence_setup": {
+      "canvas_geometry": {
+        "presets": {
+          "vertical_9_16_uhd": {
+            "width": 2160,
+            "height": 3840,
+            "aspect_ratio": "9:16",
+            "frame_rate": 24.0
+          },
+          "vertical_9_16_fhd": {
+            "width": 1080,
+            "height": 1920,
+            "aspect_ratio": "9:16",
+            "frame_rate": 24.0
+          },
+          "horizontal_16_9_fhd": {
+            "width": 1920,
+            "height": 1080,
+            "aspect_ratio": "16:9",
+            "frame_rate": 24.0
+          },
+          "cinemascope": {
+            "width": 3840,
+            "height": 1606,
+            "aspect_ratio": "2.39:1",
+            "frame_rate": 24.0
+          }
+        },
+        "default_selection": "vertical_9_16_uhd"
+      },
+      "track_layout": {
+        "video_tracks": {
+          "V1": "background_matte_and_textures",
+          "V2": "b_roll_and_supporting_footage",
+          "V3": "primary_subject_a_roll",
+          "V4": "motion_graphic_overlays_cards",
+          "V5": "dynamic_captions_and_subtitles",
+          "V6": "master_adjustment_layer_finishing"
+        },
+        "audio_tracks": {
+          "A1": {
+            "role": "primary_dialogue_voiceover",
+            "mute_on_export": false
+          },
+          "A2": {
+            "role": "sound_effects_sfx",
+            "mute_on_export": false
+          },
+          "A3": {
+            "role": "background_music_bed",
+            "mute_on_export": false
+          }
+        }
+      },
+      "footage_repurposing": {
+        "mode_options": [
+          "scale_to_fit",
+          "fill_center_crop",
+          "split_screen_50_50_vertical",
+          "split_screen_one_third_grid"
+        ],
+        "selected_mode": "split_screen_50_50_vertical",
+        "split_screen_offsets": {
+          "host_top": {
+            "pos_x": 0.5,
+            "pos_y": 0.25,
+            "crop_bottom_percent": 50
+          },
+          "guest_bottom": {
+            "pos_x": 0.5,
+            "pos_y": 0.75,
+            "crop_top_percent": 50
+          }
+        }
+      }
+    },
+    "stage_2_timeline_cutting": {
+      "pacing_rules": {
+        "dialogue_driven_pacing": true,
+        "beat_grid_snapping": true,
+        "fast_cut_max_duration_sec": 1.5,
+        "contemplative_hold_min_duration_sec": 3.5
+      },
+      "continuity_parameters": {
+        "enforce_eyeline_matching": true,
+        "enforce_shot_reverse_shot": true,
+        "cut_on_action_overlap_tolerance_frames": 2,
+        "eye_trace_quadrant_bias": "center"
+      },
+      "temporal_splices": {
+        "j_cut_dialogue_pre_lap_frames": 3,
+        "l_cut_ambient_hangover_frames": 4,
+        "transition_defaults": {
+          "dialogue_exchange": "hard_cut",
+          "temporal_jump": "fade_to_black",
+          "thematic_scene_shift": "match_cut",
+          "momentum_continuation": "whip_pan"
+        }
+      }
+    },
+    "stage_3_motion_graphics": {
+      "canvas_layering": {
+        "base_matte_hex": "#FFFFFF",
+        "texture_overlay": {
+          "asset": "paper_fine_grid.png",
+          "blend_mode": "Pin Light",
+          "opacity_percent": 35.0
+        }
+      },
+      "chroma_and_matte": {
+        "keyer": "Ultra Key",
+        "auto_eyedropper_sample": true,
+        "matte_cleanup": {
+          "choke": 10,
+          "soften": 15,
+          "contrast": 20,
+          "midpoint": 50
+        }
+      },
+      "transform_physics": {
+        "effect": "Transform",
+        "shutter_angle": 180,
+        "motion_blur_enabled": true,
+        "speed_graph_easing": {
+          "curve_type": "cubic_bezier",
+          "keyframe_out_velocity_bias": 0.85,
+          "keyframe_in_velocity_bias": 0.15
+        }
+      },
+      "surface_styling": {
+        "long_shadow": {
+          "angle_deg": 135,
+          "distance_px": 45,
+          "alpha_falloff_percent": 100.0,
+          "color_hex": "#00000033"
+        },
+        "card_crop": {
+          "corner_radius_px": 24,
+          "edge_feather_px": 2
+        }
+      }
+    },
+    "stage_4_subtitling_and_typography": {
+      "broadcast_subtitles": {
+        "standard": "ITU_EBU_Standard",
+        "max_characters_per_second": 17,
+        "max_lines_per_subtitle": 2,
+        "max_characters_per_line": 50,
+        "min_duration_frames": 20,
+        "gap_between_subtitles_frames": 3,
+        "prevent_syntactic_unit_split": true
+      },
+      "dynamic_social_captions": {
+        "layout": {
+          "headline_font_family": "SF Pro Display",
+          "headline_font_weight": "Black",
+          "accent_font_family": "Edwardian Script",
+          "tracking_kerning": -50,
+          "blend_mode": "Difference"
+        },
+        "word_by_word_sync": {
+          "enabled": true,
+          "text_animator": {
+            "animation_mode": "Fade",
+            "based_on": "Word",
+            "line_bias_percent": 100,
+            "word_bias_percent": 12
+          }
+        }
+      }
+    },
+    "stage_5_audio_and_sfx": {
+      "mixing_levels_db": {
+        "dialogue_target_lufs": -16.0,
+        "dialogue_peak_dbfs": -1.0,
+        "music_ducking_attenuation_db": -12.0,
+        "sfx_relative_level_db": -6.0
+      },
+      "parametric_eq_carve": {
+        "target_bus": "A3_background_music",
+        "filter_type": "bell_notch",
+        "center_frequency_hz": 1000,
+        "q_factor": 4.0,
+        "gain_db": -10.0
+      },
+      "sound_effects_triggers": {
+        "text_reveal_click": {
+          "enabled": true,
+          "sample": "typewriter_click_01.wav"
+        },
+        "wipe_push_whoosh": {
+          "enabled": true,
+          "sample": "fast_cinematic_whoosh.wav"
+        },
+        "scene_transition_riser": {
+          "enabled": true,
+          "duration_sec": 2.5,
+          "sample": "deep_tension_riser.wav"
+        },
+        "downbeat_sub_impact": {
+          "enabled": true,
+          "sample": "heavy_sub_bass_drop.wav"
+        }
+      }
+    },
+    "stage_6_visual_polish_and_export": {
+      "master_finishing_effects": {
+        "film_noise": {
+          "amount_percent": 12.0,
+          "monochromatic": true,
+          "blend_mode": "Vivid Light",
+          "opacity_percent": 20.0
+        },
+        "chromatic_aberration": {
+          "effect": "RGB Split",
+          "horizontal_shift_px": 2,
+          "vertical_shift_px": 0,
+          "mask_shape": "elliptical_center_inverted"
+        },
+        "vignette": {
+          "amount": -0.5,
+          "midpoint": 40,
+          "feather": 60
+        },
+        "lumetri_color": {
+          "contrast": 15.0,
+          "sharpness": 10.0,
+          "highlights": -5.0,
+          "shadows": 5.0
+        }
+      },
+      "export_encoder": {
+        "format": "H.264",
+        "file_extension": ".mp4",
+        "width": 2160,
+        "height": 3840,
+        "render_at_maximum_depth": true,
+        "use_maximum_render_quality": true,
+        "bitrate_encoding": "VBR_2_PASS",
+        "target_bitrate_mbps": 25.0,
+        "maximum_bitrate_mbps": 30.0,
+        "color_space_override": "Rec.709"
+      }
+    }
+  }
+}

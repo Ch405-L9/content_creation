@@ -1,0 +1,244 @@
+Films are made up of sequences.
+Sequences are made up of scenes.
+And scenes are made up of shots.
+In previous episodes, we covered frame rates,
+camera movement, and editing techniques.
+Today, we'll look at the elements within the shot
+that make up its composition.
+This is episode 11 of The Shot List.
+Composition.
+We've got more episodes in this series coming soon.
+Get subscribed and enable notifications so you don't miss out.
+At the end of the video, we'll show you how to download our free ebook on composition elements.
+Now, let's begin.
+Simply put, composition is the arrangement of elements in an image.
+It is not only what you include in a frame,
+it's the relationship between those elements that creates the overall meaning.
+This concept began long before motion pictures
+when images needed to tell a complete story in a single frame.
+Consider how much storytelling can be done in one image.
+We have characters, a situation, a power dynamic, a sense of drama, theme, movement.
+Composition also relies on aspect ratio, the size and shape of the image itself.
+while landscapes benefit some horizontal compositions.
+Likewise in film, while the basic elements of composition always apply,
+there are different considerations between a squarish frame and a rectangular frame.
+Understanding these elements is key to understanding composition.
+And now, our first element, points.
+Composition is all about directing the viewer's eye
+and points in an image are immensely effective in this regard.
+Focal points, whether they be points of intersection or just a small dot,
+can be used to draw an eye's attention.
+Where does your eye go in this shot from road to perdition?
+Notice how the composition draws our eyes to the focal point.
+Using points to direct attention is a popular technique in wide shots.
+Filmmakers will often use an uncluttered canvas
+so that naturally our eye goes to the point.
+But points aren't relegated to wides.
+Here, our eye is directed to the point of a sword.
+Points are often used in conjunction with the rule of thirds.
+The rule states that the subject of a frame
+should be placed at one of the four intersections
+of the vertical and horizontal thirds of a shot.
+Another compositional technique that uses points is the golden triangle.
+This is created when you draw a diagonal line from corner to corner
+and then lines from the other two corners
+intersecting at right angles, creating two balanced focal points.
+Points are a remarkably simple way to get your audience to focus
+on a particular area of your composition.
+Especially in tandem with our next element.
+Lines.
+Lines are the fundamental building blocks of composition.
+Vertical lines can suggest height and strength.
+Horizontal lines can suggest distance and calm.
+Diagonals can add an off-kilted energy to a frame
+while curved lines can make more graceful compositions.
+You can also use leading lines to pull the eye in a certain direction.
+Here, Christopher Nolan uses the lines of a hallway
+to draw our eye directly to the subject of the frame.
+In Raging Bull, Scorsese uses the ropes and lens flares
+to point directly at Jake's opponent.
+Lines in composition create a sense of direction and mood
+and when combined, they create an entirely separate element of composition.
+Shapes.
+Shapes make up our visual reality,
+so it's no surprise that they are important in composition.
+Triangles, circles, squares,
+all bring a kind of visual unity to the image.
+A clean geometric shape can add a tidy and satisfying feeling to a frame,
+as if everything is in order.
+Whereas irregular or organic shapes can feel more natural or even chaotic.
+"- If you don't pick it up, I'm gonna shoot you in your foot. Move it!"
+Shapes can also create frames within frames
+giving the viewer a smaller area of focus within an image.
+These secondary frames can evoke anything from claustrophobia to comfort
+all depending on the shape, where it's placed and the context of the scene.
+Shapes are used to build structures,
+but our next elements have more to do with sensations.
+Textures and Patterns
+Like shapes, textures and patterns also help shape and inform how we read an image.
+Every object has a texture,
+smooth,
+patterned,
+or somewhere in between.
+Texture is often achieved through the collaboration between cinematographers and production designers.
+Even light can add different textures to an image.
+Texture can be used to have a subject pop from the background
+or blend in.
+Notice how busy the texture in this composition from Barry Lyndon is.
+Here, texture is used to create an ornate opulence.
+Consider the juxtaposition of textures between WALL-E and EVE
+and how it informs their personalities.
+"- Directed, classified."
+Patterns also play an important role in composition.
+Power and control, harmony, insanity.
+All ideas that could be suggested with simple repetition.
+And breaking these patterns can be just as interesting.
+Consider how the pattern is broken in this shot and what it might suggest.
+Or how the carpet design in The Shining evokes a disorienting maze.
+And our next element adds dimension to the image, space.
+Space is crucial in composition and it can be split into two categories,
+positive and negative.
+Positive space is the area given to your subject
+and negative space is the empty space around them.
+The relationship creates various ideas or moods.
+From extreme wide shots that leave your subject isolated and vulnerable
+to extreme close-ups that empower them.
+Other than the amount of negative space, the location of it also matters.
+Headroom is the amount of negative space above the subject's head,
+usually kept to a minimum.
+Leadroom or looking room is the amount of negative space in front of the subject,
+which is usually much more than the amount behind them.
+But breaking these rules can be just as effective.
+Filling the frame is a technique that gives the subject most or all positive space.
+A form of sensory overload that can create a sense of chaos.
+The opposite can be equally effective.
+A simplified frame can be soothing or even sad.
+These are all considerations of the 2D space of a frame.
+And in the next section, we'll add a third dimension to our compositions.
+Depth.
+Film is a two-dimensional medium representing three-dimensional space.
+And the best way to accomplish this illusion is with depth.
+We divide this space into three sections.
+The foreground, middle ground, and background.
+Each of these planes can be used to layer compositions
+that create hierarchies of meaning and relationships.
+Shallow focus isolates the subject from the other planes.
+If an object is in focus, our eyes will prioritize it.
+And changing focus during a shot draws our attention even further.
+In this shot, the pill is closer to the lens
+but we don't focus on it until the camera does.
+Deep focus, referring to a large depth of field,
+allows for multiple layers of attention as Citizen Kane pioneered.
+Here, all three planes are employed to visually create a hierarchy of importance and power.
+The father flounders in the middle ground
+while little Charlie plays innocently in the background.
+Depth is an illusion that turns a flat image into an entire world.
+The next element helps keep that world in order, balance.
+No matter how you use space or depth,
+the rule of thumb is that the frame should be balanced.
+A subject position frame right with nothing on the left feels imbalanced.
+with nothing in the background.
+One technique to maintain balance is the rule of odds
+which states that when shooting multiple subjects
+it's more visually pleasing for the group to be an odd number.
+"- Why is it when something happens it is always you three?"
+"- Believe me, Professor,
+I've been asking myself the same question for six years."
+The golden ratio also utilizes balance
+and there are a few ways to use it in composition.
+it is a ratio of 1 to 1.618, otherwise known as the number phi.
+If we draw a rectangle using the golden ratio
+and continue to divide it with the same proportions
+it creates what's called the golden spiral.
+We can actually find the spiral in nature
+and it has become a common tool in composition.
+Artists like Salvador Dali and photographers like Henri Cartier-Besson
+have used the golden spiral to create a natural balance to their compositions.
+But you don't need something this complex to bring the golden ratio into your compositions.
+If we take the height of a film frame and draw a line using this ratio,
+we find an ideal location to place a subject's eyes or the horizon.
+In this way, the applications are endless.
+Balance can also mean symmetry.
+Wes Anderson famously will often opt for symmetrical framing
+in view of the rule of thirds or the golden ratio.
+"- Is that my belt?"
+There are times when you want to make an audience uneasy with an unbalanced frame.
+Balance helps keep the image organized and stable.
+On the other hand, our next element can easily create instability.
+Angle.
+One of the more underutilized elements of composition is angle.
+Angle is perspective.
+It's about what we're seeing.
+It's about how we're seeing it.
+Most compositions will keep the camera parallel to the ground.
+to switch it up.
+A high angle makes the subject seem small and less powerful.
+A low angle does the opposite.
+An overhead angle gives a more detached and objective perspective.
+Sometimes the moment calls for a Dutch angle
+tilted to either side along the horizontal axis.
+Like an unbalanced frame
+this strategy can make an audience feel on edge
+or give a shot the kinetic energy.
+Check out episode 3 of this series linked below.
+Any of these camera angles can accent or enhance
+some of the compositional techniques we've already covered.
+Including our final element, color and tone.
+The use of color in a frame can also help direct a viewer's eye.
+Consider what various color schemes bring to the composition.
+Monochromatic, analogous, complementary.
+Or triadic color schemes all have great influence
+over how we read an image.
+Color can even overrule other methods of composition.
+In this shot from In the Mood for Love,
+the background has a busy texture
+that normally would draw our attention.
+But Wong Kar-wai uses the juxtaposition
+of the bright green of Mrs. Chan's dress
+with the red background
+to make her the undeniable subject of the frame.
+check the description for a link to download our e-book on how to use color in film.
+Similar to color, another important aspect of composition is tone,
+which refers to the brightness and contrast within an image.
+A brightly lit image has obviously different tonal qualities than a dark image.
+Blending dark and light in the same image creates a more complicated message.
+And since our eyes are naturally drawn to the brightest parts of an image,
+surrounded by darkness helps keep our focus on them.
+Black Swan using high tonal contrast keeps our focus on Nina
+while also visualizing themes of good versus evil.
+When composing your shots
+don't forget the role that color and tone play in visual storytelling.
+For more on the relationship between light and dark
+check out our video on chiaroscuro lighting linked below.
+Color can create patterns,
+tone can create balance,
+shapes can create depth,
+and so on.
+Now that we covered the elements of composition,
+let's see how they can be used in the scene.
+This scene from Skyfall
+is all about mystery.
+As you watch, consider the compositional
+elements that guide our eyes
+as we gather clues alongside Bond.
+"- Bronson's down.
+He needs some medical evac.
+"- Where is it? Is it there?
+"- Are you sure?"
+"- It's gone. Give me a minute."
+"- They must have it. Get after them."
+"- I'm stabilizing, Ronson."
+"- We don't have the time."
+"- I have to stop the bleeding."
+With all of these elements present in every shot,
+the choices of composition can feel overwhelming.
+But by planning ahead with a storyboard,
+filmmakers can use each element with purpose
+to create the perfect frame.
+Check the link in the description
+for our free ebook on composition elements.
+What are some of your favorite examples of composition in filmmaking?
+Let us know in the comments below.
+Until next time, as you put together your own shot list,
+don't forget to keep your composure.
+"- What, you think that's funny?"

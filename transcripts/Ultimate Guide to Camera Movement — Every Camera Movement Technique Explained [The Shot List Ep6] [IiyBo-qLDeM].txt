@@ -1,0 +1,405 @@
+Films are made up of sequences.
+Sequences are made up of scenes.
+And scenes are made up of shots.
+In our last episode,
+we discussed the types of camera rigs
+used to move the camera.
+But in this episode,
+we'll be going over what those movements are
+and the stories they tell.
+This is episode 6 of The Shot List.
+Camera movement.
+There are countless variations of camera movement
+each with their own language and purpose.
+A filmmaker who understands this language
+can create dynamic and compelling work.
+We'll be examining different types of camera movements.
+Along the way, we'll be updating a shot list of these camera movements
+in a StudioBinder shot list,
+which you can download and reference in your upcoming projects.
+Now, let's get moving.
+Let's begin with the shot that has no camera movement at all.
+This is the static shot.
+Static shots are commonly captured
+by locking the camera to a tripod in a fixed position.
+The result is a shot with zero camera movement.
+This is great for dialogue.
+"- What business is it of yours where I'm from, friend-o?"
+Precise painterly compositions.
+"- Redmond, nice to see you."
+Or shots that allow an actor's performance.
+to shine.
+"- Funny how? I mean funny like I'm a clown, I amuse you.
+I make you laugh, I'm here to f***ing amuse you.
+What do you mean funny? Funny how? How am I funny?"
+"- Get the f*** out of here to tell me."
+"- You motherf***er! I almost had him! I almost had him!
+You stuttering prick!"
+Sometimes filmmakers use static shots to trap a character
+and suggest their helplessness.
+Like this moment from Dunkirk.
+In this scene from 12 Years a Slave,
+holes on Solomon's lynching.
+He is helpless and we are not allowed to look away.
+Its cruelty is amplified by its stillness.
+A moving camera might have matched Solomon's panic
+but this static shot with its neutral and cold perspective
+is far more unsettling.
+Let's move on to our next camera movement.
+The pan.
+A pan rotates the camera horizontally left or right.
+while remaining in a fixed location.
+Pans can be used to follow a character's actions
+or be used to reveal information.
+Which is something Wes Anderson does frequently.
+"- Four minutes, 48 seconds.
+We're all dead. Burned to a crisp."
+Moving on.
+A slow pan builds anticipation
+while a rapid pan heightens the energy of a shot.
+These are known as whip pans.
+Director Damien Chazelle uses whip pans
+to create relationships between characters.
+In La La Land, he amps up the energy in the scene
+while underscoring the growing synergy between Sebastian and Mia.
+He uses the same technique for a different effect in
+Whiplash. No pun intended.
+In the final scene, whip pans are precisely timed
+with the give and take of the music.
+between Andrew and Fletcher.
+To learn more about web pans, check out our video
+where we break down how to use them to build energy
+and transition through time and space.
+Panning is ideal for horizontal movement.
+But what about the vertical axis?
+The tilt.
+A tilt directs the camera upward or downward.
+Filmmakers use tilts to capture the verticality of a film's world.
+This can be used to give a character dominance
+or vulnerability.
+"- Yes, we're men.
+Men is what we are."
+Similar to a pan, a tilt can reveal information.
+Like a character, setting, or scale.
+"- Who are the people?
+"- Projections of my subconscious.
+"- Yours?"
+In Inception, Ariadne tests how much of the dream world she can distort.
+"- My question is what happens when you start messing with the physics of it all?"
+Nolan tilts up to capture the awe.
+and scale of this spectacular moment.
+The visceral effect of being on the street,
+looking upward at such a spectacle
+is accentuated with a simple camera tilt.
+"- Something, isn't it?"
+Switching our attention from upward or downward,
+our next camera movement takes us inward.
+Push-in.
+The push-in shot moves the camera towards a subject.
+Pushing the camera is all about emphasizing a moment.
+"- Get our informers to find out where it's going to be held."
+A visual cue to the audience that this is important.
+"- Public place, a bar, a restaurant,
+some place where there's people so I feel safe.
+But if Clemenza can figure a way
+to have a weapon planted there for me,
+I'll kill them both."
+You can push in on an external detail
+such as an object or text.
+In doing so...
+filmmakers can direct our attention to a specific detail
+or it can capture a character's thought process.
+Like in this moment from The Post
+when Ben comes to terms with exposing the infamous Pentagon Papers.
+A push-in is an effective way to communicate internal conflict.
+Like in the iconic restaurant scene in The Godfather.
+Michael Corleone is about to kill the man who tried to kill his father.
+"- ...to the stomach."
+It would be a life-changing decision.
+A point of no return into the underworld.
+"- Let's put everything in place."
+A slow push in towards Michael elevates the tension
+as we watch him wrestle with the consequences
+and gathering the courage to pull the trigger.
+Which leads us to our next camera movement.
+The opposite of the push in is the pull out.
+Unlike pushing in, pulling the camera de-emphasizes the subject.
+to disconnect from the characters.
+It can unveil the context of a scene,
+its setting,
+or its characters.
+As subjects grow smaller,
+a pullout can detach us from a scene
+or the entire film.
+Like in the final shot from Catch Me If You Can.
+The same movement can also emphasize
+negative emotions like isolation
+or abandonment.
+In this scene from Joker,
+we see Arthur at his most vulnerable.
+this camera movement away from him
+highlights his helplessness.
+And rather than push in to help us sympathize with Arthur,
+director Todd Phillips pulls away, abandoning him.
+Our next movement directs our attention
+without moving the camera at all.
+Enter the zoom.
+A zoom may not be a camera movement per se
+but there is movement created in camera.
+Zoom shots change the focal length of a camera's lens
+or zoom out.
+Similar to pulling back a camera,
+zooming out can reveal the context around a subject.
+Like this opening shot from The Graduate.
+Zooms are unique because there is no equivalent in the human experience.
+Like a push-in, we can physically move closer to a subject
+but our eyes can't zoom, making this camera movement unnatural.
+"- Shouldn't we give them the authorities or something?"
+"- No."
+It can also draw our attention to a specific detail.
+Many horror thriller films use a slow zoom to create uneasiness.
+"- You say she's a conduit.
+"- That's right.
+"- What does that mean?
+"- A very powerful demonic has latched itself onto her."
+And Stanley Kubrick is the master of this technique.
+This iconic shot from The Shining
+slowly zooms in to highlight Jack's descent into madness.
+The use of a zoom doesn't stop there.
+A fast zoom is known as a crash zoom.
+Crash zooms can often be used for either dramatic or comedic effect.
+In Django Unchained, Quentin Tarantino uses the crash zoom repeatedly.
+For comedy,
+This seems like a good bit of fun.
+Drama,
+or both.
+Now what happens when you pair the in-camera movement of a zoom
+with physical movements of a camera?
+It's none other than the dolly zoom.
+A dolly zoom
+utilizes both a dolly movement and lens zoom
+to create something called the vertigo effect.
+Named after its dramatic use in Hitchcock's Vertigo.
+A dolly zoom can be done two different ways.
+The first is by dollying in while zooming out.
+This causes the background to grow in size
+while maintaining the scale of the foreground.
+This is commonly used to portray conflict in a shot
+either internal
+"- It broke my heart to put that tumor in her head."
+Or external conflict.
+The second way is by dollying out while zooming in.
+This causes the foreground subject
+to become dominant over the background.
+The dolly zoom can be used to highlight
+a growing relationship between two subjects.
+Like in this scene from Raging Bull
+where Scorsese slows everything down.
+The dolly zoom pushes the crowd further into the background
+as we occupy Jake's POV.
+and battered tunnel vision.
+We are no longer watching the fight, we are in it.
+In Bohemian Rhapsody, the dolly zoom
+draws the audience closer to Freddie
+as a way to create intimacy between one musician
+and his adoring fans.
+DP Newton Thomas Siegel explains why they chose
+to use the dolly zoom for this shot.
+"- The camera continues to come around him
+and we're still in this wide lens.
+you can see that the audience is very far from him but now he's beginning to come into his own
+the audience is coming into it and by using the dolly zoom we're bringing the audience closer
+and closer and closer freddy's not getting any bigger in the frame but the audience is
+getting closer simply by changing the focal length of the lens and the proximity of the
+in any shot list to convey either positive or negative psychological effects.
+Our next camera movement is a rotation known as the camera roll.
+A roll turns the camera on its long axis while maintaining the direction of the lens.
+A camera roll is disorienting, unsettling our equilibrium.
+Rolls can be used to match character movement in moments of panic or conflict.
+assumes the throne.
+They can also be used to visually reinforce theme.
+Like in this moment from The Dark Knight.
+"- You, you just couldn't let me go, could you?
+This is what happens when an unstoppable force
+meets an immovable object."
+The Joker is captured, strung upside down and defenseless.
+But as the camera slowly rolls over,
+"- I took Gotham's white knight
+and I brought him down to our level."
+This reversal of power is matched
+with a simple yet meaningful camera roll.
+With great effect, a camera roll can accent movement
+or dramatic shifts in the narrative.
+Let's move on to our next camera movement.
+The tracking shot.
+A tracking shot physically moves the camera through a scene.
+typically following a subject.
+Tracking shots differ from push-ins or pull-outs
+because they don't simply move toward or away from a subject.
+They move with a subject.
+The subjects are on the move
+and the camera tracks with them wherever they go.
+When done purposefully, they generate two questions.
+Where is this character going?
+And what will happen when they get there?
+This is perfect for long takes that are meant to immerse the audience
+directly into a scene.
+Like in this long take from
+Three Billboards Outside Ebbing, Missouri.
+Director Martin McDonagh opts to use a handheld tracking shot
+to create a visceral documentary style effect.
+It also draws our attention to specific actions
+like when we see Officer Dixon
+flip his gun at the last moment
+deciding to not shoot.
+"- And it touches the soldier."
+"- What the hell's going on?"
+Tracking shots can also be used to build tension.
+Gus Van Sant's elephant is filled with extensive tracking shots
+that follow the murderers and the victims
+of a tragic school shooting.
+The smooth steadicam shots
+accent the seemingly endless corridors
+that allow dreadful anticipation of the impending massacre.
+So a tracking shot either follows or leads a subject.
+But when the camera moves laterally,
+left or right.
+It is referred to as
+a trucking shot.
+"- Morning, Gadget."
+"- Morning, sir."
+In this scene from Moonrise Kingdom,
+Wes Anderson continuously trucks the camera right
+to follow Scoutmaster Ward
+through his morning inspection of Camp Ivanhoe.
+"- Latrine inspection."
+By doing so,
+Anderson establishes both the world of the film
+and its characters in storybook fashion.
+"- Roosevelt, how's that lanyard coming?
+To learn more about how to shoot better tracking shots,
+watch our video where we explore how to combine
+this movement with location,
+production design,
+and blocking to create a powerful effect.
+The link is in the description.
+Tracking shots can be engaging
+by following the actions of a character.
+But how do you create energy in a shot
+where characters are standing still?
+Consider the arc shot.
+The arc shot is a camera movement that orbits around a subject.
+This orbit is typically a horizontal arc,
+but it can also be vertical.
+Arc shots add dynamic movement
+when characters may be standing completely still.
+Like in this hero shot from the Avengers,
+which unifies them as a single unit
+against surrounding threats.
+Arc shots keep our focus centralized on the subject
+for moments of intimacy,
+panic,
+or heroism.
+And what about this shot from The Dark Knight?
+What kind of effect does the arc shot create?
+"- As soon as your office got involved...
+"- My office?
+You're sitting down there with scum like Wurtz and Ramirez...
+The arc shot underscores the tension
+and reeling panic between Gordon and Dent.
+"- Don't try and cloud the fact that clearly Moroni's got people in your office, Dent!
+And the tension only comes to a stop
+once our hero poses a solution.
+"- If I get him to you, can you get him to talk?
+"- I'll get him to sing."
+When the speed of an arc shot is amplified,
+it can create a dizzying effect
+reflective of character's mental state.
+Like in City of God,
+when Rocket is caught in the middle of a standoff.
+Now that we've analyzed how to move a camera left,
+right,
+in,
+out,
+and around,
+let's take a look at how we move the camera vertically
+with the boom shot.
+A boom shot moves a camera up.
+or down utilizing a crane, jib, or pedestal.
+Small boom movements are commonly used to reveal information
+while large boom movements can be used to follow characters into action
+or to capture the world surrounding them.
+"- Boy, quickly, move it out! Move it out, Pyle, move it out!"
+In this scene from Full Metal Jacket,
+Stanley Kubrick uses a boom shot to follow Private Pyle up an obstacle
+while Sergeant Hartman berates him.
+"- Whatever you do, don't fall down!"
+The reveal of Hartman at the top has a comedic effect
+but the real purpose of the shot is to reinforce Pyle's mental state.
+"- Get up and over! Move it! Move it!
+Are you quitting on me?"
+In a single take, Kubrick booms up to follow Pyle's hopeful attempt
+and booms down for his inevitable defeat.
+"- Now move it! Rip your balls
+so you cannot contaminate the rest of the world!"
+"- I will motivate you, Private Pyle,
+if it sure nicks every cannibal on the Congo!"
+Most camera movements are highly precise.
+Controlled.
+But sometimes filmmakers want to produce movement without control.
+Which brings us to our final camera movement.
+Random movement.
+Random camera movement is defined by camera shake,
+Camera shake is often added subtly to create a subjective experience
+for a more intimate effect.
+Arbitrary zooms and random camera movement
+can be used stylistically to create a documentary look.
+"- Institutions treat these CDOs like they're as solid as treasury bonds
+and they're going to zero."
+Which is a technique that Adam McKay uses in the big short.
+"- You're managing a fund of, what, 555 million?"
+"- I don't know how to be funny. I don't know how to work people.
+I just know how to read numbers."
+And succession.
+"- Have you thought about the possibility
+that your children are actually scared of you?
+Oh, f*** off!"
+Random movement gives the impression
+that events are happening in real time
+when nothing is planned and anything can happen.
+"- Is it at your home this morning?"
+This climactic scene from David Fincher's Seven
+has two types of shots.
+Controlled and chaotic.
+"- Give me your gun.
+What's going on over there?
+Put the gun down.
+I saw you with the box. What was in the box?"
+Notice how each shot reflects the state of mind of each character.
+Mills' panic.
+"- You tell me, you tell me. That's not true. That's not true."
+And John Doe's calm.
+By mixing these styles in the same scene,
+the effect of both is intensified.
+Now that we've covered all of the camera movements
+that filmmakers have at their disposal,
+Let's take a look at how multiple camera movements
+can be combined in a single scene.
+In this scene from Star Wars, The Rise of Skywalker,
+director J.J. Abrams uses a variety of camera movements
+to keep the scene thrilling and engaging.
+We've attempted to pinpoint each movement.
+Watch the scene closely
+and see if you can spot every type of camera movement.
+So, did you identify all of the different camera movements?
+Planning out a scene with various types of camera movements can be daunting.
+But using shot listing tools like StudioBinder
+makes it a straightforward process.
+While there are countless examples of camera movement in film,
+remember that the best uses are always intentional.
+In the next episode of The Shot List,
+we'll explore camera lenses
+and how choosing the right lens
+is essential for executing the perfect shot.
+Subscribe, click the bell,
+and we'll see you in the next episode!

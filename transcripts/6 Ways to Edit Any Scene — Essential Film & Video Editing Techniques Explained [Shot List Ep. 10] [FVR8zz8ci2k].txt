@@ -1,0 +1,211 @@
+Films are made up of sequences.
+Sequences are made up of scenes.
+And scenes are made up of shots.
+In previous episodes, we covered camera lenses, frame rates,
+which can populate,
+and scene transitions.
+Today, we're going to look at another angle of editing
+by examining different ways we can cut within a scene.
+This is episode 10 of The Shot List.
+Editing techniques.
+Almost all of an editor's work comes down to three choices.
+What to show, when to cut, and what to cut to.
+What the?
+The cut itself is the most basic way to move from shot to shot.
+And when an editor cuts away from the main action,
+it's referred to as a cut away.
+Give me the water.
+Almost.
+Famed editor Walter Murch laid out his rule of six.
+A list of prioritized criteria when deciding on each cut,
+how we pace a scene can affect emotion, style, and tone.
+Is your scene mournful and contemplative?
+Hold on shots for longer.
+Is your scene filled with frantic action?
+Rapid cutting might be an order.
+Deciding what to cut to is equally important.
+An editor might use a cut away to indicate what's on a character's mind.
+Or cut to what a character is looking at.
+No matter the reason, every edit should be thoughtful and purposeful.
+For a detailed explanation on the rule of six,
+you'll find a link to our blog in the description.
+This brings us to our first editing fundamental.
+Eyeline.
+An eyeline match is when an editor cuts to the object of a character's attention.
+If a character notices something, we cut to what they see.
+The second shot is often a literal POV shot,
+or from that character's general perspective.
+This is such common practice that we can build intrigue by either waiting to reveal what they see.
+Brand oil back to the Ranger now.
+Or by not showing it at all.
+We happy?
+Vincent?
+We happy?
+Yeah, we happy.
+Either way, it's the character's eyes that motivate the cut.
+Consider this moment from 300.
+Choose your next words carefully, Anitis.
+They may be your last as king.
+As King Leonidas debates whether to submit to Xerxes' control,
+watch how his eyes guide the edit.
+With each glance, we cut to his land.
+His citizens.
+His wife.
+And in this process, we are invited to think like Leonidas.
+Will he sacrifice his people's freedom or not?
+A common form of the eyeline match is the shot reverse shot.
+When we cut between a shot of subject A and a shot of subject B in a reverse angle,
+that is often a similar angle and composition.
+The most common use of this can be found in conversation scenes,
+to maintain scene geography and clarity.
+Inserts are also often prompted by eyeline matches.
+An insert is a shot of a detail within a scene,
+usually in order to emphasize a specific prop or element.
+In TANET, the protagonist looks off camera and we cut to this insert.
+An example of simple and direct visual language.
+The eyeline match is a great way to connect the dots between what the character sees,
+thinks or feels.
+Impressive.
+It can also create and release tension, depending on what we see and when we see it.
+George.
+George.
+Oh, hi George.
+What's going on?
+Instead of cutting between two objects in the same scene,
+our next technique cuts between separate scenes.
+Cross-cutting.
+Cross-cutting is when an editor cuts between two or more scenes
+happening in different locations, usually at the same time.
+The baptism sequence from the godfather alternates between Michael
+renouncing evil and his men following Michael's orders to execute his rivals.
+By cross-cutting these scenes, it creates an ironic juxtaposition that elevates
+the scene.
+It creates an ironic juxtaposition that elevates the scene.
+It creates an ironic juxtaposition that elevates the entire sequence.
+In all his works.
+I do announce them.
+Cross-cutting can also be an effective way to combine multi-layered action as well.
+In Rogue One, the last third of the entire film is a massive sequence
+comprised of three distinct battlefronts.
+The combat on the beach.
+The dogfight in space.
+And the covert operation to steal the Death Star plans.
+In fact, each of these fronts split into additional subplots.
+But by alternating between these scenes,
+the cross-cutting helps keep the plot and action constantly moving forward
+and the audience invested in each group's progress.
+Cross-cutting can create parallels between separate scenes that wouldn't be there otherwise
+and weave multiple planes of action in one.
+Now, let's look at a technique which is designed to keep the audience's attention
+fixed to a specific part of the frame.
+I-Trace.
+I-Trace is when an editor cuts between two or more shots
+that focus on the same area of the frame.
+This allows the viewer's eyes and attention to stay focused
+without having to scan the frame after each cut.
+I-Trace can also be used through blocking and camera movement,
+guiding a viewer's eye within a shot.
+But let's look at how editors can achieve a similar effect.
+I-Trace is ideal for action scenes which tend to move quickly.
+Mad Max, Fury Road, makes heavy use of this technique.
+Here's DP John Seal explaining this decision.
+Compositionally, whatever was the center point of that shot had to be in the center of the frame.
+In the faster cutting that he's got,
+your eye won't have to shift on an anamorphic frame
+to find the next subject when you've only got 1.8 seconds of time to do that.
+All we would hear all the time on the comms was George saying,
+put the crosshairs on a nose, put the crosshairs on a nose.
+And that is basically the whole of film.
+Some shots in the film are less than a second long.
+Using I-Trace, the composition and editing of these scenes
+helps the viewer process even the most chaotic action.
+Our next type of cut also helps smooth over a transition.
+Split edits.
+While a hard cut changes both audio and video at the same time.
+A split edit changes either the sound or image before the other.
+This is either a J-cut or an L-cut.
+They get their names from what they look like in an editing timeline.
+A J-cut is when audio from a shot begins to play before we see it.
+For an L-cut, the audio from a shot plays after we've already cut away.
+You're not shared, are you happy?
+Pa, pa.
+No pa, that's okay too.
+The technique is often used during dialogue scenes.
+Allowing editors to create a more natural conversation
+control the rhythm of dialogue as well as catching reaction shots of someone listening.
+Do you know any animal jokes?
+Well, we got the chance to say one because we only did one show.
+Tell me.
+It's corny.
+Don't be that way, tell me.
+No, you wouldn't like it and not be embarrassed.
+You'd be, you told our 50 million people.
+And you can't tell me.
+I promise I won't laugh.
+But there are more creative ways to use a J or L-cut.
+For example, when characters outline a plan
+like admission impossible rogue nation.
+So, why hasn't Lane just sent someone to steal it?
+Oh, he has.
+He sent me.
+And I can tell you.
+It's impossible.
+To reach the terminal, you'll need to pass the main gate.
+We use an L-cut to show the security measures they mention.
+And open three separate combination locks.
+Oh, it's easy. We just impersonate the agent who stole the ledger in the first place.
+I get to wear a mask.
+This makes their plan more clear to the audience,
+especially when it eventually goes wrong.
+Okay, I don't get to wear a mask.
+Seeing the plan in action is more visually interesting than simply hearing it.
+And additional J and L-cuts within their dialogue ensures the sequence moves swiftly.
+But what if we want to make a cut more noticeable, not less?
+Intellectual montage.
+Intellectual montage put seemingly unrelated images together
+in order to create a certain feeling or idea.
+This type of montage makes use of the Kuleshov effect, which refers to creating meaning out of a cinematic juxtaposition.
+We take this man's expression to mean different things based on the image intercut with him.
+In this scene from Lucy, as her boyfriend tries to convince her to deliver a briefcase,
+I can't believe the case myself. I had a little phone out with the guy. It's nothing major, but if it's you, problem solved.
+We get this shot.
+Look, you can even see the reception from here.
+Two separate scenes combine to create a single idea. She is walking into a trap.
+I'm here for Mr. Jane.
+As the scene plays out, we get another series of juxtaposing imagery.
+Lucy is being stalked.
+Unaware of just how much danger she is in.
+In Don't Look Up, intellectual montage is used to emphasize the global scale of an impending disaster.
+A comet is going to wipe out life on Earth.
+We're all 100% for sure, gonna die!
+But Randall and Kate's warning is falling on deaf ears. Then we get this series of shots.
+You're gonna die! You're gonna die!
+Isolated, these shots would have a neutral connotation, but placed in this context, we are asked to make the connections ourselves.
+From massive cityscapes to microscopic organisms, everything will be affected by the impending disaster.
+By using intellectual montage, director Adam McKay is able to visually reiterate larger themes in the film.
+This experimental technique is a great way to evoke emotion and meaning out of shots that individually wouldn't have them.
+Moving on to our final technique, cut on action.
+Fuck off, Hitler!
+Cutting on action refers to cutting during a character or object's movement.
+When the out point of shot A corresponds directly to the in point of shot B, it creates a more seamless transition.
+This technique can be used for simple actions like taking a drink or shaking hands.
+Most editors working in any genre will use cutting on action to create smoother cuts that feel more natural to the audience.
+And it is often found in fight scenes because it lends itself to fast paced rhythm and quick movement.
+Like the fight between Neo and Morpheus in the Matrix resurrections.
+A very common cut on action in fight sequences is to cut on impact. This gives each punch and kick extra force.
+Notice how the cuts in this fight are placed in the middle of one character's move.
+Punching in from a wide to a dramatic close up.
+By cutting on action throughout this scene, director Lana Wachowski is able to keep up the pace.
+Strengthen the stunts and create a more epic feeling to the fight.
+So, these are the six essential ways editors use the cut.
+But we haven't covered everything. There are also freeze frames.
+Invisible cuts.
+Subliminal frames.
+Double cuts.
+Unbelievable.
+Double cuts.
+And check the description for our video dedicated to jump cuts.
+Be sure to tell us any techniques we haven't mentioned in the comments.
+Hit subscribe and click the bell to stay up to date on all our filmmaking videos.
+Until next time, get chopping.
+See you next time.

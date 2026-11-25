@@ -1,0 +1,189 @@
+Films are made up of sequences.
+Sequences are made up of scenes.
+And scenes are made up of shots.
+"- That's a kill."
+In previous episodes, we covered camera movement,
+editing techniques,
+"- Tell me."
+and composition.
+Today, we'll focus on lighting fundamentals
+from different types and qualities of light
+to essential lighting terms and gear.
+"- And then there was light."
+is episode 12 of The Shot List.
+Cinematic Lighting, part one.
+Hit subscribe and enable notifications to get all future episodes of The Shot List.
+At the end of the video, we'll explain how you can download your own cheat sheet
+for everything we're about to cover.
+"- Let there be light."
+Lighting is one of the most important elements of filmmaking.
+More than just illumination.
+Lighting itself plays a massive role in visual storytelling.
+Lighting can help determine the mood of your scene,
+provide insight into a character and guide a viewer's eye.
+On set, these decisions are made primarily by the director of photography
+and the gaffer who is the head lighting electrician on the crew.
+Once a lighting plan has been decided by the DP,
+the gaffer executes it by obtaining the necessary lights and gear
+In part one of this video, we'll cover the lighting fundamentals.
+In part two, we'll dive into how to light subjects and their surroundings.
+Before you begin setting up lights,
+it's important to understand the different forms light comes in.
+Explain it all to me, now!
+All light can be split into two categories, natural and artificial.
+Natural light is any light that occurs naturally, like sunlight, moonlight.
+and firelight. Artificial light is everything else. Man-made light powered by electricity.
+From there we can branch out into additional categories. Ambient lighting refers to any lights
+that are on location which the crew didn't bring. This includes street lamps, neon signs or the moon.
+Practical lighting refers to any light source that can be seen in the frame whether it be ambient,
+or placed there by a gaffer.
+Motivated lighting means that there is a logical
+or reasonable justification for the light in a scene.
+Often, practical lights exist simply to justify
+or motivate the light.
+To be able to work with light,
+cinematographers also need to understand its properties.
+For example, how does one measure light?
+Lumens is a measurement of how much light
+a source produces.
+foot candles measures how much of that light hits the subject otherwise known as incidental light.
+Reflective light is the amount of light that reaches the camera. The amount of light is
+dependent on both the strength of the source and its position in relation to the subject.
+As soon as light leaves the source it begins to lose intensity. This is called light falloff and
+we can predict an account for this loss using an equation called the inverse square law.
+is equal to one over the distance squared.
+Basically this means that every time you double the distance away from the source
+the light is reduced by 75%.
+Another aspect of light that cinematographers measure
+is the color temperature
+which is measured in thermodynamic units called kelvins.
+Daylight is bluer than most artificial lights at about 5600 kelvin.
+Daylight can also be imitated by artificial light sources with the same temperature.
+Tungsten lights are a common artificial source
+with a color temperature of about 3200 Kelvin,
+though this can vary based on the source.
+Mixing these two light sources therefore
+can add a variety of color to your shot
+with tungsten lights adding orange and daylight adding blue.
+For a thorough explanation on color temperature
+check out our video linked below.
+Once you understand your light sources
+you'll need to know some basic concepts and terminology.
+To the uninitiated, hearing cinematographers talk about lighting
+can sound like a foreign language.
+Let's look at some of the most commonly used terms on set.
+Exposure is the amount of light that reaches the sensor or film stock.
+In previous videos, we explained the mechanisms that determine the exposure.
+The aperture, shutter speed, and ISO.
+The aperture is an adjustable mechanism
+that determines how much light enters the lens
+and the various sizes are measured in f-stops.
+Each f-stop either doubles the amount of light
+or reduces it by half.
+T-stops are another common setting in cinema lenses
+to measure exactly how much light actually hits the sensor.
+All cinematography is a balance between light and shadow
+and one of the ways this relationship is expressed
+This is a shorthand for how we measure the difference
+between light and shadow in two areas of an image,
+usually between the two sides of a subject's face
+or between the subject and the background.
+High-key lighting is a term that expresses a low-contrast ratio
+where the background and the subject are lit evenly with minimal contrast.
+Low-key lighting, on the other hand, uses a high-contrast ratio
+where the difference between light and shadow is much larger.
+with maximum contrast.
+Both high and low-key lighting are used in a variety of genres
+to evoke specific moods and atmospheres.
+Overall, high-key lighting is used for brighter, happier scenes.
+While low-key lighting is often used for darker, dramatic scenes.
+"- You're sheltering enemies of the state, are you not?"
+Chiaroscuro is a type of low-key lighting with a high contrast ratio.
+This is seen most frequently in film noirs to enhance the sub-genres mysterious and dangerous qualities.
+Check out our video on chiaroscuro to learn more.
+A cinematographer must also choose between hard light and soft light.
+Hard light is more directional light that creates stark shadows which works best in more dramatic or intense scenes.
+Soft light is more diffused and generates less defined shadows.
+This type of lighting is often used for happier or romantic scenes.
+Some of the best naturally occurring soft light comes during magic hour or golden hour.
+This occurs twice a day, just before sunset and just after sunrise,
+when the sunlight is less harsh and more colorful.
+Lighting placement in relation to the camera should also be considered.
+is lighting the side of a subject which is closer to the camera,
+often giving the subject a more approachable feeling.
+The smart side, also called the short side,
+refers to lighting the side of a subject that is not facing the camera,
+giving the subject a more dramatic look.
+Lens flares are created when light hits the lens,
+the shapes and colors of which differ depending on the lens.
+For me, it literally is just this aesthetic thing that I like,
+which I absolutely am guilty of overusing
+and realize that it can be insanely distracting.
+But I do love the look of it, and it's just this incredible look
+that for some moments feel appropriate.
+Boca are out-of-focus elements in a shot,
+typically points of light that often add a romantic
+or painterly texture to the image.
+Now that we've got these key terms and concepts under our belts,
+let's look at the gear necessary to achieve them.
+"- Yes, real fine expensive gear you brought out here, Mr. Hooper."
+A professional film set often has an expansive variety of lighting equipment.
+But there's some gear which are almost certain to see on any set.
+Lights themselves come in a variety of forms.
+There are tungsten lights which are powerful and have a warm color temperature.
+Daylight is usually achieved with HMI lights
+which are even stronger but have a cooler temperature.
+Cool light.
+KinoFlows which are banks of tube lights
+adjustable to various temperatures.
+And LED lights which provide a high amount of control
+over color and strength.
+For more control of a light's color,
+gaffers will often use gels.
+Thin plastic sheets which come in an assortment of colors.
+Used in concert with a light's color temperature,
+gels help cinematographers achieve their desired hues.
+is used to measure the amount of incidental lighting hitting a subject
+which then informs the exposure settings on the camera.
+Some models also include a spot meter
+which allows you to pinpoint an exact part of the image for exposure.
+Many cameras themselves also have different modes
+to measure the reflective light actually reaching the lens.
+Other ways to measure lighting ratios include waveforms,
+Once you've made the choice to use soft light and a scene,
+there are many ways to create the necessary diffusion.
+Diffusion is when a semi-translucent material
+is placed between the light source and the subject.
+This scatters the light, making it softer.
+And there are a few methods used to do this.
+Soft boxes use translucent cloths placed in front of a light.
+Diffusion paper can achieve a similar effect.
+Silks are often used for larger sources.
+Of course, there are also natural diffusers like clouds, fog, dust, or smoke.
+Bouncing the light with reflectors creates diffusion while also redirecting light.
+Reflectors come in a variety of colors and textures, each bringing a unique type of diffusion.
+B boards are styrofoam boards with imperfect surfaces that scatter light differently
+than the piece of foam core which bounces light more evenly.
+Another way to mitigate the intensity of the light is with neutral density gels.
+These can be attached to the light or applied to windows to reduce the sunlight.
+Flags are opaque boards that shape and block unwanted light.
+Barn doors are adjustable flaps on the light itself which have a similar function.
+Egg crates direct light and help prevent it from spilling into unwanted areas.
+Short for the term Cuculores,
+cookies are boards with patterns cut into them
+that create a dappled effect when placed in front of a light.
+Mounting and positioning lights on set can be done with light stands
+or with C-stands which are also useful for setting up diffusion, flags, and reflectors.
+Just about anything needed to complete the desired setup.
+Believe it or not, we've just scratched the surface on cinematic lighting.
+There are more terms, gear and concepts out there with more arriving every day.
+In the next episode, we'll take everything we learned here and apply it to real-life lighting scenarios
+including how to light a subject versus how to light the background
+with actual lighting setups from the best cinematographers working today.
+In the description, you'll find a link to the StudioBinder blog
+where you can download a PDF cheat sheet
+with everything we've covered in this video and more.
+That's all for now.
+We hope we've illuminated these lighting fundamentals properly.
+Stay tuned for part two.
+We'll see you there.

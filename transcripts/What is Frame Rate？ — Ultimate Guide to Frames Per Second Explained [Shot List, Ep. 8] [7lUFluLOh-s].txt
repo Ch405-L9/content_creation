@@ -1,0 +1,212 @@
+Films are made up of sequences.
+Sequences are made up of scenes.
+And scenes are made up of shots.
+In previous episodes, we covered camera lenses,
+movement and gear.
+But in this episode,
+we will discuss how different frame rates
+impact how we perceive motion
+and the speed at which motion appears on screen.
+This is Episode 8 of The Shot List.
+Frame rate.
+In this video, we'll include tips on how to manage frame rates in your projects
+to help you avoid the common mistakes
+while creating something visually stunning.
+Now, first, let's frame this video.
+Cinema is built upon illusions.
+Sets recreate reality.
+Editing manipulates time.
+Visual effects do the impossible.
+Motion.
+"- Motion pictures are based on an optical illusion.
+Just another case where seeing is believing."
+Despite the name, when we watch a film,
+we are not seeing a motion picture.
+We're actually seeing multiple pictures,
+a series of still images.
+Playing back these images or frames consecutively
+creates the perception of motion.
+There are a couple of theories on how this works.
+The phi phenomenon,
+Persistence of vision.
+But the short answer is that when images are shown fast enough,
+our brain loses the ability to see individual frames
+and blends them together into a single moving image.
+"- Persistence of vision is the principle which makes movies possible."
+Now, the number of individual frames that are shown within one second
+is known as frame rate.
+For example, a frame rate of 30 fps contains 30 individual frames
+or still photos within one second.
+To shoot a narrative that emulates the look of traditional cinema,
+you will want to shoot at a frame rate of 24 fps.
+When sound was first introduced to motion pictures...
+"- This is what the people want.
+Silent pictures are yesterday's news."
+The frame rate needed to be fast enough to utilize sound technology.
+but slow enough to save money on the amount of film being shot.
+Its consistent use over decades
+has dubbed it the most cinematic frame rate.
+However, we've seen some notable exceptions over the last few years.
+The Hobbit was famously shot at 48 frames per second.
+The goal was to reduce motion blur and the eye strain of 3D presentation.
+Director Peter Jackson wanted to create a completely immersive
+audience experience.
+"- 100 years ago, you know, movies were black and white,
+they were silent, they were 16 frames a second, okay?
+And so 100 years from now, what are they going to be?
+I think you can absolutely guarantee they're not going to be 24 frames a second.
+So at what point between now and 100 years
+do these advances actually happen?"
+Director Ang Lee took this idea a step further
+120 fps.
+"- That's a vision more closer to life.
+Experience is different.
+The perspective is different.
+You got a first-person feeling.
+What would that be like?
+To me, it's a logical next step."
+However, since this video essay is presented at 24 frames per second,
+these clips you're seeing don't represent the look of higher frame rates.
+So, to get the full experience,
+you need to see it projected at an equal frame rate.
+Are these failed experiments or an evolution in filmmaking?
+Let us know in the comments.
+"- Had enough of dwarves for one day."
+Now, the additional frames in higher frame rates
+makes motion look smoother.
+But what about when cinematographers deviate from realistic speed
+to tell their story?
+Fast motion.
+Assuming you'll be playing back at 24 frames per second,
+simply put, lower frame rates can make motion look choppy.
+because they lack frames.
+What's the point of doing it that way?
+For example, recreating the vintage look of old home movies.
+Adding a comedic element to the scene.
+In our previous video, director Jay Roach
+revealed this simple trick for creating fast motion.
+"- The way the Fembot's heads explode, it's such a primitive technique.
+You just under crank the camera to two frames.
+They move their heads around at normal speed, but because it's under cranked, it looks like
+they're just jerking around and short-circuiting that, of course, their heads explode."
+"- I did it again, baby.
+Yeah!"
+Now, let's look at another reason filmmakers shoot lower frame rates.
+This technique is called step printing.
+This is done by shooting a low frame rate,
+often with a slow shutter speed
+to create the blurring and streaking.
+Then the frames are copied and repeated
+to create 24 frames per second.
+For example...
+"- My name is Domino Harvey.
+I am a bounty hunter."
+In Tony Scott's Domino,
+they shot sequences at 6 frames per second,
+then printed each frame an additional 4 times
+to equal 24 fps.
+"- I tried Beverly Hills High for a spell, but it didn't work out.
+I hated them."
+You can also find this effect in the films of Wong Kar-wai,
+in Gladiator, and music videos.
+The physical motion is at normal speed,
+but the amount of motion blur gives the impression of fast motion.
+Ideal to create a visceral and subjective presentation.
+For more on the relationship between shutter and frame rate,
+check out our other video on shutter speed, linked below.
+Now, let's look at the opposite effect, slow motion.
+If we want to slow down the motion of something that goes fast,
+we speed up our camera and make, say, five times as many pictures per second.
+We have slow motion when they are shown on the screen at normal camera speed.
+Assuming you'll be playing back at 24 frames per second
+to create a slow motion effect
+you'll need to shoot at a frame rate higher than the playback rate.
+Say, 48.
+60.
+Or even 120 fps.
+Which is called over cranking.
+The higher the frame rate
+the slower you can slow down footage
+while maintaining smooth motion and clarity.
+For The Matrix, shots were taken at speeds up to 300 FPS.
+The opening credit sequence of Zombieland was shot at 1000 FPS.
+The key thing to remember about slow motion
+is that it emphasizes whatever action or emotion you present it with.
+It can make horror more terrifying,
+action more spectacular,
+"- Oh, great."
+or comedy more hilarious.
+Filmmakers utilize these extremely high frame rates
+to capture motion that even the human eye cannot see.
+In this scene from the Hurt Locker,
+extreme slow motion is used to brilliantly capture an explosion.
+High frame rates also enable filmmakers to utilize speed ramps.
+Like in this iconic action sequence from Zack Snyder's 300.
+A speed ramp is an editing technique used to transition between
+Varying speeds of motion in the same shot where each strike is given extra weight and impact.
+To better understand the impact of slow motion on the story,
+take a look at these two fight scenes.
+One is at normal speed while the other is in slow motion.
+"- Need to let his hands go.
+Distract target, blind jab.
+Hard left hook for Conlin.
+What does slow motion accentuate in this fight scene for the audience?
+"- We can right draw.
+Speed spins, puts the champ in the corner.
+What does it take away?
+"- Throwing Rocky Balboa!"
+Let us know in the comments.
+And now as promised,
+some tips on how to manage frame rates in your projects.
+Pencils out.
+Deciding which frame rate to shoot at
+depends on what you want the final product to look like.
+Which we'll call the quality of motion.
+Such as normal motion,
+fast motion
+or slow motion.
+However, the final frame rate we see on screen
+we're actually seeing the relationship of two different speeds
+which we'll call the capture rate and the presentation rate.
+Capture rate is how many frames per second were recorded by the camera.
+While your presentation rate is how many frames per second
+the audience sees in the finished film.
+For normal speed motion the presentation rate must equal the capture rate.
+If you're shooting something with a lot of motion like sports or concerts
+You might want to consider shooting and presenting
+at higher frame rates
+as the additional frames will make motion appear smoother.
+"- Throwing acres out of the backfield!"
+Remember, to achieve slow motion you would shoot faster than 24 fps.
+However, as you recall Gemini Man was shot at 120 fps for normal motion.
+Let's see what that looks like slowed down to 24 fps.
+The motion is completely smooth, but the duration and audio is stretched.
+Another reason why your presentation rate is so important.
+The opposite is true for fast motion.
+All you need is to shoot at a rate slower than 24 fps,
+which is called undercranking.
+So the main takeaway is don't mix frame rates
+if you want normal looking motion.
+Only mix frame rates if you intend to shoot high frames per second,
+to create slow motion
+or shoot lower frame rates to create a choppy jittery aesthetic.
+Now, I know this is a lot of information.
+So for a complete breakdown on frame rates
+and all the practical ways you can experiment with them
+we have an ultimate guide on our blog.
+The link is in the description.
+Remember, no matter how many frames per second you shoot
+it is your presentation rate that matters.
+and specify the frame rate here.
+You can call attention to the specialty shot
+by color coding it
+to make sure the frame rate is cranked to the correct value.
+If you're ready to create a shot list
+you can find a link to StudioBinder's free shot listing tool
+in the description.
+And remember that you are in complete control of your frame rate.
+Have fun with it!
+"- You're crazy! Crazy!"
+Subscribe, click the bell and find out what we do next.
+Nothing but the ghetto
+Let me get my head low

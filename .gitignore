@@ -1,0 +1,13 @@
+
+# Exclude nested video and audio assets
+**/*.mp4
+!/*.mp4
+**/*.mov
+**/*.mkv
+**/*.webm
+**/*.mp3
+**/*.wav
+**/*.m4a
+**/*.aac
+**/*.flac
+**/*.ogg

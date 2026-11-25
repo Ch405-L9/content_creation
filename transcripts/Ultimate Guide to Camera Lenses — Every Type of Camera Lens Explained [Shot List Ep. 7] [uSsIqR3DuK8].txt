@@ -1,0 +1,301 @@
+Films are made up of sequences.
+"- Royale with you.
+Royale with you."
+Sequences are made of scenes.
+And scenes are made up of shots.
+In previous episodes, we covered composition,
+camera movement,
+gear and depth of field.
+All of these visual components
+are directly impacted by the lens a cinematographer chooses.
+In this episode, we will discuss types of camera lenses
+and the different effects each one has on visual storytelling.
+"- Get in."
+This is Episode 7 of The Shot List.
+Camera Lenses
+In this episode, we'll be examining the various types of camera lenses.
+Along the way, we'll be populating these camera lenses
+in a StudioBinder shot list,
+which you can download and reference in your upcoming projects.
+But before we begin, let's go over how a lens works.
+Light passes into the lens
+and through different glass shapes called lens elements.
+These elements slightly bend or refract the light
+so it lands on a focal point on an image sensor.
+This is where a picture is created.
+Every lens is distinguished by its focal length expressed in millimeters.
+Such as a 50 millimeter lens.
+Some common focal lengths range from the wide 17mm lens
+to the narrow 200mm lens.
+However, some lenses have extremely short focal lengths
+such as a 4mm fisheye lens
+or extremely long focal lengths
+such as a 1200mm telephoto lens.
+Now, focal length is simply the distance
+between the optical center of a lens to the image sensor.
+The longer the focal length, such as 100 millimeters,
+the more narrow your angle of view is.
+The shorter the focal length, such as 24 millimeter,
+the wider your angle of view.
+All lenses fall under two categories,
+prime lenses or zoom lenses.
+A prime lens has a fixed focal length,
+while a zoom lens can vary its focal length
+by adjusting various lens elements.
+In comparison with zoom lenses,
+Prime lenses have fewer lens elements that can produce sharper images.
+Their larger apertures also let in more light for low-light shots
+like Kubrick's iconic candlelit scenes in Barry Lyndon.
+The larger aperture can also capture a shallower depth of field
+which is great for isolating subjects as in the master.
+"- That's a lot to process."
+Although zoom lenses have smaller apertures,
+can shoot a wide, medium, and close-up without changing their lens,
+saving valuable time on set.
+For more on how to creatively use the zoom function,
+make sure to check out our previous episode on camera movement.
+Now that we've covered how a lens functions...
+"- Thanks, I get it now."
+Let's go over the specific types used by filmmakers
+and how different lenses can create completely different effects.
+Let's start with the widest lenses, the extreme wide-angle lens.
+Extreme wide-angle lenses range between 18 millimeters to 24 millimeters.
+Extreme wide-angle lenses can simultaneously capture close-ups
+and landscapes in one shot like in the Revenant.
+Some lenses have distinct distortion and enter the category of fisheye lenses.
+This scene from the favorite uses the unnatural perspective
+of the fisheye lens
+to underscore the absurdity of these characters.
+"- The queen has decided, Harley."
+"- I disagree.
+A lot.
+I would like an audience with the queen where I may state my case."
+"- State it to me. I love a comedy."
+Fisheye lenses also exaggerate facial features
+when used in close proximity.
+"- Get in."
+Like in Fear and Loathing in Las Vegas
+where a fisheye matches the character's distorted
+and drug-induced perspective.
+"- Look at your face."
+"- You're about to explode."
+But what if a filmmaker wants a wide angle of view
+without the noticeable distortion?
+They reach for our next lens.
+The wide-angle lens.
+Wide-angle lenses have a focal length between 24 millimeters and 35 millimeters.
+This is great for capturing wide shots like this shot from Parasite.
+Beyond affecting a shot size,
+wide-angle lenses also accentuate movement.
+which is great for trucking through grocery store aisles
+as in Punch Drunk Love.
+When used in tight spaces, wide-angle lenses can create distance.
+"- Who are they?
+You're gonna go beat them up for me?
+My stunt guy?"
+In this scene from Drive,
+cinematographer Newton Thomas Siegel uses a wide lens
+to make two characters feel far apart
+while also making the audience feel more present.
+Wide-angle lenses are great for influencing the audience's perspective.
+But they can also create a very stylized look.
+If a DP wants a more natural look, they might use our next lens.
+The standard lens.
+Standard lenses, also called normal lenses,
+are lenses between 35 millimeters to 50 millimeters.
+The focal length of standard lenses
+are most similar to how the human eye sees the world.
+This becomes the ideal choice.
+when cinematographers want a grounded and natural presentation.
+For example, director Luca Guadagnino's film
+Call Me By Your Name
+was entirely shot on a 35mm lens for this reason.
+"- Only one lens, we didn't choose any other lenses,
+we only shoot with 35mm.
+For me to get a sense of human eye and simplicity,
+I wanted to be straightforward, I didn't want to create
+technology between the camera and the performances.
+"- What does one do around here?"
+"- Wait for the summer to end."
+"- Yeah, what do you do in the winter?
+Wait for summer to come?"
+"- Well, we only come here for Christmas and some other vacations."
+"- Christmas, I thought you were Jewish."
+"- Well, we are Jewish but also American, Italian, French, somewhat atypical combination."
+A standard lens helps us feel like we're seeing with our own eyes,
+allowing us to feel present in the moment and part of the story.
+It is the opposite effect of our next lens.
+The telephoto lens.
+A telephoto lens is any lens
+with a focal length of 70 millimeters and up,
+often referred to as long lenses.
+Telephoto lenses are typically used
+for capturing distant subjects,
+making us feel like we are observing the scene from afar.
+Tinker Tailor Soldier Spy
+has surveillance at the core of its story,
+which motivates a shot like this.
+The secrecy and voyeuristic qualities of this scene
+are perfectly communicated
+with the choice of a telephoto lens.
+"- I want to talk about loyalty, Toby.
+Intelligence has been leaked, Toby.
+Someone's been taking files from the circus."
+Unlike wide-angle lenses,
+telephoto lenses also compress space.
+"- Things aren't always what they seem, George.
+You should know that."
+This is great for isolating a character in a crowd.
+like in this shot from the pursuit of happiness.
+Chris Gardner's cathartic moment is amplified
+and contrasted by the ambivalent crowd around him.
+While this scene uses a telephoto lens to capture a joyous moment,
+the graduate uses it to capture desperation.
+In this scene, Ben is frantically running to stop Elaine's wedding.
+The telephoto lens compresses the distance and flattens the space
+While the last few lenses we've discussed are defined by their focal length,
+our next two lenses are defined by their focusing abilities.
+Macro lenses.
+Macro lenses sometimes referred to as micro lenses
+don't fall within a specific focal range like our previous sections.
+For instance, you could have an extreme wide-angle macro lens
+with a focal length of 15 millimeters.
+Or you could have a telephoto macro lens
+with a focal length of 200 millimeters.
+Macro lenses are defined by their ability to capture extreme close-up shots
+with the sharpest detail.
+This makes macro lenses perfect for extreme close-up shots.
+When choosing macro lenses, there are two things that must be considered.
+Magnification ratio and minimum focusing distance.
+Macro lenses have a one-to-one magnification ratio,
+meaning the size of the image captured is the same size as in real life.
+Other macro lenses can have a 5 to 1 magnification ratio,
+meaning the size of the image captured is 5 times bigger than real life.
+In regards to minimum focusing distance,
+this is simply how close or how far you need to be
+to your subject to stay in focus.
+If you're shooting distant subjects such as insects
+and don't want to cast shadows or scare them off,
+you'll want to use a macro lens with a longer focal length.
+If you're able to get up close and personal with your subject
+and want to include more of the background,
+you may opt for a macro lens with a shorter focal length.
+The macro lens can often feel like a magnifying glass
+hovering over important plot details.
+And we can't talk about detail without mentioning David Fincher.
+In Fincher's investigative films like Zodiac and Seven,
+macro lens shots are used to magnify clues and details
+and force us to participate in the film's investigation.
+While we cannot definitively confirm
+all of these shots were taken with a macro lens,
+these are the type of extreme close-up shots
+that macro lenses are perfect for capturing.
+Moving on to our final lens, the tilt-shift lens.
+A normal lens gives a consistent plane of focus.
+In a tilt-shift lens, however,
+the lens focus mechanism can be shifted left or right
+tilted up and down to manipulate the image.
+In the movie, Game Night,
+characters are taken on a journey similar to a board game.
+"- The game that we're going to play tonight is so epic
+that we don't need a board and we do not need pieces."
+Aerial tilt-shift shots are used in the film to create a miniature effect.
+Making houses and large settings appeared like set pieces on a board game.
+In the film, The Assassination of Jesse James by the coward Robert Ford,
+Cinematographer Roger Deakins wanted to use
+the blurring effects of a tilt-shift lens.
+However, he wanted to modify the tilt-shift lens
+to create a more dreamy, vintage, and stylized look
+that matches many of the photographs taken in that time period.
+So he teamed up with Otto Nehmens International
+to create the appropriately named Deakinizer lens.
+and vignettes the image.
+The result is a completely unique visual style
+that echoes the time period of the film.
+So these are the six types of lenses
+most commonly used by cinematographers today.
+Different lenses can capture the same subject
+in a completely different way.
+So let's try an experiment by using
+one of the most common types of scenes in a film.
+The dialogue scene.
+Pay attention to each example
+and how the lens choice
+we'll start with an extreme wide-angle lens.
+"- I'm trying to do something that's important.
+It's important to me."
+In this scene from Birdman,
+we can see the extreme wide-angle lens
+creating a subtle fish-eye effect.
+"- This is... My God, this is my career."
+The film was shot entirely on extreme wide-angle lenses.
+This helped create an intimate and seamless look
+while also creating a slight distortion.
+"- It's not important. You're not important.
+Get used to it."
+echoing the surrealism of the film.
+"- Birdman, the phoenix rises."
+Now, here's a scene shot with a more standard wide-angle lens.
+"- What can I do for you, sir?
+"- Well, sir, it's this rug I have.
+They really tied the room together.
+"- You told Brandt on the phone, he told me.
+Where do I fit in?"
+In this scene from The Big Lebowski,
+the wide-angle lens provides a flatter image
+without any noticeable distortion.
+Perhaps to highlight a more grounded story.
+Yes, yes?
+Oh, so you know that they were trying to piss on your rug?
+Did I urinate on your rug?
+You mean, did you personally come and pee on my rug?
+Hello! Do you speak English, sir?
+Parlo usted ingles?
+I'll ask you again. Did I urinate on your rug?
+It also creates a bit more distance between our two characters
+who are clearly on opposing sides of the issue.
+"- Come on, man.
+I'm not trying to scam anybody here.
+Uh, you know."
+Now let's look at a scene shot with a standard lens.
+"- What's the matter?
+What's bothering you?
+I told you I can handle it.
+I'll handle it."
+In this scene from The Godfather,
+you can see how a standard lens
+brings the characters a bit closer.
+while still making the audience feel more present.
+"- I knew that Santino was gonna have to go through all this.
+I'm afraid of...
+Afraid of us.
+I never wanted this for you."
+It is said that Francis Ford Coppola
+shot the majority of the film on a standard 40 millimeter lens.
+Perhaps to ensure an unbiased neutral look into organized crime.
+And finally, an example using a telephoto lens.
+-"Nobody get hurt. No Al-Qaeda here.
+Just business. We want money."
+In this scene from Captain Phillips,
+the use of a telephoto lens captures the tone perfectly.
+It provides a voyeuristic perspective,
+as if the audience is hiding like the rest of the crew,
+trying not to be seen by the Somali pirates.
+-"Hey! Look at me. Sure.
+Look at me. Sure. I'm the captain now.
+You like a bush, man? Flower?"
+All of these scenes are standard dialogue scenes.
+But as you can see, the lens they were shot on
+makes them all uniquely different.
+Understanding the unique characteristics of every type of lens
+will not only help you capture a better shot
+but will help you tell a better story.
+You'll find a link in the description for our free ebook
+On Camera Lenses.
+The lenses we've covered in this video are all spherical lenses.
+Anamorphic lenses bring an entirely new dimension to lens choice.
+And in the next episode of the Shot List,
+we'll explore frame rate
+and how different frame rates directly affect
+how an audience experiences a scene.
+Subscribe, click the bell and we'll see you again in the next episode.

@@ -1,0 +1,279 @@
+Films are made up of sequences.
+Sequences are made up of scenes.
+And scenes are made up of shots.
+In the previous episodes, we analyzed frame rate,
+camera lenses, shot size, and more.
+Now, let's talk about how these scenes are connected
+with scene transitions that move us through the story.
+"- See if you remember anything."
+This is Episode 9 of The Shot List.
+Editing Transitions.
+We'll be examining nine essential editing transitions,
+each with their own function.
+We'll begin with the most fundamental...
+"- I want a little production value, you know,
+like some editing transition, something, some music."
+And work our way to the more complex.
+"- Excuse me. Excuse me."
+As we go, we'll populate a shot list in StudioBinder
+as a sort of guide for the next time
+you are looking for the perfect transition.
+Before we dive into creative transitions,
+we first have to mention the most basic technique.
+The cut.
+A cut is an instant switch or transition from one shot to another.
+"- Who is it, Jay?"
+"- It's okay, honey. It's a friend of Terry's."
+Or one scene to the next.
+And it is by far the most common way to transition between scenes.
+In our next episode, we'll dive deeper into the nuances of the cut
+and how different editors use it to enhance the storytelling of a scene.
+"- The way we cut that, if you look at that sequence,
+you'll see it's very jaggedly cut.
+in order to accentuate the violence of the breaking of the glass.
+Now, let's look at our first creative transition, the fade.
+One of the original editing transitions that is still used today is the fade.
+A fade is when a shot dissolves to or from a solid color, usually black or white.
+A fade from black is a common way to open a film
+as it eases the audience into the beginning of the story.
+"- Sorry, Sarge."
+"- Pick a man, bring your kit."
+"- Yes, Sarge."
+A fade to black can give a gradual sense of closure at the end,
+like opening and closing a book.
+But what about fades in the middle of a film?
+"- Up on the..."
+This is similar to the end of a chapter.
+A fade to black deliberately pauses any momentum,
+giving the audience a moment to breathe or reflect on what just transpired.
+Pulp Fiction.
+uses the fade to black between all three of its chapters.
+Editors can also fade in and out of shots
+within the same scene as a stylistic choice.
+This is also known as a dip to black
+as we can see here in Gone Girl.
+"- That's not good enough for you.
+"- It's not even close.
+What scared me wasn't that he'd pushed me.
+What scared me was how much he wanted to hurt me more.
+What scared me was that I'd finally realized
+"- I am frightened of my own husband."
+A much less common type of fade is the fade to white.
+Most commonly used to represent a character entering a dream or dying.
+"- ...times again it seems, all I have is one..."
+In contrast to black, a fade to white can also leave an ending up for interpretation.
+"- Let's go get some help. Go get some help!"
+In this final scene from Black Swan,
+A fade to white does not create a sense of closure, but rather, ambiguity.
+Does Nina die or not?
+If you want to fade into another shot rather than to black,
+opt for our next transition, the dissolve.
+"- Nice dissolve."
+Like the fade, the dissolve utilizes a gradual transition.
+Only this time, it transitions directly into another shot.
+Traditionally, dissolves are used to suggest a longer passage of time between scenes.
+Or shots within the same scene, more than we'd expect from a simple cut.
+"- God put this here for me and you.
+Take advantage, man. Take advantage."
+Or as a way to signal a memory.
+Or a dream.
+Some filmmakers utilize the dissolve to create a hybrid moment between the two scenes.
+When two shots dissolve into each other, they create a third shot
+in which both shots are shown within the frame simultaneously.
+This is known as superimposition.
+In this editing transition from The Godfather Part II,
+we dissolve from a shot of Michael Corleone to a shot of his father.
+This dissolve creates a comparison between them and the parallels of their lives.
+Another type of transition that draws connections between two shots
+in a less gradual way is the match cut.
+"- What?"
+A match cut is any transition, audio or visual,
+that uses elements from the previous scene
+to match similar elements in the next.
+These could be shapes, compositions, colors, movement, or sound.
+Unlike the gradual dissolve,
+a match cut connects the two shots instantly.
+This connection can subconsciously cause the audience to draw
+on similarities or differences between scenes.
+A match cut can also bridge time and space.
+Like in Kubrick's iconic match cut from 2001.
+When match cutting between faces,
+the assumption is that we're seeing the same person
+at two points in their lives.
+In this scene from Pirates of the Caribbean,
+a large jump in time is bridged together by a match cut.
+This match cut accomplishes story and character beats at once.
+It lets us know that this is the same character,
+that we're now years ahead in the story
+and that Elizabeth is still fascinated with pirates.
+The combination of a match cut and a dissolve
+becomes a match dissolve.
+This type of transition fulfills all the same functions
+as a match cut but smooths over the abrupt cut.
+We still get the progression of time
+or create meaningful connections.
+In Toy Story 2, Jessie is beaming with light and love for her owner Emily.
+And we know this because her face match dissolves into the sun.
+Next up, an old-fashioned technique that used to be created in camera, the iris.
+In the early days, iris transitions were a manual effect
+achieved by opening or closing a camera's iris or aperture.
+The iris transition was commonly used like a fade
+to open or close a film.
+The iris has since become rather outdated.
+However, in modern cinema,
+some filmmakers use the iris as a more stylistic choice.
+It's a great way to focus on a specific element.
+A visual technique similar to a zoom-in
+that focuses the entirety of the scene
+on a single emotion or idea.
+Consider this moment from The Departed.
+Colin Sullivan has just graduated from police academy
+to detective.
+Watch how Scorsese and his editor Thelma Schoonmaker visualize this moment.
+Colin is framed as tiny and insignificant.
+Just another anonymous individual.
+But then the iris opens up to reveal the massive police headquarters
+and the power that has now been granted to him.
+The world is literally opening up for him.
+"- Congratulations on passing the detective's exam
+and welcome to the special investigation unit."
+"- I whooped the f***ing deal."
+While the iris transition uses a circular shape,
+our next transition also uses lines and shapes
+to switch between shots.
+A wipe transition is when shot A is replaced with shot B
+as it moves or wipes into frame from a specific direction
+like up, down, left, right, or diagonal.
+Perhaps most notably, the wipe transition
+is used throughout the Star Wars franchise.
+This is madness!
+Which itself is a tribute to the Flash Gordon serials
+and Kurosawa films like Hidden Fortress
+that inspired Lucas' space opera.
+Wipes can also come from various shapes, such as a star.
+Okay, from here we star wipe to a glamour shot of Flanders
+paying his bills.
+Then we star wipe to Flanders brushing his...
+Dad, there are other wipes besides star wipes.
+Or cloth.
+My goal is to throw for 4,000 or 5,000 yards,
+whichever comes first.
+"- Better get ready to be famous, Albuquerque!"
+Like the iris, wipe transitions are a bit old-fashioned
+but would be ideal if your goal is a more vintage look.
+"- You and your business! Call me now!"
+A wild and expressive musical
+like the Rocky Horror Picture Show
+uses a variety of wipes
+that blend seamlessly into its campy aesthetic.
+"- It's just a jump to the left
+with your hands on your hips.
+It's just a jump to the left."
+Most wipe transitions are used ironically
+for purely comedic purposes.
+But the concept has evolved into our next option.
+The passing transition.
+The passing transition or pass-by effect
+has a moving character or object to transition to the next scene.
+Or it has the camera itself move past the object.
+"- It was so boring.
+I cannot believe the music they put on while we work."
+Edgar Wright and his editors have nearly perfected the pass-by effect.
+In these transitions, often paired with strategic sound design,
+the momentum between scenes never skips a beat.
+"- Oh man, this is gonna suck.
+"- At least it'll give us something to complain about.
+"- Oh man, this sucks.
+"- Suck."
+Also known as a mass transition,
+these are more seamless than the traditional wipe.
+Passing transitions are often used to hide the cut.
+And they can be used to add a hyper-stylized aesthetic.
+Another great editing technique that can add energy to your transitions
+is the whip pan.
+A whip pan or swish pan
+is a quick horizontal camera rotation that blurs the image.
+While it is commonly used mid-scene,
+it can also be used as a scene transition
+which can be highly advantageous
+when you want to sustain momentum from the previous scene.
+Consider this montage in Boogie Nights.
+"- Perfect timing."
+as the characters fly through a rapid succession of scenes
+fueled by drugs.
+"- What the fuck took you so long, man?
+Time!"
+Simply cutting between these scenes
+wouldn't give us the dizzying effect
+that accentuates their hectic mental state.
+If you're looking for a rather abrupt editing transition
+rather than something smooth,
+look no further than the smash cut.
+A smash cut is a sharp, abrupt cut
+from one scene to another
+using high contrast in both visuals and audio.
+"- Any on the counter? Give me the real stuff, don't give me the fake stuff, I know what it is."
+This can be between quiet and loud,
+"- Little man."
+between chaotic and still.
+"- Take a couple of cups."
+Smash cuts are typically used to shock or jolt the audience like in The Shining.
+"- I didn't think it's gonna be this big, did you? No?"
+A very common application is when a character startles awake from a dream
+like here in Shutter Island.
+Smash cuts
+are also commonly used for comedic effect.
+Transitioning between two contrasting scenes
+is a great way to punctuate a moment.
+"- Hey, could I use your guys' phone for a sec?"
+The smash cut uses both visuals and audio
+while transitioning as do our final techniques
+J-cuts and L-cuts.
+There are two primary types of audio transitions
+the J-cut and the L-cut.
+These terms derive from the way the edit looks, like a J or an L, within an editing timeline.
+A J-cut or pre-lap is when the audio of the next scene precedes the image.
+In other words, the audience hears the audio from scene B while still seeing scene A.
+7, 6, and main engine start, 4, 3, on booster ignition and...
+J-cuts are commonly used in dialogue.
+But they can also be used when transitioning to a flashback or memory.
+Such as in this scene from Saving Private Ryan.
+Before we see images of Normandy, we hear the waves crashing on the beach,
+creating a bridge to the past.
+With an L-cut, the audio from a preceding scene
+carries over into the following scene.
+This is often used for narration.
+"- Our thankfulness for the escape of our army must not blind us
+to the fact that what has happened in France and Belgium
+"- It's a colossal military disaster.
+You must expect another blow to be struck almost immediately."
+The real power of J-cuts and L-cuts
+are how they can create new contexts using sound and image.
+Sound A plus image B creates a more complicated and nuanced meaning.
+"- We shall fight with growing confidence and growing strength in the air
+until, in God's good time,
+the new world with all its power and might
+steps forth to the rescue and the liberation of the old."
+So, these are the most commonly used editing transitions.
+But they aren't the only options available.
+You could use a push transition,
+a zoom,
+a luma key,
+a barrel roll.
+Oh, hi, Mark.
+There are endless options available.
+Hi, doggy.
+What transitions did we leave out?
+What are your favorites?
+Let us know in the comments.
+In the description, you'll find a link to this full shot list
+and storyboard in StudioBinder.
+Knowing what transitions you have at your disposal
+and how they work will help you create momentum,
+make connections, and keep the audience engaged.
+In the next episode of this series,
+we'll explore the most fundamental editing techniques
+used within a scene
+and how nuanced a simple cut can be
+to tell a cohesive and immersive story.
+See you in the next episode.

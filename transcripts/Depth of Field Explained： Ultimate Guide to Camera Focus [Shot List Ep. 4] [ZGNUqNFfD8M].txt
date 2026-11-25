@@ -1,0 +1,215 @@
+Roll camera.
+Films are made up of sequences.
+Sequences are made of scenes.
+And scenes are made up of shots.
+In the previous episodes of The Shot List,
+we broke down the various shot sizes,
+framing options,
+and camera angles at a filmmaker's disposal.
+Now, we turn our attention to the matter of focal length.
+This is Episode 4 of The Shot List.
+Good filmmakers understand that depth of field is a spectrum
+that can be fine-tuned to best serve the narrative.
+When we say depth of field,
+we're referring to an area of the shot that's in focus.
+Whether it's deep focus,
+shallow focus,
+soft focus,
+a rack focus,
+a split diopter shot,
+or a shot with a tilt-shift lens.
+In this video,
+we'll be examining six different types of camera focus.
+As we progress, we'll be filling out a shot list using StudioBinder
+that you can download and reference.
+Now it's time to focus.
+We'll start with Deep Focus.
+When both the subject and background are shown in crisp detail
+this is known as Deep Focus.
+When you have a group shot with subjects of varying distances from the lens
+or if there are important details to be gleaned from the background
+Shots with deep focus can offer more visual information to the viewer.
+This allows the viewer's eyes to explore at their own pace
+and allows dynamic action to play out on multiple planes.
+"- The stone and removing the panel.
+That's appreciated.
+Permission granted."
+The stunning opening sequence of gravity utilizes extreme deep focus.
+The depth of field stretches all the way from her astronauts to Earth's atmosphere.
+This is a single 17-minute take.
+Gorgeous though the shot is,
+there's another reason why Deep Focus works so well here.
+As chaos erupts,
+our deep depth of field allows the actions to stay in full view.
+With everything in focus,
+it is our own eyes that do the editing.
+"- Dr. Stone."
+Deep Focus is a great way to ensure
+that each element of your frame is equally clear.
+Or when you want to create layered images
+with action in the foreground,
+But what if you want the audience to pay attention to something in particular?
+Use a shallow focus.
+Shallow focus renders a portion of the frame in sharp detail
+while leaving the rest of the image soft.
+This is called the plane of focus.
+The soft, out-of-focus portions of the shot
+can be the background, the foreground, or both.
+There are many uses for shallow depth of field,
+for a romantic effect,
+imbue an element with meaning
+or to isolate a subject.
+Shallow depth of field can also be used to create the bokeh effect
+where out of focus points of light blur like this.
+Most shots use some degree of shallow focus
+and it is useful for guiding the audience's attention
+or to suggest a character's emotional state.
+Consider this scene from Moonlight.
+Chiron is confronted by his mother.
+"- Chiron! Hey!"
+"- Hey, mom." "- Hey, baby.
+Where'd you go last night?"
+"- Why?"
+"- Well, I'm your mama, ain't I?"
+Their relationship is complicated, to say the least.
+"- You had me worried about you."
+Paula's addiction makes her emotionally manipulative.
+The extreme shallow focus paired with POV framing
+is a clear presentation of her influence over him.
+"- Mama, lock yourself out the door, yeah?
+Can you come let her in?
+Come on, baby."
+"- Let me in, baby. Baby, come on."
+Use shallow depth of field when you want to emphasize something.
+But don't overdo it.
+Save it for when it really matters.
+While deep focus keeps everything in focus
+and shallow focus keeps something in focus,
+our next technique keeps nothing in focus.
+Soft Focus
+Soft focus refers to a shot
+where no portion of the frame is 100% sharp.
+Soft focus is achieved by either imperfections
+built into the lens
+or with diffusion filters.
+In some cases, stretching a silk stocking across the lens
+or smearing the lens with Vaseline will do the trick.
+In the past, soft focus was often used
+to heighten the beauty of female stars.
+Like Ingrid here.
+He's looking at you, kid.
+particular usage is rare these days, soft focus is still sometimes used to lend
+atmosphere to dream sequences, flashbacks, or sometimes an entire film.
+AI, artificial intelligence, makes use of soft focus from start to finish.
+"- You were designed and built specific like the rest of us.
+They made us too smart, too quick, and too many."
+AI blends science fiction and dreamy storybook elements.
+The soft focus and heavy bloom
+are integral elements of the film's visual style.
+Suggesting a surreal dreamlike landscape.
+When done with purpose, soft focus can be a bold stylistic choice.
+Moving on.
+A technique that changes its focus within the shot.
+The rack focus.
+Unlike the previous types of focus,
+It's a verb.
+Racking focus is the art of transitioning a shallow depth of field
+between different points of focus within a shot.
+Some rack focuses are big and eye-catching
+while others are far more subtle and fly under the radar.
+Racking focus directs the audience's attention with pinpoint precision.
+It also allows the entire sequence to play out in a single shot
+without the need for extra coverage.
+precise focus racking.
+"- Sorry, I'm late."
+Which is executed by a focus puller
+using a follow focus.
+Bong Joon-ho's monster movie,
+The Host,
+contains a number of impressively coordinated rack focuses.
+Let's look at this scene.
+Watch as the shallow focus first follows Gang Doo
+before drifting back to his siblings.
+The nurse spots them and calls out.
+and we rack focus one last time back to Gang Doo in a close-up.
+The speed of this fast rack focus also magnifies the shock and panic
+as our protagonists attempt to sneak out of a hospital.
+When you want to reveal elements in a shot
+or create a connection between them without cutting,
+remember the rack focus.
+To dive deeper into how to guide the eye,
+make sure to watch our videos on Spielberg's use of the eye trace
+how the rack focus was used in Casino Royale.
+Links are in the description.
+But what if you want two planes of action in shallow focus
+at the same time?
+For that, we move on to our next subject.
+Split diopter.
+A split diopter shot captures two separate focal points in sharp focus
+while the area in between them is left out of focus.
+This is achieved through specialized lenses
+capable of independently focusing on two different focal points.
+Use a split diopter shot when you have important information
+in both the foreground and background
+but don't want to use deep focus.
+Or when you have two characters speaking at different focal distances
+and want them both to appear crisp without racking focus.
+"- What?
+"- Yeah, do that again."
+These shots are used rarely and you can see why.
+the effect is unnatural.
+The human eye can see with deep or shallow focus
+but it can't do both at the same time.
+Quentin Tarantino has made use of the split diopter lens many times.
+"- Let's slow it down.
+Let's slow it way down."
+In the Hateful Eight, the split diopter is used to convey
+a sense of depth and geometry within Minnie's haberdashery.
+"- I'm white boy."
+while Major Warren is helpless in the background.
+This split diopter shot is used to show our two protagonists
+at their most vulnerable.
+With Daisy making her move, the panic sets in.
+"- I ain't dead yet, you black bastard."
+A split diopter shot can pull double duty in your shot list
+but remember that they also create an impossible perspective
+that can pull the audience out if you're not careful.
+The same can be also said about our next subject.
+The tilt shift.
+Tilt shift, also known as a swing shift,
+is another specialized lens that produces striking visuals.
+A regular lens directs light straight into the sensor
+while a tilt shift bends the light creating various distortions
+in which an extremely narrow portion of the frame is in sharp focus
+while the rest of the frame is left a blur.
+Filming a life-size subject through a tilt shift lens
+can give it the odd appearance of being a miniature.
+Like in this scene from the social network.
+One striking example comes from the Coen brothers
+in the bar mitzvah scene of a serious man.
+The skewed focus visualizes Danny's mental state
+which has been altered
+with the help of a little Mary Jane.
+"- Baruch atah Adonai."
+The opportunities to use tilt-shift shots might be few
+but when the time comes to shift perspectives
+Accept no substitute.
+And so these are the six different types of camera focus
+that you can employ when planning your shots.
+When you're ready to create a shot list for your next project,
+be sure to check the description for a link to StudioBinder.
+It's free to get started.
+Have fun mixing and matching different types of focus
+with different shot sizes,
+frames,
+or camera angles.
+You'll also find a link to this
+A full shot list and storyboard.
+Use it as an inspiration for your next shoot.
+In the next episode of the shot list,
+we'll take a look at all of the different camera rigs and mechanisms
+you can use to take shot size, framing angles,
+POW!
+and focus to yet another level.
+Now stay focused and get shot listing.
+To stay in the loop with the series, subscribe and enable notifications.
