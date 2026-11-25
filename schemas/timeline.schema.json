@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Ch405-L9/content_creation/blob/main/schemas/timeline.schema.json",
+  "title": "Sequential Social Video Timeline",
+  "type": "object",
+  "required": ["timeline_schema_version", "profile", "clips"],
+  "properties": {
+    "timeline_schema_version": {"type": "string", "const": "1.0.0"},
+    "project_name": {"type": "string"},
+    "profile": {
+      "type": "object", "required": ["width", "height", "fps_num"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 2, "maximum": 8192, "multipleOf": 2},
+        "height": {"type": "integer", "minimum": 2, "maximum": 8192, "multipleOf": 2},
+        "fps_num": {"type": "integer", "minimum": 1}, "fps_den": {"type": "integer", "minimum": 1},
+        "video_codec": {"enum": ["libx264", "libx265", "libvpx-vp9", "libaom-av1"]},
+        "audio_codec": {"enum": ["aac", "libopus", "libmp3lame", "pcm_s16le"]},
+        "crf": {"type": "integer", "minimum": 0, "maximum": 51}, "preset": {"enum": ["ultrafast", "superfast", "veryfast", "faster", "fast", "medium", "slow", "slower", "veryslow"]},
+        "fit_mode": {"enum": ["contain", "cover"]}
+      }, "additionalProperties": false
+    },
+    "clips": {
+      "type": "array", "minItems": 1, "maxItems": 200,
+      "items": {
+        "type": "object", "required": ["source", "in_sec", "out_sec"],
+        "properties": {"source": {"type": "string", "minLength": 1}, "in_sec": {"type": "number", "minimum": 0}, "out_sec": {"type": "number", "exclusiveMinimum": 0}, "note": {"type": "string"}},
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

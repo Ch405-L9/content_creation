@@ -1,0 +1,23 @@
+{
+  "timeline_schema_version": "1.0.0",
+  "project_name": "Replace with project name",
+  "profile": {
+    "width": 1080,
+    "height": 1920,
+    "fps_num": 30,
+    "fps_den": 1,
+    "video_codec": "libx264",
+    "audio_codec": "aac",
+    "crf": 23,
+    "preset": "medium",
+    "fit_mode": "contain"
+  },
+  "clips": [
+    {
+      "source": "assets/originals/replace-with-source.mp4",
+      "in_sec": 0.0,
+      "out_sec": 3.0,
+      "note": "Replace with a verified source/time range; in/out use seconds."
+    }
+  ]
+}

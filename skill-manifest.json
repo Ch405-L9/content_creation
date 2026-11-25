@@ -1,0 +1,25 @@
+{
+  "name": "socmed-video-production",
+  "version": "1.0.0",
+  "description": "Phase-gated Claude Code workflow and local media tools for social-video editing.",
+  "entrypoint": ".claude/skills/socmed-video-production/SKILL.md",
+  "target_agents": ["Claude Code", "Agent Skills-compatible clients (core name/description/Markdown only)"],
+  "tools": {
+    "human_editor": "Kdenlive",
+    "local_media_cli": ["FFmpeg", "FFprobe"],
+    "optional_interchange": "OpenTimelineIO when compatible adapter is verified",
+    "optional_mcp": ".mcp.json"
+  },
+  "safety": [
+    "preserve originals",
+    "no implicit upload or publishing",
+    "no destructive overwrite",
+    "human creative checkpoints",
+    "local-only MCP operations by default"
+  ],
+  "workflow_phases": [
+    "intake", "workspace-and-media-safety", "creative-treatment", "selects-and-script",
+    "rough-cut", "fine-cut-and-picture", "captions-and-accessibility", "sound-and-color",
+    "platform-versions", "quality-control-and-handoff"
+  ]
+}

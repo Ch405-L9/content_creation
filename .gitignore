@@ -11,3 +11,16 @@
 **/*.aac
 **/*.flac
 **/*.ogg
+
+# Generated/local workspace data (keep the existing reference media at repository root)
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+**/assets/originals/**
+**/assets/proxies/**
+**/assets/audio/**
+**/assets/graphics/**
+**/review/**
+**/exports/**
+**/archive/**
+**/logs/**

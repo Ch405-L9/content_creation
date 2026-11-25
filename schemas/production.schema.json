@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Ch405-L9/content_creation/blob/main/schemas/production.schema.json",
+  "title": "Social Video Production Manifest",
+  "type": "object",
+  "required": ["project_schema_version", "project_name", "status", "creative", "deliverables", "rights_and_privacy", "approval_gates"],
+  "properties": {
+    "project_schema_version": {"type": "string", "const": "1.0.0"},
+    "project_name": {"type": "string", "minLength": 1},
+    "created_utc": {"type": "string"},
+    "owner": {"type": "string"},
+    "status": {"enum": ["intake", "planning", "editing", "review", "approved", "delivered", "archived"]},
+    "autonomy": {"enum": ["ask_at_each_gate", "draft_and_recommend", "take_the_wheel_with_gates"]},
+    "creative": {
+      "type": "object",
+      "required": ["audience", "viewer_outcome", "core_promise", "ai_generated_media_allowed"],
+      "properties": {
+        "audience": {"type": "string"}, "viewer_outcome": {"type": "string"}, "core_promise": {"type": "string"},
+        "tone": {"type": "array", "items": {"type": "string"}}, "language": {"type": "string"}, "call_to_action": {"type": "string"},
+        "fact_check_required": {"type": "boolean"}, "ai_generated_media_allowed": {"type": "boolean"}
+      }, "additionalProperties": true
+    },
+    "deliverables": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "required": ["id", "platform", "aspect_ratio", "width", "height", "fps_num", "fps_den"],
+        "properties": {
+          "id": {"type": "string"}, "platform": {"type": "string"}, "placement": {"type": "string"},
+          "aspect_ratio": {"type": "string"}, "width": {"type": "integer", "minimum": 2}, "height": {"type": "integer", "minimum": 2},
+          "fps_num": {"type": "integer", "minimum": 1}, "fps_den": {"type": "integer", "minimum": 1},
+          "target_duration_seconds": {"type": ["number", "null"], "minimum": 0}, "max_duration_seconds": {"type": ["number", "null"], "minimum": 0},
+          "video_codec": {"type": "string"}, "audio_codec": {"type": "string"}, "subtitle_mode": {"type": "string"}, "color_space": {"type": "string"}
+        }, "additionalProperties": true
+      }
+    },
+    "rights_and_privacy": {"type": "object", "additionalProperties": true},
+    "workspace": {"type": "object", "additionalProperties": true},
+    "approval_gates": {"type": "object", "additionalProperties": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

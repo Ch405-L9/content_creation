@@ -1,0 +1,59 @@
+{
+  "project_schema_version": "1.0.0",
+  "project_name": "Replace with project name",
+  "created_utc": "",
+  "owner": "",
+  "status": "intake",
+  "autonomy": "take_the_wheel_with_gates",
+  "creative": {
+    "audience": "",
+    "viewer_outcome": "",
+    "core_promise": "",
+    "tone": [],
+    "language": "",
+    "call_to_action": "",
+    "fact_check_required": true,
+    "ai_generated_media_allowed": false
+  },
+  "deliverables": [
+    {
+      "id": "primary",
+      "platform": "unspecified",
+      "placement": "",
+      "aspect_ratio": "9:16",
+      "width": 1080,
+      "height": 1920,
+      "fps_num": 30,
+      "fps_den": 1,
+      "target_duration_seconds": null,
+      "max_duration_seconds": null,
+      "video_codec": "libx264",
+      "audio_codec": "aac",
+      "subtitle_mode": "sidecar_and_burned_if_approved",
+      "color_space": "source_checked_then_documented"
+    }
+  ],
+  "rights_and_privacy": {
+    "source_rights_verified": false,
+    "music_rights_verified": false,
+    "appearance_release_verified": null,
+    "voice_clone_allowed": false,
+    "external_processing_allowed": false,
+    "notes": ""
+  },
+  "workspace": {
+    "originals_read_only_by_convention": true,
+    "relative_media_paths_preferred": true,
+    "project_editor": "Kdenlive if installed",
+    "automation": ["FFmpeg", "FFprobe"],
+    "timeline_interchange": "JSON; optionally OpenTimelineIO when a verified adapter is available"
+  },
+  "approval_gates": {
+    "creative_treatment": "pending",
+    "rough_cut": "pending",
+    "picture_lock": "pending",
+    "captions_and_brand": "pending",
+    "final_export": "pending",
+    "publish_or_upload": "not_authorized"
+  }
+}

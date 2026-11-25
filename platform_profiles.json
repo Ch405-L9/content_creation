@@ -1,0 +1,28 @@
+{
+  "profile_schema_version": "1.0.0",
+  "profiles": {
+    "vertical_1080x1920_30": {
+      "description": "Generic vertical review/delivery profile; verify target platform requirements before final delivery.",
+      "width": 1080,
+      "height": 1920,
+      "fps_num": 30,
+      "fps_den": 1,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "pixel_format": "yuv420p",
+      "color_note": "Probe source tags; document any intentional conversion."
+    },
+    "horizontal_1920x1080_30": {
+      "description": "Generic horizontal review/delivery profile; verify target platform requirements before final delivery.",
+      "width": 1920,
+      "height": 1080,
+      "fps_num": 30,
+      "fps_den": 1,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "pixel_format": "yuv420p",
+      "color_note": "Probe source tags; document any intentional conversion."
+    }
+  },
+  "warning": "These are starting points, not current platform guarantees. Select the deliverable profile in production.json and check official requirements when exact compliance matters."
+}

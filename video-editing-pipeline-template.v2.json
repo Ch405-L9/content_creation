@@ -1,0 +1,70 @@
+{
+  "template_name": "Social_Video_Production_Planning_Template",
+  "version": "2.0.0",
+  "metadata": {
+    "description": "Illustrative planning defaults for an AI-led social video project. This is not a JSON Schema, native Kdenlive project, or executable render recipe.",
+    "execution_engine": "Choose and verify per project: Kdenlive/MLT and/or FFmpeg",
+    "source_of_truth": "production.json plus the approved timeline/edit decision files",
+    "warning": "Every setting must be checked against the user's brief, source media, tool capabilities, current delivery requirements, licensing and approval gates. Unimplemented values are advisory only."
+  },
+  "workflow": {
+    "phase_order": [
+      "intake_and_intent",
+      "workspace_and_media_safety",
+      "creative_treatment",
+      "selects_and_paper_edit",
+      "rough_cut",
+      "fine_cut_and_picture",
+      "captions_and_accessibility",
+      "sound_and_color",
+      "platform_versions",
+      "quality_control_and_handoff"
+    ],
+    "approval_gates": [
+      "creative_treatment",
+      "rough_cut",
+      "picture_lock",
+      "captions_and_brand",
+      "final_export",
+      "publish_or_upload"
+    ],
+    "default_autonomy": "take_the_wheel_with_gates"
+  },
+  "deliverables": {
+    "profiles": {
+      "vertical_fhd_example": {"width": 1080, "height": 1920, "fps_num": 30, "fps_den": 1, "note": "Example only; verify source and destination requirements."},
+      "horizontal_fhd_example": {"width": 1920, "height": 1080, "fps_num": 30, "fps_den": 1, "note": "Example only; verify source and destination requirements."}
+    },
+    "profile_selection": "Ask or infer from explicit destination; don't use a global preset blindly.",
+    "variants": ["approved_master", "platform_specific_exports_as_requested"],
+    "fit_mode_options": ["subject_aware_crop", "contain_with_designed_background", "split_screen_by_design"]
+  },
+  "editorial_guidance": {
+    "first_principle": "Story and viewer comprehension before effects.",
+    "timing_units": "Preserve rational frame-rate/timebase and source in/out; avoid rounding cuts to whole seconds.",
+    "pacing": "Motivate shot duration by performance, information, tone and comprehension rather than hard universal thresholds.",
+    "transitions": "Use a cut by default; add transitions only when they support the story or communicate a meaningful change.",
+    "continuity_checks": ["eyeline_and_screen_direction", "action_and_geography", "context_and_quote_integrity", "visual_rhythm"]
+  },
+  "graphics_and_captions": {
+    "captions": {"keep_sidecar_when_practical": true, "max_lines_guidance": 2, "correct_against_audio": true, "preserve_phrase_units": true, "check_mobile_legibility": true},
+    "styles": ["clean_accessibility_first", "restrained_emphasis", "kinetic_word_by_word_only_if_approved"],
+    "safe_placement": "Check actual target UI/device overlays; no universal safe-area percentage.",
+    "fonts_and_assets": "Check local availability, license and destination rendering before use."
+  },
+  "audio_and_color": {
+    "priority": "Dialogue intelligibility when speech carries the message.",
+    "audio": "Measure loudness/true peak only against a selected standard; preserve source and license notes.",
+    "color": "Probe source tags, correct exposure/white balance and shot match before any creative look.",
+    "effects": "No film grain, chromatic aberration, aggressive EQ, music ducking or SFX by default."
+  },
+  "export_and_qc": {
+    "container_example": "MP4",
+    "codec_example": "H.264/AAC",
+    "export_policy": "Select from actual platform specs, quality/file-size constraints and installed encoders.",
+    "machine_checks": ["streams", "duration", "dimensions", "frame_rate", "codec", "audio_presence", "subtitle_behavior", "file_size"],
+    "human_checks": ["full_visual_playback", "captions_at_mobile_scale", "dialogue_and_sync", "crop_and_final_frame", "claims_and_rights"],
+    "never_overwrite": true,
+    "publishing_requires_separate_explicit_approval": true
+  }
+}
