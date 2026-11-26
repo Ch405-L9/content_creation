@@ -76,3 +76,4 @@ Record the name/path of each meaningful revision, what changed, and which previo
   (clean_red_graphics.py, --grain 0.25), exact board M fitted to the hood on frame 1 (affine from cowl corners / vent / front edge,
   edit/video12_M/f0_CAD.npy) and moved with the old M's measured path + size (similarity; ECC affine drifted/sheared).
   Frames 31-121 untouched, original audio. -> review/redo_M/03_video12_Mfix_first1233ms_v1.mp4 (badge removed).
+- Pony emblem close-up: keyframe via Nano Banana (low, high-gloss chrome pony, club garage), Seedance first-frame slow push 5 s (Video 17), used 3.0-5.0 s -> review/redo_M/04_pony_emblem_slowmo_2s_v1.mp4. Video 16 rejected (wheel/fender, studio start). Research: no Ford 'SE' package found; Dark Horse has factory Dark Horse fender emblems (black/gray); Dark Horse SC only an interior SC IP badge.
