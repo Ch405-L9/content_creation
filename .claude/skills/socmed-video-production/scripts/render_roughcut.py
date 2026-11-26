@@ -73,7 +73,7 @@ def main() -> int:
                 has_audio = any(s.get('codec_type') == 'audio' for s in probe.get('streams', []))
                 start, end = float(clip['in_sec']), float(clip['out_sec'])
                 duration = end - start
-                seg = work / f'segment_{index:04d}.mp4'
+                seg = work / f'segment_{index:04d}.mkv'  # PCM audio: no per-segment AAC priming/padding drift
                 cmd = [ffmpeg, '-nostdin', '-hide_banner', '-loglevel', 'warning', '-y', '-i', str(src)]
                 if not has_audio:
                     cmd += ['-f', 'lavfi', '-t', f'{duration:.6f}', '-i', 'anullsrc=r=48000:cl=stereo']
@@ -82,14 +82,14 @@ def main() -> int:
                     a = f"[0:a:0]atrim=start={start:.6f}:end={end:.6f},asetpts=PTS-STARTPTS,aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,apad=whole_dur={duration:.6f}[a]"
                 else:
                     a = f"[1:a:0]atrim=duration={duration:.6f},asetpts=PTS-STARTPTS,aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo[a]"
-                cmd += ['-filter_complex', v + ';' + a, '-map', '[v]', '-map', '[a]', '-t', f'{duration:.6f}', '-c:v', video_codec, '-preset', p.get('preset', 'medium'), '-crf', str(p.get('crf', 23)), '-c:a', audio_codec, '-b:a', '160k', '-ar', '48000', '-ac', '2', '-movflags', '+faststart', str(seg)]
+                cmd += ['-filter_complex', v + ';' + a, '-map', '[v]', '-map', '[a]', '-t', f'{duration:.6f}', '-c:v', video_codec, '-preset', p.get('preset', 'medium'), '-crf', str(p.get('crf', 23)), '-c:a', 'pcm_s16le', '-ar', '48000', '-ac', '2', str(seg)]
                 proc = subprocess.run(cmd, capture_output=True, text=True, timeout=3600, check=False)
                 if proc.returncode:
                     raise RuntimeError(f'FFmpeg failed for clip {index + 1} ({clip["source"]}):\n{proc.stderr[-5000:]}')
                 segments.append(seg)
             concat = work / 'concat.txt'
             concat.write_text(''.join("file '" + str(s).replace("'", "'\\''") + "'\n" for s in segments), encoding='utf-8')
-            cmd = [ffmpeg, '-nostdin', '-hide_banner', '-loglevel', 'warning', '-f', 'concat', '-safe', '0', '-i', str(concat), '-c', 'copy', '-movflags', '+faststart', str(output)]
+            cmd = [ffmpeg, '-nostdin', '-hide_banner', '-loglevel', 'warning', '-f', 'concat', '-safe', '0', '-i', str(concat), '-c:v', 'copy', '-c:a', audio_codec, '-b:a', '192k', '-movflags', '+faststart', str(output)]
             proc = subprocess.run(cmd, capture_output=True, text=True, timeout=7200, check=False)
             if proc.returncode:
                 raise RuntimeError(f'FFmpeg concat failed:\n{proc.stderr[-5000:]}')
