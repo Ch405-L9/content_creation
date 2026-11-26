@@ -23,6 +23,7 @@ ap.add_argument("--aspect", type=float, default=0.95)         # w/h on the hood 
 ap.add_argument("--taper", type=float, default=0.82)          # far-edge width / near-edge width
 ap.add_argument("--bold", type=int, default=18)              # stroke dilation at artwork resolution
 ap.add_argument("--paint", type=int, nargs=3, default=[132, 14, 22])          # matte fill colour (RGB)
+ap.add_argument("--place", type=float, nargs=4)                # fixed logo box cx cy w h (overrides the tracked box size/centre)
 ap.add_argument("--box", type=float, nargs=2)                  # fit logo to the AI M box: width x sx, height x sy
 ap.add_argument("--outline", type=int, nargs=2)                # gloss pinstripe around the M: gap width (artwork px)
 ap.add_argument("--gloss", type=int, nargs=3, default=[228, 24, 34])           # pinstripe colour (RGB)
@@ -119,7 +120,9 @@ for i, (cx, cy, mw, mh) in path.items():
     gloss = np.clip(np.float32(a.gloss[::-1])[None, None, :] * gshade + spec, 0, 255)
     clean = (clean * (1 - sm) + (gloss if a.outline else paint) * sm).astype(np.float32)
     # logo layer: flat on the hood - foreshortened height, narrower at the far (windshield) edge
-    if a.box:
+    if a.place:
+        cx, cy = a.place[0], a.place[1]; lw, lh = int(a.place[2]), int(a.place[3])
+    elif a.box:
         lw = max(4, int(round(mw * a.box[0]))); lh = max(4, int(round(mh * a.box[1])))
     else:
         lw = max(4, int(round(mw * a.scale))); lh = int(round(lw / a.aspect))
