@@ -77,3 +77,11 @@ Record the name/path of each meaningful revision, what changed, and which previo
   edit/video12_M/f0_CAD.npy) and moved with the old M's measured path + size (similarity; ECC affine drifted/sheared).
   Frames 31-121 untouched, original audio. -> review/redo_M/03_video12_Mfix_first1233ms_v1.mp4 (badge removed).
 - Pony emblem close-up: keyframe via Nano Banana (low, high-gloss chrome pony, club garage), Seedance first-frame slow push 5 s (Video 17), used 3.0-5.0 s -> review/redo_M/04_pony_emblem_slowmo_2s_v1.mp4. Video 16 rejected (wheel/fender, studio start). Research: no Ford 'SE' package found; Dark Horse has factory Dark Horse fender emblems (black/gray); Dark Horse SC only an interior SC IP badge.
+
+## 2026-11-26 — Last chase ("Cops Lose! Speed Wins"): Vette reference -> Mustang, 6 x 4.6 s (27.6 s split evenly)
+- Reference: ~/Desktop/speed_create_now-HIGH-prio-00.mp4, picture cropped 590x420+314+106 -> assets/proxies/refs/vette_escape_ref_cropped.mp4
+  cuts 1.9 / 6.97 / 8.9 / 16.73 / 23.83 s. Pieces: 0-4.6, 4.6-9.2, 9.2-13.8, 13.8-18.4, 18.4-23.0, 23.0-27.6.
+- ATL backgrounds pulled from the board (in-page fetch, letterbox cropped): assets/graphics/board_refs/board_bg_atl_overpass_interstate.png,
+  board_bg_D_atl_skyline_highway.png.
+- Piece 1: Nano Banana keyframe (Mustang rear 3/4 under the board's ATL overpass) -> Seedance first-frame, 2 shots (85 cr).
+  Re-timed to the reference: shot 1 46 f + shot 2 64 f = 4.58 s -> review/escape/escape_01_overpass_approach_v1.mp4.
