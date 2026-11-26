@@ -1,0 +1,121 @@
+{
+  "timeline_schema_version": "1.0.0",
+  "profile": {
+    "width": 1080,
+    "height": 1920,
+    "fps_num": 24,
+    "fps_den": 1,
+    "video_codec": "libx264",
+    "audio_codec": "aac",
+    "crf": 16,
+    "preset": "medium",
+    "fit_mode": "cover"
+  },
+  "clips": [
+    {
+      "source": "assets/originals/quarterfinals/YUCK_clips/CHASE01_flock_flipoff_to_I85_take1.mp4",
+      "in_sec": 1.45,
+      "out_sec": 2.25
+    },
+    {
+      "source": "assets/proxies/CHASE01_t1_punchin135_top.mp4",
+      "in_sec": 2.6,
+      "out_sec": 3.4
+    },
+    {
+      "source": "assets/originals/quarterfinals/YUCK_clips/CHASE02_GT_exit_to_BufordHwy_offramp_NIGHT.mp4",
+      "in_sec": 0.0,
+      "out_sec": 1.4
+    },
+    {
+      "source": "assets/proxies/S1_selfie_freeze.mp4",
+      "in_sec": 0.0,
+      "out_sec": 2.0
+    },
+    {
+      "source": "assets/originals/quarterfinals/YUCK_clips/S6_her_in_front.mp4",
+      "in_sec": 0.0,
+      "out_sec": 2.1
+    },
+    {
+      "source": "assets/originals/quarterfinals/06_MAIN-A_car-swap_v2_KEEP.mp4",
+      "in_sec": 0.0,
+      "out_sec": 1.5
+    },
+    {
+      "source": "assets/originals/quarterfinals/01_C1_dashcam_pulloff.mp4",
+      "in_sec": 0.5,
+      "out_sec": 2.0
+    },
+    {
+      "source": "assets/originals/quarterfinals/03_C2_outrun_traffic_v1.mp4",
+      "in_sec": 1.0,
+      "out_sec": 3.5
+    },
+    {
+      "source": "assets/originals/quarterfinals/YUCK_clips/S3_arm_out_window.mp4",
+      "in_sec": 0.0,
+      "out_sec": 1.05
+    },
+    {
+      "source": "assets/originals/quarterfinals/04_G3_outrun_underpass.mp4",
+      "in_sec": 0.5,
+      "out_sec": 2.7
+    },
+    {
+      "source": "assets/originals/quarterfinals/02_B2_flame-pop_mirror.mp4",
+      "in_sec": 3.5,
+      "out_sec": 4.7
+    },
+    {
+      "source": "assets/originals/quarterfinals/05_G4_exit-ramp_drift.mp4",
+      "in_sec": 1.5,
+      "out_sec": 4.3
+    },
+    {
+      "source": "assets/originals/quarterfinals/YUCK_clips/CHASE02_GT_exit_to_BufordHwy_offramp_NIGHT.mp4",
+      "in_sec": 3.0,
+      "out_sec": 5.8
+    },
+    {
+      "source": "assets/originals/quarterfinals/YUCK_clips/S5_her_mirror_mouth.mp4",
+      "in_sec": 7.0,
+      "out_sec": 9.0
+    },
+    {
+      "source": "assets/originals/quarterfinals/YUCK_clips/CHASE01_flock_flipoff_to_I85_take2.mp4",
+      "in_sec": 2.5,
+      "out_sec": 5.0
+    },
+    {
+      "source": "assets/originals/quarterfinals/06_MAIN-A_car-swap_v2_KEEP.mp4",
+      "in_sec": 2.0,
+      "out_sec": 4.0
+    },
+    {
+      "source": "assets/originals/quarterfinals/YUCK_clips/S2_window_hero.mp4",
+      "in_sec": 0.05,
+      "out_sec": 2.25
+    },
+    {
+      "source": "assets/originals/quarterfinals/YUCK_clips/S7_lips_macro.mp4",
+      "in_sec": 6.88,
+      "out_sec": 9.13
+    },
+    {
+      "source": "assets/proxies/black_1080x1920_24.mp4",
+      "in_sec": 0.0,
+      "out_sec": 3.5
+    },
+    {
+      "source": "assets/originals/quarterfinals/YUCK_clips/S8_closing_selfie.mp4",
+      "in_sec": 2.76,
+      "out_sec": 4.86
+    },
+    {
+      "source": "assets/originals/quarterfinals/YUCK_clips/CHASE01_flock_flipoff_to_I85_take1.mp4",
+      "in_sec": 0.65,
+      "out_sec": 1.45
+    }
+  ]
+}

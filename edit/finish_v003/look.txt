@@ -1,0 +1,9 @@
+[0:v]fps=24,scale=1134:2016:flags=lanczos,crop=1080:1920:x='27+20*sin(t*0.9)':y='48+28*sin(t*0.7+1)',eq=contrast=1.08:saturation=0.85:brightness=-0.02,curves=master='0/0 0.12/0.04 0.5/0.47 1/1',noise=alls=12:allf=t+u,vignette=PI/5,format=yuv420p[v];
+[0:a]volume=enable='between(t,27.1,27.7)':volume=0,volume=enable='between(t,27.7,29.1)':volume=0.35[bed];
+[1:a]volume=0.35,adelay=0|0[s1];
+[2:a]atrim=0:2.2,volume=0.5,adelay=7100|7100[s2];
+[3:a]volume=0.5,adelay=10400|10400[s3];
+[4:a]volume=0.45,adelay=13900|13900[s4];
+[5:a]atrim=0:1.6,afade=t=in:d=0.4,afade=t=out:st=1.2:d=0.4,volume=0.35,adelay=27500|27500[s5];
+[6:a]atrim=0:1.0,afade=t=out:st=0.6:d=0.4,volume=0.5,adelay=34900|34900[s6];
+[bed][s1][s2][s3][s4][s5][s6]amix=inputs=7:normalize=0:duration=first,alimiter=limit=0.89[a]

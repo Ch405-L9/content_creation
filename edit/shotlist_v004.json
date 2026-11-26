@@ -1,0 +1,329 @@
+{
+  "title": "THE GRANT RUN — Ep. 1 (trailer reel)",
+  "version": "v004-finecut",
+  "status": "rough cut",
+  "target": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration_seconds": 40.0,
+    "platforms": [
+      "instagram_reels",
+      "tiktok"
+    ]
+  },
+  "structure": "Rick-and-Morty-style: cold open in the middle of the chaos -> deadpan character cards -> escalation -> hard tonal drop -> half-revealed secret -> stinger that loops back to frame 1",
+  "acts": [
+    {
+      "id": 1,
+      "name": "COLD OPEN / HOOK",
+      "span": [
+        0.0,
+        7.5
+      ]
+    },
+    {
+      "id": 2,
+      "name": "THE RUN",
+      "span": [
+        7.5,
+        26.5
+      ]
+    },
+    {
+      "id": 3,
+      "name": "THE SECRET / PROMISE + LOOP",
+      "span": [
+        26.5,
+        40.0
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "n": 1,
+      "act": 1,
+      "t": [
+        0.0,
+        0.7917
+      ],
+      "src": "originals/quarterfinals/YUCK_clips/CHASE01_flock_flipoff_to_I85_take1.mp4",
+      "in": 1.4583,
+      "beat": "HOOK: Gordon flips off the troopers out the window (0.75 s, hard in)",
+      "text": "ATL · 2:47 AM",
+      "audio": "siren swell + engine (sfx_zr1x/sounds_high_rpm-gain)",
+      "tag": "UNOFFICIAL FAN TRIBUTE · AI-GENERATED · FICTION"
+    },
+    {
+      "n": 2,
+      "act": 1,
+      "t": [
+        0.7917,
+        1.5833
+      ],
+      "src": "proxies/CHASE01_t1_punchin135_top.mp4",
+      "in": 2.5833,
+      "beat": "Reverse: wall of blue lights behind him (1.35x punch-in hides AI camera-rig artifact)",
+      "text": "",
+      "audio": "siren swell"
+    },
+    {
+      "n": 3,
+      "act": 1,
+      "t": [
+        1.5833,
+        3.0
+      ],
+      "src": "originals/quarterfinals/YUCK_clips/CHASE02_GT_exit_to_BufordHwy_offramp_NIGHT.mp4",
+      "in": 0.0,
+      "beat": "Pursuer POV through the wet windshield — he's pulling away",
+      "text": "",
+      "audio": "radio crackle bed"
+    },
+    {
+      "n": 4,
+      "act": 1,
+      "t": [
+        3.0,
+        5.0
+      ],
+      "src": "proxies/S1_selfie_freeze.mp4",
+      "in": 0.0,
+      "beat": "Phone-cam selfie, both laughing — FREEZE FRAME on last frame (freeze from 1.35 s, audio drops out)",
+      "text": "GORDON GRANT, 23\nRelationship with authority: no.",
+      "audio": "record-scratch stop, room tone"
+    },
+    {
+      "n": 5,
+      "act": 1,
+      "t": [
+        5.0,
+        7.0833
+      ],
+      "src": "originals/quarterfinals/YUCK_clips/S6_her_in_front.mp4",
+      "in": 0.0,
+      "beat": "Trixie leans in to the lens: 'Look at us now. We run the town.'",
+      "text": "MICHELLE \"TRIXIE\"\nNavigator. Brains. Zero patience.",
+      "audio": "clip dialogue"
+    },
+    {
+      "n": 6,
+      "act": 2,
+      "t": [
+        7.0833,
+        8.5833
+      ],
+      "src": "originals/quarterfinals/06_MAIN-A_car-swap_v2_KEEP.mp4",
+      "in": 0.0,
+      "beat": "Tach needle slams — the run starts",
+      "text": "",
+      "audio": "sfx_zr1x/sounds_cockpit_110mph_downshift (rev)"
+    },
+    {
+      "n": 7,
+      "act": 2,
+      "t": [
+        8.5833,
+        10.0833
+      ],
+      "src": "originals/quarterfinals/01_C1_dashcam_pulloff.mp4",
+      "in": 0.5,
+      "beat": "Dashcam: the white C8 peels away into the rain",
+      "text": "",
+      "audio": "engine pull"
+    },
+    {
+      "n": 8,
+      "act": 2,
+      "t": [
+        10.0833,
+        12.5833
+      ],
+      "src": "originals/quarterfinals/03_C2_outrun_traffic_v1.mp4",
+      "in": 1.0,
+      "beat": "Top-down: threading six lanes of traffic",
+      "text": "",
+      "audio": "pass-by whooshes (sfx_zr1x/sounds_passing-by)"
+    },
+    {
+      "n": 9,
+      "act": 2,
+      "t": [
+        12.5833,
+        13.6667
+      ],
+      "src": "originals/quarterfinals/YUCK_clips/S3_arm_out_window.mp4",
+      "in": 0.0,
+      "beat": "Gordon points ahead: 'Check the motion.'",
+      "text": "",
+      "audio": "clip line: 'Check the motion…'"
+    },
+    {
+      "n": 10,
+      "act": 2,
+      "t": [
+        13.6667,
+        15.8333
+      ],
+      "src": "originals/quarterfinals/04_G3_outrun_underpass.mp4",
+      "in": 0.5,
+      "beat": "Underpass, low chase angle, lights strobing",
+      "text": "",
+      "audio": "tunnel reverb on engine"
+    },
+    {
+      "n": 11,
+      "act": 2,
+      "t": [
+        15.8333,
+        17.0417
+      ],
+      "src": "originals/quarterfinals/02_B2_flame-pop_mirror.mp4",
+      "in": 3.5,
+      "beat": "Exhaust flame pop in the side mirror",
+      "text": "",
+      "audio": "backfire crack"
+    },
+    {
+      "n": 12,
+      "act": 2,
+      "t": [
+        17.0417,
+        19.8333
+      ],
+      "src": "originals/quarterfinals/05_G4_exit-ramp_drift.mp4",
+      "in": 1.5,
+      "beat": "Exit-ramp drift, sparks and smoke",
+      "text": "",
+      "audio": "tire squeal"
+    },
+    {
+      "n": 13,
+      "act": 2,
+      "t": [
+        19.8333,
+        22.6667
+      ],
+      "src": "originals/quarterfinals/YUCK_clips/CHASE02_GT_exit_to_BufordHwy_offramp_NIGHT.mp4",
+      "in": 3.0,
+      "beat": "The cut: troopers overshoot the Buford Hwy exit",
+      "text": "",
+      "audio": "sirens doppler away"
+    },
+    {
+      "n": 14,
+      "act": 2,
+      "t": [
+        22.6667,
+        24.6667
+      ],
+      "src": "originals/quarterfinals/YUCK_clips/S5_her_mirror_mouth.mp4",
+      "in": 7.0,
+      "beat": "Trixie in the rear-view: 'I'm a queen on the track — never gonna back down'",
+      "text": "",
+      "audio": "clip dialogue"
+    },
+    {
+      "n": 15,
+      "act": 2,
+      "t": [
+        24.6667,
+        27.1667
+      ],
+      "src": "originals/quarterfinals/YUCK_clips/CHASE01_flock_flipoff_to_I85_take2.mp4",
+      "in": 2.5,
+      "beat": "Wide: they're gone, lights fading behind",
+      "text": "",
+      "audio": "engine fades"
+    },
+    {
+      "n": 16,
+      "act": 3,
+      "t": [
+        27.1667,
+        29.1667
+      ],
+      "src": "originals/quarterfinals/06_MAIN-A_car-swap_v2_KEEP.mp4",
+      "in": 2.0,
+      "beat": "HARD DROP to quiet: car idling under the lit bridge",
+      "text": "They lost him at the Connector.",
+      "audio": "silence -> sfx_zr1x/sounds_idle_rumble"
+    },
+    {
+      "n": 17,
+      "act": 3,
+      "t": [
+        29.1667,
+        31.3333
+      ],
+      "src": "originals/quarterfinals/YUCK_clips/S2_window_hero.mp4",
+      "in": 0.0417,
+      "beat": "Gordon, calm, to camera: 'Yeah, I came to take the crown, watch me break it down.'",
+      "text": "",
+      "audio": "clip dialogue"
+    },
+    {
+      "n": 18,
+      "act": 3,
+      "t": [
+        31.3333,
+        33.5833
+      ],
+      "src": "originals/quarterfinals/YUCK_clips/S7_lips_macro.mp4",
+      "in": 6.875,
+      "beat": "Grill macro: 'Feel the heat — remember my name.'",
+      "text": "",
+      "audio": "clip dialogue, low drone"
+    },
+    {
+      "n": 19,
+      "act": 3,
+      "t": [
+        33.5833,
+        37.0833
+      ],
+      "src": "proxies/black_1080x1920_24.mp4",
+      "in": 0.0,
+      "beat": "Black card, typewriter reveal; the name lands on a single engine blip",
+      "text": "Gordon doesn't know it yet.\nHis grandfather was GO MIFUNE.",
+      "audio": "heartbeat + single engine blip"
+    },
+    {
+      "n": 20,
+      "act": 3,
+      "t": [
+        37.0833,
+        39.2083
+      ],
+      "src": "originals/quarterfinals/YUCK_clips/S8_closing_selfie.mp4",
+      "in": 2.75,
+      "beat": "Stinger: back in the car — '…never slowing down, we be wanting more'",
+      "text": "EP. 2 →",
+      "audio": "clip dialogue",
+      "tag": "Unofficial, non-commercial fan tribute. Not affiliated with or endorsed by the Speed Racer rights holders."
+    },
+    {
+      "n": 21,
+      "act": 3,
+      "t": [
+        39.2083,
+        40.0
+      ],
+      "src": "originals/quarterfinals/YUCK_clips/CHASE01_flock_flipoff_to_I85_take1.mp4",
+      "in": 0.6667,
+      "beat": "LOOP: car approaching the camera (0.65-1.45 s) runs straight into shot 1 at 1.45 s",
+      "text": "",
+      "audio": "siren swell starts (loops into 0:00)"
+    }
+  ],
+  "look": "Gritty phone/dashcam: light grain, slight desaturation with crushed blacks, subtle handheld drift on stable shots, occasional REC/timestamp overlay on phone shots only",
+  "open_questions": [],
+  "source_root": "assets/",
+  "decisions": {
+    "franchise": "open non-commercial fan tribute (user, 2026-11-25)",
+    "cast": "red M cap = Gordon, pink = Trixie; YUCK_clips approved (user)",
+    "music": "default: no commercial music baked in; licensed sound added in-app",
+    "labels": "default: on-screen tribute/AI/fiction tag + platform AI label"
+  },
+  "captions": "none (user: audio and visuals only)"
+}

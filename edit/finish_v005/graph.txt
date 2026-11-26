@@ -1,0 +1,22 @@
+[0:v]fps=24,scale=1134:2016:flags=lanczos,crop=1080:1920:x='27+20*sin(t*0.9)':y='48+28*sin(t*0.7+1)',eq=contrast=1.08:saturation=0.85:brightness=-0.02,curves=master='0/0 0.12/0.04 0.5/0.47 1/1',noise=alls=12:allf=t+u,vignette=PI/5,format=yuv420p[v];
+[0:a]volume=enable='between(t,27.167,27.767)':volume=0,volume=enable='between(t,27.767,29.167)':volume=0.35[bed];
+[1:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.8,adelay=0|0[c1];
+[2:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.35,adelay=0|0[c2];
+[3:a]aresample=48000,aformat=channel_layouts=stereo,volume=1.6,adelay=542|542[c3];
+[4:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.7,adelay=4320|4320[c4];
+[5:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.7,adelay=7083|7083[c5];
+[6:a]atrim=0:2.2,afade=t=out:st=1.9000000000000001:d=0.3,aresample=48000,aformat=channel_layouts=stereo,volume=0.5,adelay=7083|7083[c6];
+[7:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.5,adelay=10383|10383[c7];
+[8:a]aresample=48000,aformat=channel_layouts=stereo,volume=1.4,adelay=9883|9883[c8];
+[9:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.45,adelay=13667|13667[c9];
+[10:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.45,adelay=15833|15833[c10];
+[11:a]aresample=48000,aformat=channel_layouts=stereo,volume=1.3,adelay=16842|16842[c11];
+[12:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.55,adelay=24567|24567[c12];
+[13:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.85,adelay=27167|27167[c13];
+[14:a]atrim=0:1.6,afade=t=out:st=1.3:d=0.3,aresample=48000,aformat=channel_layouts=stereo,volume=0.35,adelay=27667|27667[c14];
+[15:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.6,adelay=31333|31333[c15];
+[16:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.75,adelay=33583|33583[c16];
+[17:a]aresample=48000,aformat=channel_layouts=stereo,volume=0.9,adelay=34883|34883[c17];
+[18:a]atrim=0:1.0,afade=t=out:st=0.7:d=0.3,aresample=48000,aformat=channel_layouts=stereo,volume=0.45,adelay=34883|34883[c18];
+[19:a]aresample=48000,aformat=channel_layouts=stereo,volume=1.2,adelay=36883|36883[c19];
+[bed][c1][c2][c3][c4][c5][c6][c7][c8][c9][c10][c11][c12][c13][c14][c15][c16][c17][c18][c19]amix=inputs=20:normalize=0:duration=first,alimiter=limit=0.89,apad=whole_dur=40,atrim=0:40[a]
