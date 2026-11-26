@@ -2,6 +2,8 @@
 
 A Claude Code skill and Ubuntu project scaffold for phase-by-phase, AI-led social video production. It combines a free/open-source desktop editor with deterministic local command-line tools, keeps source media safe, and uses explicit user checkpoints for creative choices.
 
+**New here? Start with [docs/GETTING_STARTED.md](docs/GETTING_STARTED.md)** — copy-paste prompts for making a video with Claude.
+
 ## Quick start
 
 On the Ubuntu computer where the workspace should live, clone this repository to the requested path and initialize only missing project files:
