@@ -360,3 +360,16 @@ Vertical 9:16 photoreal night film still. Location: EXACTLY the Atlanta downtown
 ```text
 Generate one video with Seedance 2.0, 9:16, 5 seconds, 720p, using escape_p1_key as the exact FIRST FRAME. Two shots with one hard cut, dark moody night film look. Shot 1 (0-1.9s): continue the first frame exactly, static low camera, the matte black Mustang Dark Horse accelerates AWAY from the camera down the Atlanta interstate under the concrete overpass, red tri-bar tail lights streaking on the wet road, it shrinks into the distance. Shot 2 (1.9-5s): HARD CUT to a wide, very low static camera at the edge of a dark empty Atlanta road at night, curved painted lane lines in the foreground, the lit downtown Atlanta skyline (towers like Bank of America Plaza and the Westin) glowing on the horizon, the same Mustang approaching from far away toward the camera with bright bluish-white headlights, growing larger. The car always drives forward in the direction it faces. No police in this clip. No text, no captions, no music.
 ```
+
+## Later session (escape pieces 3, 4, 6, storyboard-first)
+50. GOOD: Design Studio, gas station: "Edit image 1 only: keep EXACTLY the same gas station, camera position… ONE change only:
+    replace the white car with THIS EXACT car from image 2 … Hood: plain matte black, NO graphics…" → clean car swap, plain hood
+    ready for the local M.
+51. BAD (accident): clicked CapCut's suggestion chip "Increase wetness of pavement" while aiming for Download; it started an
+    edit, and Stop still charged 14 cr. Use find→ref for Download, never coordinates near the chips.
+52. GOOD: Seedance piece 3, first frame only, 3 timed shots (gas station headlights → HARD CUT interstate → low cam blast-past).
+    Cuts landed at 2.375 s / 3.85 s (requested 2.0 / 4.0).
+53. GOOD: Design Studio piece 4: "Location: EXACTLY image 1 (board BG D) … remove the other cars and all readable text …
+    seen from DIRECTLY BEHIND, close rear chase-camera … driving AWAY" → clean rear chase key with the real ATL skyline.
+54. GOOD: Seedance piece 4: rear chase → HARD CUT wider follow → HARD CUT side-profile tracking. Cuts ≈1.7 s / 2.875 s.
+55. GOOD: Design Studio piece 6: board overpass BG, "REAR THREE-QUARTER view … driving AWAY into the shadow under the overpass".

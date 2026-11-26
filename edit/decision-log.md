@@ -85,3 +85,25 @@ Record the name/path of each meaningful revision, what changed, and which previo
   board_bg_D_atl_skyline_highway.png.
 - Piece 1: Nano Banana keyframe (Mustang rear 3/4 under the board's ATL overpass) -> Seedance first-frame, 2 shots (85 cr).
   Re-timed to the reference: shot 1 46 f + shot 2 64 f = 4.58 s -> review/escape/escape_01_overpass_approach_v1.mp4.
+
+## 2026-11-26 — Escape chase pieces 3, 4, 6 (storyboard-first)
+- User asked for pieces 3, 4 and 6 only, with a per-second storyboard approved before any credits were spent.
+  Storyboards: `review/escape/storyboard_piece3_v1.jpg`, `storyboard_piece4_v1.jpg`, `storyboard_piece6_v1.jpg` → `storyboard_piece6_v2.jpg`
+  (user: shots 2–4 good; replace the shifter ending with the Mustang rocketing past the still, low, handheld cam). 3 and 4 approved as is.
+- Piece 3 location: user pointed to `~/Desktop/scene-by-scene/` → `shot02_still_v3.jpg` (gas station, front at pump), copied to
+  `assets/graphics/board_refs/gas_station/`.
+- Piece 3 keyframe: Nano Banana edit "Edit image 1 only … ONE change only: replace the white car with THIS EXACT car from image 2 …
+  hood plain" → `assets/originals/capcut_gen/escape_p3_gas_key_v1.png` (GOOD, plain hood as asked).
+  An accidental click on a CapCut suggestion chip ("Increase wetness of pavement") started a 2nd edit; stopped, but 14 cr were still charged.
+- M composited locally: `hood_m_still.py --center 790 1300 --across 420 0 --down 0 152 --color 142 30 38 --gloss 0.05
+  --shade-max 1.08 --texture 0.5` → `edit/escape_p3/key_M_v2.png` (v1 with across 600 was too wide vs the car sheet).
+- Piece 3 video: Seedance first-frame only, 3 timed shots → `escape_p3_seedance_v1.mp4` (Video 19). Cuts landed at 2.375 s and 3.85 s.
+  Frames 5–114 kept (110 f = 4.583 s), delogo → `review/escape/escape_03_gas_station_highway_v1.mp4`.
+- Piece 4 keyframe: board BG D (ATL skyline highway) + car refs, rear chase cam → `escape_p4_key_v1.png` (GOOD).
+- Piece 4 video: Seedance first-frame only (escape_p4_key), 3 timed shots → `escape_p4_seedance_v1.mp4` (Video 20); cuts ≈1.7 s and 2.875 s.
+  Frames 0–109 (4.583 s), delogo → `review/escape/escape_04_rear_chase_side_v1.mp4`.
+- Piece 6 keyframe: board overpass BG + car refs, rear three-quarter wide, driving away under the overpass →
+  `escape_p6_key_v1.png` (GOOD) → upload copy `capcut_inputs/escape_p6_key.jpg`. Video NOT generated: 49 credits left,
+  Seedance needs 85. Prompt ready (storyboard_piece6_v2): 0–0.8 s drive-away; HARD CUT low static curb cam, headlights approach
+  and flood the lens; same handheld low cam, no cut, the Mustang rockets past right beside the lens; ends on shrinking tail lights.
+- Note: in Design Studio only 2 of 3 uploaded chips showed (front34_bigM_APPROVED seemed to drop); results still matched the car.
