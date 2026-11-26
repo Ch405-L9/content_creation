@@ -21,3 +21,6 @@ Record the name/path of each meaningful revision, what changed, and which previo
 - grantrun_finecut_v003 — first grade/mix (superseded: renderer A/V drift)
 - grantrun_finecut_v005/v006/v007 — superseded (tail-silence bug); kept for comparison
 - **grantrun_finecut_v008** — current candidate. Rebuild: render edit/timeline_grantrun_v004.json → edit/tools/finish.py → normalize_loudness
+| 2026-11-25 | New intro (Mustang) | Met Gala slow-mo intro redo: matte black Mustang Dark Horse + red M hood; Gordon black/grey outfit (user sheet), Trixie red/black (user: keep outfit; face from user's Trixie sheet) | User direction | Pro plan needed for more AI video |
+| 2026-11-25 | CapCut | 5 keyframes (Nano Banana 2, 768x1376) in assets/originals/capcut_gen; car clip via Seedance 2.0 Mini (free trial, 720p); other clips blocked by "Upgrade" paywall → FFmpeg push-in/flash motion on stills | No purchases made | User: upgrade or keep stills-motion |
+| 2026-11-25 | Preview | review/mustang_intro_preview_v1.mp4 (11.0 s: pendant → Gordon → Trixie → Mustang → both) | For direction approval before splicing into v008 | — |

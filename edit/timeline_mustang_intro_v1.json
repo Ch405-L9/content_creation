@@ -1,0 +1,41 @@
+{
+  "timeline_schema_version": "1.0.0",
+  "profile": {
+    "width": 1080,
+    "height": 1920,
+    "fps_num": 24,
+    "fps_den": 1,
+    "video_codec": "libx264",
+    "audio_codec": "aac",
+    "crf": 16,
+    "preset": "medium",
+    "fit_mode": "cover"
+  },
+  "clips": [
+    {
+      "source": "assets/proxies/pendant_shot1_motion_v1.mp4",
+      "in_sec": 1.0,
+      "out_sec": 2.8
+    },
+    {
+      "source": "assets/proxies/gordon_shot2_motion_v1.mp4",
+      "in_sec": 0.4,
+      "out_sec": 2.6
+    },
+    {
+      "source": "assets/proxies/trixie_shot3_motion_v1.mp4",
+      "in_sec": 0.4,
+      "out_sec": 2.6
+    },
+    {
+      "source": "assets/proxies/car_shot4_seedance_1080_v1.mp4",
+      "in_sec": 1.25,
+      "out_sec": 3.85
+    },
+    {
+      "source": "assets/proxies/both_shot5_motion_v1.mp4",
+      "in_sec": 0.4,
+      "out_sec": 2.6
+    }
+  ]
+}
