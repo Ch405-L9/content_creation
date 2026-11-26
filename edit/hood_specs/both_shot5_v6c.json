@@ -1,0 +1,60 @@
+{
+ "src": "assets/originals/capcut_gen/both_mustang_shot5_v6_plainhood.png",
+ "out": "assets/proxies/both_shot5_mach5logo_v3.png",
+ "logo": "assets/graphics/mach5_logo_ref/mach5_logo_pngegg.png",
+ "hood": [
+  [
+   250,
+   735
+  ],
+  [
+   768,
+   728
+  ],
+  [
+   768,
+   906
+  ],
+  [
+   400,
+   906
+  ],
+  [
+   230,
+   880
+  ]
+ ],
+ "logo_quad": [
+  [
+   598,
+   806
+  ],
+  [
+   684,
+   809
+  ],
+  [
+   678,
+   904
+  ],
+  [
+   588,
+   901
+  ]
+ ],
+ "laser": null,
+ "red_box": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "paint": [
+  205,
+  20,
+  28
+ ],
+ "opacity": 0.95,
+ "regrain": false,
+ "bold": 9
+}
