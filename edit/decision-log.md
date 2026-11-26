@@ -71,3 +71,4 @@ Record the name/path of each meaningful revision, what changed, and which previo
   stripes inpainted + regrained, exact M composited (hood_m_still.py --texture 0.9 keeps rain beads; vent slat cut).
   Seedance 2.0 first-frame only (it accepts one image when first-frame is used), 5 s 720p 9:16, 85 credits.
   -> review/redo_M/01_video13_chase_M_v1.mp4 (badge removed, generated rain audio kept, no music/text).
+- 4-shot speed version of Video 13 (front charge / wheel side / drone overhead / rear under gantry), one Seedance multi-shot gen, 85 cr -> review/redo_M/02_video13_4shot_speed_v1.mp4. Video 14 (Video 7 redo) REJECTED: car faces camera while receding (reads as reversing).
