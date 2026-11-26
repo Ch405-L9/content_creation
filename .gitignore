@@ -24,3 +24,6 @@
 **/exports/**
 **/archive/**
 **/logs/**
+
+# Local media library (too large / third-party; never commit)
+/assets/
