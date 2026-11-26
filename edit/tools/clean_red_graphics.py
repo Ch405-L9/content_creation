@@ -11,6 +11,7 @@ ap = argparse.ArgumentParser(); ap.add_argument("inp"); ap.add_argument("out")
 ap.add_argument("--box", type=int, nargs=4, required=True)
 ap.add_argument("--thr", type=int, default=22)
 ap.add_argument("--badge", type=int, nargs=4, default=[30, 30, 120, 110])
+ap.add_argument("--grain", type=float, default=1.0)    # regrain strength multiplier
 a = ap.parse_args()
 if Path(a.out).exists():
     sys.exit(f"refusing to overwrite {a.out}")
@@ -24,7 +25,7 @@ lum = cv2.cvtColor(f, cv2.COLOR_BGR2GRAY).astype(np.float32)
 hp = lum - cv2.GaussianBlur(lum, (0, 0), 2.0)
 ring = cv2.dilate(md, np.ones((15, 15), np.uint8)) & (1 - md)          # surface right around the removed graphics
 sd = float(hp[ring > 0].std()) if ring.any() else 6.0
-noise = np.random.default_rng(7).normal(0, sd, lum.shape).astype(np.float32)
+noise = np.random.default_rng(7).normal(0, sd * a.grain, lum.shape).astype(np.float32)
 noise -= cv2.GaussianBlur(noise, (0, 0), 2.0) * 0.5
 mm = cv2.GaussianBlur(md.astype(np.float32), (0, 0), 2)[..., None]
 c = np.clip(c + noise[..., None] * mm, 0, 255).astype(np.uint8)
