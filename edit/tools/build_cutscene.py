@@ -15,22 +15,25 @@ G, Y, Z = "assets/originals/capcut_gen/", "assets/audio/sfx_synth/", "assets/ori
 FPS = 24
 
 # (source, in, out, speed, frames, ambience_gain)
-A = (G + "chase_A_flyby_seedance_v1.mp4", 2.20, 3.90, 1.3, 31, 0.55)
-B = ("assets/proxies/chase_B_tracking_seedance_v1_plateblur.mp4",   # generated plate text blurred (blur_track.py)
-      0.20, 5.00, 1.6, 72, 0.45)
+A = ("assets/proxies/chase_A_flyby_seedance_v1_mach5.mp4", 2.20, 3.90, 1.3, 31, 0.55)
+PB = "assets/proxies/chase_B_tracking_seedance_v1_plateblur.mp4"   # generated plate text blurred (blur_track.py)
+# Source 3.45-4.0 s slides back up the car (reads as reversing) then jumps ahead: cut it out, hard cut to the pull-away.
+BS = [(PB, 0.20, 3.45, 1.6, 48, 0.45), (PB, 4.02, 5.04, 1.0, 24, 0.45)]
 C1 = (G + "chase_C1_footwell_seedance_v1.mp4", 0.0, 0.66, 1.0, 16, 0.35)  # left foot down / right lifts; glitch at 0.67 s
-C2 = (G + "chase_C2_shifter_seedance_v1.mp4", 2.25, 3.25, 1.2, 20, 0.35)  # lever snaps back at ~2.6 s source
-SNAP = (2.62 - 2.25) / 1.2                                                    # snap time inside the C2 shot
+# v2: regenerated keyframe with left-hand-drive geometry (driver left seat, right hand on console shifter)
+C2 = (G + "chase_C2_shifter_seedance_v2.mp4", 0.50, 1.33, 1.0, 20, 0.35)  # lever pulled back ~0.85 s source
+SNAP = (0.85 - 0.50) / 1.0                                                    # snap time inside the C2 shot
 
 # Sound cues are (file, start_s_in_sequence, gain, source_offset_s). Times follow the shot cuts.
 SEQUENCES = {
-    "exit_chase": ([A, B], lambda c: [
+    "exit_chase": ([A, *BS], lambda c: [
         (Y + "whoosh_fast.wav", 0.45, 1.2, 0.0),
         (Z + "sounds_passing-by.mp4", 0.0, 1.0, 0.95),        # pass-by peak (1.8 s) lands on the visual pass (~0.85 s)
         (Z + "sounds_passing-by-1.mp4", 0.55, 0.6, 0.0),
         (Y + "impact_boom.wav", c[1], 0.5, 0.0),
         (Z + "sounds_cockpit_0-110mph_14s.mp4", c[1], 0.55, 8.0),  # sustained high-speed engine under the tracking shot
-        (Z + "sounds_high_rpm-gain.mp4", c[1] + 1.9, 0.8, 0.0),     # pull-away
+        (Y + "whoosh_fast.wav", c[2] - 0.12, 0.8, 0.0),
+        (Z + "sounds_high_rpm-gain.mp4", c[2] - 0.05, 0.8, 0.0),   # pull-away
         (Y + "siren_wail_far_6s.wav", 0.0, 0.22, 0.6),
     ]),
     "interior_shift": ([C1, C2], lambda c: [
@@ -40,7 +43,7 @@ SEQUENCES = {
         (Y + "siren_wail_far_6s.wav", 0.0, 0.12, 2.0),
     ]),
     # Option: interior insert cut between the fly-by and the tracking shot.
-    "full_with_interior": ([A, C1, C2, B], lambda c: [
+    "full_with_interior": ([A, C1, C2, *BS], lambda c: [
         (Y + "whoosh_fast.wav", 0.45, 1.2, 0.0),
         (Z + "sounds_passing-by.mp4", 0.0, 1.0, 0.95),
         (Z + "sounds_passing-by-1.mp4", 0.55, 0.6, 0.0),
@@ -49,7 +52,8 @@ SEQUENCES = {
         (Y + "whoosh_fast.wav", c[3] - 0.15, 0.9, 0.0),
         (Y + "impact_boom.wav", c[3], 0.45, 0.0),
         (Z + "sounds_cockpit_0-110mph_14s.mp4", c[3], 0.55, 8.0),
-        (Z + "sounds_high_rpm-gain.mp4", c[3] + 1.9, 0.8, 0.0),
+        (Y + "whoosh_fast.wav", c[4] - 0.12, 0.8, 0.0),
+        (Z + "sounds_high_rpm-gain.mp4", c[4] - 0.05, 0.8, 0.0),
         (Y + "siren_wail_far_6s.wav", 0.0, 0.2, 0.0),
     ]),
 }
