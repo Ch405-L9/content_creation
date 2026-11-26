@@ -107,3 +107,13 @@ Record the name/path of each meaningful revision, what changed, and which previo
   Seedance needs 85. Prompt ready (storyboard_piece6_v2): 0–0.8 s drive-away; HARD CUT low static curb cam, headlights approach
   and flood the lens; same handheld low cam, no cut, the Mustang rockets past right beside the lens; ends on shrinking tail lights.
 - Note: in Design Studio only 2 of 3 uploaded chips showed (front34_bigM_APPROVED seemed to drop); results still matched the car.
+
+## 2026-11-26 (later) — Escape piece 6 done with Seedance 2.0 Mini
+- 75 credits available (< 85 for Seedance 2.0); user said "use seedance if credits an issue" → Seedance 2.0 Mini, 15 cr (75 → 60).
+- Original: `assets/originals/capcut_gen/escape_p6_seedance_mini_v1.mp4` (Video 21, 121 frames). Storyboard v2 beats all landed:
+  drive-away under overpass → HARD CUT (1.25 s) low curb cam, headlights approach → same cam, Mustang rockets past, spray, shake,
+  tail lights shrink.
+- Deliverable: `review/escape/escape_06_overpass_flyby_v1.mp4` = frames 11–120 (110 @24, 4.583 s), cut now at 0.79 s (storyboard 0.8),
+  delogo 12/12/48/38, no audio.
+- Known issue: during the approach (~3.0–3.3 s in the deliverable) the hood M is a smaller red M band near the windshield, not the
+  car-sheet big M. Visible ~0.4 s with blur. Fix option if rejected: tracked local M composite on those frames.

@@ -373,3 +373,7 @@ Generate one video with Seedance 2.0, 9:16, 5 seconds, 720p, using escape_p1_key
     seen from DIRECTLY BEHIND, close rear chase-camera … driving AWAY" → clean rear chase key with the real ATL skyline.
 54. GOOD: Seedance piece 4: rear chase → HARD CUT wider follow → HARD CUT side-profile tracking. Cuts ≈1.7 s / 2.875 s.
 55. GOOD: Design Studio piece 6: board overpass BG, "REAR THREE-QUARTER view … driving AWAY into the shadow under the overpass".
+56. GOOD: Seedance 2.0 MINI (15 cr, 720p 9:16 5 s) piece 6, first frame escape_p6_key: "Shot 1 (0-0.8s) drives AWAY … under the
+    overpass … Shot 2 (0.8-2.6s): HARD CUT low static camera at curb level … coming TOWARD the camera, headlights flooding the
+    lens … Shot 3 (2.6-5.0s): same low handheld camera, NO cut: rockets past right beside the lens … camera shakes … tail lights
+    shrink". All three beats landed (cut at 1.25 s; flyby ≈3.6-4.2 s). Hood M drawn as a small red M band (not sheet size), ~0.4 s.

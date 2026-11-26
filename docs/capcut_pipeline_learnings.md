@@ -57,7 +57,7 @@ Distilled from sessions 2026-11-25/26 (49 prompts, ~20 Seedance clips). Full pro
 | Video reference must be 640×640 … 834×1112 | Pre-crop/scale; or describe the reference shots in text with timings (worked better). |
 
 ## 5. Costs
-Seedance 2.0 5 s 720p = 85 credits. Nano Banana image = 14 credits. A 4.6 s escape piece = 14 + 85 ≈ 100.
+Seedance 2.0 5 s 720p = 85 credits; **Seedance 2.0 Mini 5 s 720p = 15 credits** (piece 6 quality was fine — try Mini first). Nano Banana image = 14 credits. A 4.6 s escape piece = 14 + 85 ≈ 100.
 
 ## 6. Open items (as of 2026-11-26)
 - Last chase (Vette ref → Mustang), 6 × 4.6 s: piece 1 done (`review/escape/escape_01_overpass_approach_v1.mp4`); pieces 2–6 next.
