@@ -27,3 +27,18 @@
 
 # Local media library (too large / third-party; never commit)
 /assets/
+
+# Working frames / intermediate renders under edit/ (regenerable; keep scripts, logs, previews only)
+edit/**/*.png
+edit/finish_cutscene/
+edit/finish_door/*.mp4
+edit/video12_M/all/
+edit/video12_M/out*/
+edit/video12_M/tmp/
+edit/video12_M/*.npy
+!edit/video12_M/f0_CAD.npy
+edit/video7/
+edit/video13/
+# root-level scratch renders
+/edited*.mp4
+!edit/car_sheet_m/MUSTANG_DH_M_CAR_SHEET_v2.png
