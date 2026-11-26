@@ -23,6 +23,8 @@ C1 = (G + "chase_C1_footwell_seedance_v1.mp4", 0.0, 0.66, 1.0, 16, 0.35)  # left
 # v2: regenerated keyframe with left-hand-drive geometry (driver left seat, right hand on console shifter)
 C2 = (G + "chase_C2_shifter_seedance_v2.mp4", 0.50, 1.33, 1.0, 20, 0.35)  # lever pulled back ~0.85 s source
 SNAP = (0.85 - 0.50) / 1.0                                                    # snap time inside the C2 shot
+# Phone-operator push-in on Gordon (low angle -> tight face, dutch roll, AF hunt): edit/phone_specs/c3_phone_zoom_v1.json
+C3 = ("assets/proxies/chase_C3_phone_zoom_v1.mp4", 0.0, 2.5, 1.0, 60, 0.4)
 
 # Sound cues are (file, start_s_in_sequence, gain, source_offset_s). Times follow the shot cuts.
 SEQUENCES = {
@@ -41,6 +43,12 @@ SEQUENCES = {
         (Y + "whoosh_fast.wav", c[1] - 0.15, 0.6, 0.0),
         (Y + "impact_boom.wav", c[1] + SNAP, 0.35, 0.0),            # gear goes in
         (Y + "siren_wail_far_6s.wav", 0.0, 0.12, 2.0),
+    ]),
+    "phone_zoom": ([C3], lambda c: [
+        (Z + "sounds_cockpit_0-110mph_14s.mp4", 0.0, 0.6, 9.0),       # engine at speed, heard from inside
+        (Y + "whoosh_fast.wav", 0.35, 0.7, 0.0),                    # the snap zoom
+        (Y + "heartbeat_3s6.wav", 1.0, 0.5, 0.0),                   # intensity once focus locks
+        (Y + "siren_wail_far_6s.wav", 0.0, 0.12, 3.0),
     ]),
     # Option: interior insert cut between the fly-by and the tracking shot.
     "full_with_interior": ([A, C1, C2, *BS], lambda c: [
