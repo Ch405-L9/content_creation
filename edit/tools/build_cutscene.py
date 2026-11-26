@@ -15,8 +15,9 @@ G, Y, Z = "assets/originals/capcut_gen/", "assets/audio/sfx_synth/", "assets/ori
 FPS = 24
 
 # (source, in, out, speed, frames, ambience_gain)
-A = ("assets/proxies/chase_A_flyby_seedance_v1_mach5.mp4", 2.20, 3.90, 1.3, 31, 0.55)
-PB = "assets/proxies/chase_B_tracking_seedance_v1_plateblur.mp4"   # generated plate text blurred (blur_track.py)
+A = ("assets/proxies/chase_A_flyby_seedance_v1_mach5_v2.mp4",   # Mach 5 M: matte deep red + gloss pinstripe outline
+      2.20, 3.90, 1.3, 31, 0.55)
+PB = "assets/proxies/chase_B_tracking_seedance_v1_plateblur_mach5.mp4"   # plate blurred + Mach 5 M (hood_logo_video.py)
 # Source 3.45-4.0 s slides back up the car (reads as reversing) then jumps ahead: cut it out, hard cut to the pull-away.
 BS = [(PB, 0.20, 3.45, 1.6, 48, 0.45), (PB, 4.02, 5.04, 1.0, 24, 0.45)]
 C1 = (G + "chase_C1_footwell_seedance_v1.mp4", 0.0, 0.66, 1.0, 16, 0.35)  # left foot down / right lifts; glitch at 0.67 s

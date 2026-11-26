@@ -22,7 +22,10 @@ ap.add_argument("--scale", type=float, default=0.95)          # logo width = sca
 ap.add_argument("--aspect", type=float, default=0.95)         # w/h on the hood (true art 0.59; hood foreshortening)
 ap.add_argument("--taper", type=float, default=0.82)          # far-edge width / near-edge width
 ap.add_argument("--bold", type=int, default=18)              # stroke dilation at artwork resolution
-ap.add_argument("--paint", type=int, nargs=3, default=[132, 14, 22])
+ap.add_argument("--paint", type=int, nargs=3, default=[132, 14, 22])          # matte fill colour (RGB)
+ap.add_argument("--box", type=float, nargs=2)                  # fit logo to the AI M box: width x sx, height x sy
+ap.add_argument("--outline", type=int, nargs=2)                # gloss pinstripe around the M: gap width (artwork px)
+ap.add_argument("--gloss", type=int, nargs=3, default=[228, 24, 34])           # pinstripe colour (RGB)
 ap.add_argument("--ylim", type=int, nargs=2, default=[480, 640])
 ap.add_argument("--logo", default="assets/graphics/mach5_logo_ref/mach5_logo_pngegg.png")
 ap.add_argument("--debug")
@@ -73,9 +76,15 @@ logo = cv2.imread(a.logo, cv2.IMREAD_COLOR)
 lb, lg, lr = [c.astype(np.float32) for c in cv2.split(logo)]
 la = np.clip((lr - np.maximum(lg, lb)) / 120.0, 0, 1)
 ys, xs = np.where(la > 0.2); la = la[ys.min():ys.max() + 1, xs.min():xs.max() + 1]
-la = np.pad(la, a.bold)
+pad = a.bold + (sum(a.outline) + 4 if a.outline else 0)
+la = np.pad(la, pad)
 if a.bold:
     la = cv2.dilate(la, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (a.bold, a.bold)))
+ring = None
+if a.outline:                                                  # pinstripe ring offset around the letter
+    gap, wid = a.outline
+    el = lambda r: cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * r + 1, 2 * r + 1))
+    ring = np.clip(cv2.dilate(la, el(gap + wid)) - cv2.dilate(la, el(gap)), 0, 1)
 pb, pg, pr = a.paint[2], a.paint[1], a.paint[0]
 rng = np.random.default_rng(5)
 dbg = Path(a.debug) if a.debug else None
@@ -104,14 +113,23 @@ for i, (cx, cy, mw, mh) in path.items():
     ref = max(np.percentile(lum_s[int(cy - mh):int(cy + mh), max(0, int(cx - mw)):int(cx + mw)], 60), 1.0)
     shade = np.clip(lum_s / ref, 0.7, 1.15)[..., None]            # compressed range = matte, no glossy hot spots
     paint = np.float32([pb, pg, pr])[None, None, :] * shade
-    clean = (clean * (1 - sm) + paint * sm).astype(np.float32)
+    # high-gloss red: stretched shading + specular highlight from the hood's own reflections
+    gshade = np.clip(lum_s / ref, 0.55, 1.9)[..., None]
+    spec = np.clip((lum_s - ref * 1.15) / max(ref, 1.0), 0, 1.5)[..., None] * 90
+    gloss = np.clip(np.float32(a.gloss[::-1])[None, None, :] * gshade + spec, 0, 255)
+    clean = (clean * (1 - sm) + (gloss if a.outline else paint) * sm).astype(np.float32)
     # logo layer: flat on the hood - foreshortened height, narrower at the far (windshield) edge
-    lw = max(4, int(round(mw * a.scale))); lh = int(round(lw / a.aspect))
+    if a.box:
+        lw = max(4, int(round(mw * a.box[0]))); lh = max(4, int(round(mh * a.box[1])))
+    else:
+        lw = max(4, int(round(mw * a.scale))); lh = int(round(lw / a.aspect))
     t = (1 - a.taper) * lw / 2
     srcq = np.float32([[0, 0], [la.shape[1], 0], [la.shape[1], la.shape[0]], [0, la.shape[0]]])
     dstq = np.float32([[cx - lw / 2 + t, cy - lh / 2], [cx + lw / 2 - t, cy - lh / 2],
                        [cx + lw / 2, cy + lh / 2], [cx - lw / 2, cy + lh / 2]])
-    full = cv2.warpPerspective(la, cv2.getPerspectiveTransform(srcq, dstq), (W, H), flags=cv2.INTER_AREA)
+    PT = cv2.getPerspectiveTransform(srcq, dstq)
+    full = cv2.warpPerspective(la, PT, (W, H), flags=cv2.INTER_AREA)
+    rfull = cv2.warpPerspective(ring, PT, (W, H), flags=cv2.INTER_AREA) if ring is not None else None
     # motion blur along the fitted velocity
     vx = np.polyval(np.polyder(fits[0]), i); vy = np.polyval(np.polyder(fits[1]), i)
     L = int(min(40, np.hypot(vx, vy) * 0.6))
@@ -121,8 +139,14 @@ for i, (cx, cy, mw, mh) in path.items():
         cv2.line(k, (int(c0 - np.cos(ang) * c0), int(c0 - np.sin(ang) * c0)),
                  (int(c0 + np.cos(ang) * c0), int(c0 + np.sin(ang) * c0)), 1, 1)
         full = cv2.filter2D(full, -1, k / k.sum())
+        if rfull is not None:
+            rfull = cv2.filter2D(rfull, -1, k / k.sum())
     full = cv2.GaussianBlur(full, (3, 3), 0) * 0.95
     res = clean * (1 - full[..., None]) + paint * full[..., None]
+    if rfull is not None:
+        rfull = np.clip(cv2.GaussianBlur(rfull, (3, 3), 0) * 1.1, 0, 1)
+        res = res * (1 - rfull[..., None]) + gloss * rfull[..., None]
+        full = np.maximum(full, rfull)
     noise = cv2.GaussianBlur(rng.normal(0, 3.0, (H, W)).astype(np.float32), (0, 0), 0.7)[..., None]
     res = np.clip(res + noise * np.maximum(full, m / 255.0)[..., None], 0, 255).astype(np.uint8)
     frames[i] = res
