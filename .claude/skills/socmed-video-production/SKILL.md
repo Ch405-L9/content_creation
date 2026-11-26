@@ -57,6 +57,7 @@ Execute in order; combine adjacent mechanical phases only when no creative decis
 - Keep edit decisions in the workspace's JSON/CSV/OTIO files rather than only in a prompt. A draft must be repeatable from source paths, source in/out, timeline order, profile, captions, and explicitly selected effects.
 - Use a low-resolution proxy or short representative section to test a pipeline before a full-resolution render. Confirm storage, expected runtime, and destination space before large jobs.
 - Do not hard-code one loudness target, caption style, frame rate, font, or bitrate for every platform. Select appropriate delivery requirements, document assumptions, and perform a final platform-specific check.
+- Bounded finishing tools (CLI or MCP): `transcribe.py` (local Whisper draft captions with word timings—always review names, numbers and quotes), `normalize_loudness.py` (two-pass loudnorm; confirm each platform's target), `reframe.py` (crop with a focus point, blur-pad, or pad to a new aspect—check every shot for subjects leaving frame). All write new versioned files only.
 - Review exports with `ffprobe` and by visual playback (and audio listening where available). A successful process exit is not proof of sync, crop, caption accuracy, intelligibility, rights, or quality.
 
 ## Deliver

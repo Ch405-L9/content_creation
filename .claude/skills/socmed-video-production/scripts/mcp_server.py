@@ -120,6 +120,51 @@ def validate_export(media_path: str, profile_path: str = "production.json", prof
     return run_json(cmd, timeout=120)
 
 
+def _script(root: Path, name: str) -> Path:
+    script = root / ".claude/skills/socmed-video-production/scripts" / name
+    if not script.is_file():
+        raise RuntimeError("The project skill tools are missing; rerun the workspace bootstrapper")
+    return script
+
+
+@mcp.tool()
+def transcribe_media(media_path: str, model: str = "small", language: str = "", output_dir: str = "transcripts",
+                     max_chars: int = 32, max_lines: int = 2) -> dict[str, Any]:
+    """Transcribe in-project media locally (faster-whisper, CPU) to draft SRT/VTT/JSON with word timings; never overwrites."""
+    root = project_root(); media = inside_root(media_path, root); out = inside_root(output_dir, root)
+    if not media.is_file():
+        raise ValueError("Media file does not exist inside the project")
+    cmd = [sys.executable, str(_script(root, "transcribe.py")), str(media), "--root", str(root), "--output-dir", str(out),
+           "--model", model, "--max-chars", str(int(max_chars)), "--max-lines", str(int(max_lines))]
+    if language:
+        cmd += ["--language", language]
+    return run_json(cmd, timeout=7200)
+
+
+@mcp.tool()
+def normalize_loudness(media_path: str, output_path: str, target_lufs: float = -14.0, true_peak: float = -1.0) -> dict[str, Any]:
+    """Two-pass loudness normalization to a new in-project file; video is stream-copied. Confirm the platform target first."""
+    root = project_root(); media = inside_root(media_path, root); output = inside_root(output_path, root)
+    if not media.is_file():
+        raise ValueError("Media file does not exist inside the project")
+    return run_json([sys.executable, str(_script(root, "normalize_loudness.py")), str(media), "--root", str(root),
+                     "--output", str(output), "--target-lufs", str(float(target_lufs)), "--true-peak", str(float(true_peak))], timeout=7200)
+
+
+@mcp.tool()
+def reframe_video(media_path: str, output_path: str, width: int = 1080, height: int = 1920, mode: str = "crop",
+                  x_center: float = 0.5, y_center: float = 0.5) -> dict[str, Any]:
+    """Reframe in-project video to a new size (crop / blur_pad / pad) into a new .mp4; audio is stream-copied."""
+    root = project_root(); media = inside_root(media_path, root); output = inside_root(output_path, root)
+    if not media.is_file():
+        raise ValueError("Media file does not exist inside the project")
+    if mode not in {"crop", "blur_pad", "pad"}:
+        raise ValueError("mode must be crop, blur_pad or pad")
+    return run_json([sys.executable, str(_script(root, "reframe.py")), str(media), "--root", str(root), "--output", str(output),
+                     "--width", str(int(width)), "--height", str(int(height)), "--mode", mode,
+                     "--x-center", str(float(x_center)), "--y-center", str(float(y_center))], timeout=7200)
+
+
 def main() -> None:
     mcp.run(transport="stdio")
 

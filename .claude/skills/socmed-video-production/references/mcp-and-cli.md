@@ -22,6 +22,11 @@ Tools exposed:
 - `validate_timeline`: validate source paths, timing, tracks and output profile in a project timeline JSON.
 - `render_roughcut`: render only a validated sequential rough cut using the bundled renderer; no arbitrary filter string or command is accepted.
 - `validate_export`: probe a rendered file and compare basic properties against the selected profile.
+- `transcribe_media`: local faster-whisper transcription to draft SRT/VTT/JSON (word timings, low-confidence count) in `transcripts/`.
+- `normalize_loudness`: two-pass EBU R128 loudnorm to a new file; reports before/after LUFS, true peak and LRA.
+- `reframe_video`: re-size to a new aspect (`crop` with focus point, `blur_pad`, or `pad`) into a new MP4.
+
+Transcription needs the extra dependency: `.venv/bin/python -m pip install -r .claude/skills/socmed-video-production/requirements-transcribe.txt`. It runs on the CPU (`int8`). The first use of each model downloads its weights from Hugging Face into the local cache; media itself never leaves the machine. `small` is the default balance of speed and accuracy on CPU; use `medium` or `large-v3-turbo` for difficult audio when time allows.
 
 The tools may require explicit user setup/approval depending on the Claude Code version and settings. Do not store credentials in the MCP JSON. Keep original media private; any external AI transcription/generation requires separate informed approval.
 
@@ -35,7 +40,12 @@ python3 .claude/skills/socmed-video-production/scripts/media_inventory.py --root
 python3 .claude/skills/socmed-video-production/scripts/validate_timeline.py /path/to/project/edit/timeline.json
 python3 .claude/skills/socmed-video-production/scripts/render_roughcut.py /path/to/project/edit/timeline.json --output /path/to/project/review/roughcut_v001.mp4
 python3 .claude/skills/socmed-video-production/scripts/validate_export.py /path/to/project/review/roughcut_v001.mp4 --profile /path/to/project/platform_profiles.json
+.venv/bin/python .claude/skills/socmed-video-production/scripts/transcribe.py assets/originals/interview.mp4 --model small --language en
+python3 .claude/skills/socmed-video-production/scripts/normalize_loudness.py review/cut_v003.mp4 --output review/cut_v003_loud.mp4 --target-lufs -14
+python3 .claude/skills/socmed-video-production/scripts/reframe.py assets/originals/wide.mp4 --output assets/proxies/wide_9x16.mp4 --mode crop --x-center 0.4
 ```
+
+The three finishing scripts resolve the project root from `--root`, then `CLAUDE_PROJECT_DIR`, then the current directory, and refuse inputs or outputs outside it. They never overwrite an existing file.
 
 If the user changes the target folder, use that path consistently. The default target is configurable; the cloud build environment does not create or access `/home/t0n34781` on the user's actual Ubuntu machine.
 
