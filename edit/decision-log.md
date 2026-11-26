@@ -61,3 +61,9 @@ Record the name/path of each meaningful revision, what changed, and which previo
 - Outputs: edit/car_sheet_m/SHEET_01..04 (+ front / top-down views generated next, M re-composited exactly).
 - Standing rules from the user: Speed = black & grey polo + matching cap with the official M, the NEW Mustang. Trixie = full
   character sheet, red & black outfit for the entire series. Use only stills/videos/refs on the CapCut board.
+- v2 (user-approved look, "Thats what I wanted"): LARGE deep red matte M spanning the hood from the windshield-base corners to the
+  hood front edge, the carbon vent slats cutting through it (user mock edit/car_sheet_m/user_M_size_mock.png).
+  Front 3/4 = CapCut/Nano Banana edit made by the user (assets/originals/capcut_gen/carsheet_front34_bigM_matte_user_v1.png);
+  passenger 3/4 = mirror with pony un-mirrored; straight front = hood_m_still.py composite (--vent slat cut, matte, colour 142,30,38).
+  Top-down view dropped (CapCut chat would not apply the edit). Sheet: edit/car_sheet_m/MUSTANG_DH_M_CAR_SHEET_v2.png.
+  This sheet is now THE authoritative car reference; all M shots (incl. every chase shot / Video 13) get redone to match it.
