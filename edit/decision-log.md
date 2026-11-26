@@ -67,3 +67,7 @@ Record the name/path of each meaningful revision, what changed, and which previo
   passenger 3/4 = mirror with pony un-mirrored; straight front = hood_m_still.py composite (--vent slat cut, matte, colour 142,30,38).
   Top-down view dropped (CapCut chat would not apply the edit). Sheet: edit/car_sheet_m/MUSTANG_DH_M_CAR_SHEET_v2.png.
   This sheet is now THE authoritative car reference; all M shots (incl. every chase shot / Video 13) get redone to match it.
+- 2026-11-26 Redo #1 (Video 13, rain chase): CapCut image edit gave a wrong outline 'M' -> rejected. Keyframe made locally instead:
+  stripes inpainted + regrained, exact M composited (hood_m_still.py --texture 0.9 keeps rain beads; vent slat cut).
+  Seedance 2.0 first-frame only (it accepts one image when first-frame is used), 5 s 720p 9:16, 85 credits.
+  -> review/redo_M/01_video13_chase_M_v1.mp4 (badge removed, generated rain audio kept, no music/text).

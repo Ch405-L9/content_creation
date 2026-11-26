@@ -28,6 +28,7 @@ ap.add_argument("--cut", nargs="*", default=[],
                 help='polygons left unpainted (vent openings), each "x,y x,y ..." in image px')
 ap.add_argument("--vent", nargs="*", default=[],
                 help='vent polygons: paint stays on the slat faces (darker, recessed) but is cut along the slat edges')
+ap.add_argument("--texture", type=float, default=0.0)   # keep the surface's fine detail (rain beads, grain) on the paint
 ap.add_argument("--debug")
 a = ap.parse_args()
 out = Path(a.out)
@@ -77,6 +78,9 @@ base = np.float32(a.color[::-1])[None, None, :]
 paint = base * np.clip(0.75 + 0.25 * rel, 0.55, a.shade_max)[..., None]
 spec = np.clip(rel - 1.0, 0, 3)[..., None] * 255 * a.gloss   # reflections stay visible = gloss clearcoat
 paint = np.clip(paint + spec, 0, 255)
+if a.texture > 0:                                     # high-pass of the surface carried into the paint
+    hp = (lum + 1.0) / (cv2.GaussianBlur(lum, (0, 0), 3.0) + 1.0)
+    paint = np.clip(paint * (hp ** a.texture)[..., None], 0, 255)
 paint = paint * (1 - 0.35 * vent[..., None])               # recessed slat faces sit in shadow
 res = f.astype(np.float32) * (1 - alpha) + paint * alpha
 cv2.imwrite(str(out), np.clip(res, 0, 255).astype(np.uint8))
