@@ -1,0 +1,2 @@
+file '/home/t0n34781/Projects/socmed_content_creation/edit/finish_v009/intro_picture.mp4'
+file '/home/t0n34781/Projects/socmed_content_creation/edit/finish_v009/tail_picture.mp4'

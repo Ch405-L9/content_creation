@@ -1,0 +1,8 @@
+{"src": "assets/originals/capcut_gen/car_shot4_v1.png",
+ "out": "assets/proxies/car_shot4_mach5logo_v2.png",
+ "logo": "assets/graphics/mach5_logo_ref/mach5_logo_pngegg.png",
+ "hood": [[262,680],[590,700],[505,850],[88,792]],
+ "logo_quad": [[300,686],[470,697],[400,832],[200,800]],
+ "laser": [[95,1030],[760,100],12],
+ "red_box": [190,680,470,785],
+ "paint": [205,20,28], "opacity": 0.95}
