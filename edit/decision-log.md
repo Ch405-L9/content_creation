@@ -117,3 +117,20 @@ Record the name/path of each meaningful revision, what changed, and which previo
   delogo 12/12/48/38, no audio.
 - Known issue: during the approach (~3.0–3.3 s in the deliverable) the hood M is a smaller red M band near the windshield, not the
   car-sheet big M. Visible ~0.4 s with blur. Fix option if rejected: tracked local M composite on those frames.
+
+## 2026-11-26 (night) — "Next shot" from 5 user reference clips (exports/the_*.mp4)
+- Refs: build_up 1.17 s, speed 1.88 s, shift_down 1.47 s, victory 1.15 s, calm 0.70 s = 6.33 s (TikTok screen caps,
+  letterboxed 1080x788 @ y=664 in 1080x1920; handle + "Following" removed with delogo). Clean refs: assets/proxies/refs/next_shot/.
+- Storyboard: review/storyboard_next_shot_v1.jpg. User: "Two shots for the FULL time" → split on the ref's own cut at 3.03 s.
+- Pixel-exact video edit (upload ref video to Gemini Omni) BLOCKED: "uploaded video … isn't available in your region".
+  Fallback: per-setup first frame taken from the ref, Vette → car-sheet Mustang via Nano Banana 2.1 (AI Studio, badgch PRO,
+  no API key = plan quota), then animated with the ref's camera move described, retimed to the ref's exact frame counts @30.
+  Keys + clips: assets/originals/aistudio_gen/next_shot/. Flash still shows the big matte M with vent slats.
+- Build-up + speed: Gemini Omni 1.2 Flash 3 s (then Omni daily limit hit). Shift-down + victory: CapCut Seedance 2.0 Mini 16:9
+  (15 cr each, 60 → 30). Calm: CapCut refused twice ("security restriction", credits returned) → LOCAL placeholder from the
+  calm keyframe (drift + grade), regenerate when Omni resets.
+- Retime: edit/next_shot/retime.sh (pts scale + atempo, exact frames). Luma matched per part to the ref segment (lutyuv).
+  CapCut "Ai" badge delogo x=14 y=12 w=36 h=36 on 1280x720. Output in the ref's letterbox: 1080x608 picture at y=754.
+- Deliverables: review/next_shot/next_shot_A_buildup_speed_v1.mp4 (91 f) and next_shot_B_shiftdown_victory_calm_v1.mp4 (99 f),
+  30 fps, car sounds only (model audio, loudnorm -14), no music/captions.
+- Incident: Ctrl+A/Delete in CapCut while the prompt wasn't focused deleted canvas cards; undone immediately (Undo). Never use Ctrl+A there.

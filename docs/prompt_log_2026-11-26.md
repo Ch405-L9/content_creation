@@ -382,3 +382,9 @@ Generate one video with Seedance 2.0, 9:16, 5 seconds, 720p, using escape_p1_key
 58. MIXED: Omni 1.2 Flash 720p 9:16 5 s, images: escape_p4_key + car sheet v2 preview + front_bigM_matte_v3 + gordon_outfit_sheet,
     prompt with chase-track/whip-pan/handheld/low-mid camera language → car + M consistent (best yet), but only 2 shots (cut 2.92 s),
     no whip-pan, motion calmer than the Seedance v1 (mean frame diff 5.6 vs 10.4). Original: assets/originals/aistudio_gen/escape_p4_omni_fast_v1.mp4
+59. BAD: Omni video edit with uploaded reference video → "Input blocked: uploaded video … not available in your region".
+60. GOOD: Nano Banana 2.1 (AI Studio) "Edit <key> only. Keep EXACTLY the same image … ONE change only: replace the black car
+    with the exact car from MUSTANG_DH_M_CAR_SHEET … same angle, position, size, blur" → 6/6 clean swaps, backgrounds untouched.
+61. GOOD: Omni 1.2 Flash 3 s from swapped key + car sheet, camera move described (locked-off low cam / whip-pan) → usable; daily cap
+    hit after ~4 runs. 62. GOOD: Seedance Mini 16:9 from swapped key (shift-down, victory). 63. BAD: Seedance Mini refused
+    twice ("temporary security restriction", credits returned) on victory v1 and calm — a plainer prompt worked once.
