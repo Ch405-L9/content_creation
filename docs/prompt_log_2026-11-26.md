@@ -377,3 +377,8 @@ Generate one video with Seedance 2.0, 9:16, 5 seconds, 720p, using escape_p1_key
     overpass … Shot 2 (0.8-2.6s): HARD CUT low static camera at curb level … coming TOWARD the camera, headlights flooding the
     lens … Shot 3 (2.6-5.0s): same low handheld camera, NO cut: rockets past right beside the lens … camera shakes … tail lights
     shrink". All three beats landed (cut at 1.25 s; flyby ≈3.6-4.2 s). Hood M drawn as a small red M band (not sheet size), ~0.4 s.
+57. BAD: Google AI Studio, Gemini Omni 1.2 Flash at 1080p, keyframe only, fast piece 4 prompt → only "Thoughts", no video
+    (output streams at 720p; set 720p). Use the badgch account (/u/1, PRO plan, "No API key selected").
+58. MIXED: Omni 1.2 Flash 720p 9:16 5 s, images: escape_p4_key + car sheet v2 preview + front_bigM_matte_v3 + gordon_outfit_sheet,
+    prompt with chase-track/whip-pan/handheld/low-mid camera language → car + M consistent (best yet), but only 2 shots (cut 2.92 s),
+    no whip-pan, motion calmer than the Seedance v1 (mean frame diff 5.6 vs 10.4). Original: assets/originals/aistudio_gen/escape_p4_omni_fast_v1.mp4
