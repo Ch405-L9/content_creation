@@ -167,3 +167,4 @@ Record the name/path of each meaningful revision, what changed, and which previo
   review/yuck_mustang/S3_arm_out_window_0-5_mustang_v1.mp4.
 - S3 5–10 s (Video 39): paint finally BLACK with the wording "painted flat jet black, dark as the night sky" → new template.
   Local paint-darken attempt (edit/yuck_mustang/darken_paint.py) looked blotchy — not used. Re-roll S2 5–10 / S3 0–5 with new wording.
+- S4 0–5 (Video 40): night OK, hood black + red M but M reads like the old chevron outline; cap brim brownish → flagged.
