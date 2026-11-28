@@ -160,3 +160,5 @@ Record the name/path of each meaningful revision, what changed, and which previo
   (0–5 v2 = Video 31 had a sports-brand chest logo; superseded.) (A "30 credits" reading was a UI glitch; balance 160 before S2.)
 - S2 0–5 s DONE (Video 36): CapCut left a white ring + dark disc where the "5" roundel was → local OpenCV inpaint
   (edit/yuck_mustang/remove_door_ring.py, lower 20% band, large bright/dark components only) → review/yuck_mustang/S2_window_hero_0-5_mustang_v1.mp4.
+- S2 5–10 s (Video 37): no roundel visible; paint came out light silver-grey instead of matte black → flagged to user
+  (regen 10 cr if wanted). review/yuck_mustang/S2_window_hero_5-10_mustang_v1.mp4.
