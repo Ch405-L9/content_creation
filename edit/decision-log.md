@@ -152,3 +152,5 @@ Record the name/path of each meaningful revision, what changed, and which previo
   change only cockpit → 2026 Mustang Dark Horse + late night; red seat accents kept. Cost 10 cr per 5 s.
 - S1 0–5 s done: assets/originals/capcut_gen/yuck/S1_0-5_mustang_night_seedmini_v1.mp4 → delogo, 1080x1920, ORIGINAL audio
   re-muxed → review/yuck_mustang/S1_night_selfie_0-5_mustang_v1.mp4. Performance/lip timing preserved. Awaiting review.
+- S1 5–10 s done (Video 29, 10 cr; balance 210 after the 200 welcome bonus): review/yuck_mustang/S1_night_selfie_5-10_mustang_v1.mp4.
+  Refs for S2–S6, S8 (0–5, 5–10) prepped in edit/yuck_mustang/refs/.
