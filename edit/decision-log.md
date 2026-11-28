@@ -168,3 +168,6 @@ Record the name/path of each meaningful revision, what changed, and which previo
 - S3 5–10 s (Video 39): paint finally BLACK with the wording "painted flat jet black, dark as the night sky" → new template.
   Local paint-darken attempt (edit/yuck_mustang/darken_paint.py) looked blotchy — not used. Re-roll S2 5–10 / S3 0–5 with new wording.
 - S4 0–5 (Video 40): night OK, hood black + red M but M reads like the old chevron outline; cap brim brownish → flagged.
+- S4 both halves: Video 41 kept the white Mach-5 hood; hood is static in frame → edit/yuck_mustang/hood_fix_static.py builds a
+  matte-black hood plate + board M (hood_m_still.py, matte 142,30,38, driver-seat view) and composites it on all frames of
+  both halves → review/yuck_mustang/S4_his_mirror_mouth_{0-5,5-10}_mustang_v2.mp4. Cap brim in mirror still light (flag).
