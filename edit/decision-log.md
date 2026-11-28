@@ -175,3 +175,5 @@ Record the name/path of each meaningful revision, what changed, and which previo
 - S5 5–10 (Video 43) + 0–5 redone: hub inpaint area widened (no flags remnant). review/yuck_mustang/S5_her_mirror_mouth_{0-5,5-10}_mustang_v1.mp4
 - S6 0–5 (Video 44) DONE clean: review/yuck_mustang/S6_her_in_front_0-5_mustang_v1.mp4
 - S6 5–10 (Video 45) DONE: review/yuck_mustang/S6_her_in_front_5-10_mustang_v1.mp4
+- S8 0–5 (Video 46) DONE: review/yuck_mustang/S8_closing_selfie_0-5_mustang_v1.mp4
+- STOPPED (usage limit) before S8 5–10. Remaining: S8 5–10; re-roll S2 5–10 + S3 0–5 with 'flat jet black, dark as the night sky' paint wording; S4 cap brim in mirror still light. CapCut ~120 cr.
