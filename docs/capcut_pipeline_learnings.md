@@ -64,3 +64,15 @@ Seedance 2.0 5 s 720p = 85 credits; **Seedance 2.0 Mini 5 s 720p = 15 credits** 
 - Video 7 redo (side-tracking pull-away) rejected — redo as a rear chase-cam pull-away.
 - Video 12 overhead shot (≈1.9–2.5 s) still has CapCut's own M.
 - Backdrops A–E, cut scenes, remaining M redos — see the board and `edit/decision-log.md`.
+
+## 7. Video-reference edits (Yuck → Mustang, 2026-11-27)
+- Seedance 2.0 Mini accepts a VIDEO reference (scale/crop to 640x1112 for 9:16) + image refs; keeps faces, lip timing, camera.
+  Cost 10 cr per 5 s (15 shown with extra refs, actually charged 10). Re-mux the ORIGINAL audio afterwards.
+- Character sheets with FACES as refs → failed (likely face-swap filter). Use headless outfit crops
+  (edit/yuck_mustang/refs/speed_outfit_body.jpg, speed_cap.jpg, trixie_outfit_body.jpg) — works.
+- Text-only outfit change gives a generic block M on the cap; the speed_cap image ref gives the correct M.
+- Seedance adds a sports-brand chest logo to "polo" → ask for "plain fabric with no print on the chest".
+- ~1 in 2 ref-edits fail at random ("Failed" in chat, card later "Couldn't load content", credits refunded) → just resend.
+- "Failed" in chat can be false: check the canvas card (00:05 = rendered). Only ONE generation at a time per project
+  (send button greys out while one runs). Reload can show "Update project?" → Update keeps cards.
+- Click the card LABEL to select → toolbar Download; selection adds a chip to the prompt (reload to clear, never Ctrl+A).
