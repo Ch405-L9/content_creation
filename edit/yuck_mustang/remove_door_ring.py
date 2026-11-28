@@ -44,6 +44,17 @@ while True:
     if keep.any():
         keep = cv2.dilate(keep, k, iterations=2)
         band = cv2.inpaint(band, keep * 255, 7, cv2.INPAINT_TELEA)
+        # second pass: leftover bright blobs (digits) near the bottom edge
+        hsv2 = cv2.cvtColor(band, cv2.COLOR_BGR2HSV)
+        m2 = ((hsv2[..., 2] > 140) & (hsv2[..., 1] < 70)).astype(np.uint8)
+        c3, l3, s3, _ = cv2.connectedComponentsWithStats(m2, 8)
+        k2 = np.zeros_like(m2)
+        for i in range(1, c3):
+            x, y, bw, bh, area = s3[i]
+            if area > 150 and y > band.shape[0] * 0.55:
+                k2[l3 == i] = 1
+        if k2.any():
+            band = cv2.inpaint(band, cv2.dilate(k2, k, iterations=2) * 255, 9, cv2.INPAINT_TELEA)
         f[y0:] = band
     out.write(f)
     n += 1

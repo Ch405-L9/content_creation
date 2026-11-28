@@ -162,3 +162,6 @@ Record the name/path of each meaningful revision, what changed, and which previo
   (edit/yuck_mustang/remove_door_ring.py, lower 20% band, large bright/dark components only) → review/yuck_mustang/S2_window_hero_0-5_mustang_v1.mp4.
 - S2 5–10 s (Video 37): no roundel visible; paint came out light silver-grey instead of matte black → flagged to user
   (regen 10 cr if wanted). review/yuck_mustang/S2_window_hero_5-10_mustang_v1.mp4.
+- S3 0–5 s (Video 38): roundel ("24") removed locally (remove_door_ring.py now has a 2nd pass for leftover digits);
+  paint again warm grey metallic despite "deep MATTE BLACK, not silver/grey" → asked user before spending more.
+  review/yuck_mustang/S3_arm_out_window_0-5_mustang_v1.mp4.
