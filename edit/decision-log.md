@@ -165,3 +165,5 @@ Record the name/path of each meaningful revision, what changed, and which previo
 - S3 0–5 s (Video 38): roundel ("24") removed locally (remove_door_ring.py now has a 2nd pass for leftover digits);
   paint again warm grey metallic despite "deep MATTE BLACK, not silver/grey" → asked user before spending more.
   review/yuck_mustang/S3_arm_out_window_0-5_mustang_v1.mp4.
+- S3 5–10 s (Video 39): paint finally BLACK with the wording "painted flat jet black, dark as the night sky" → new template.
+  Local paint-darken attempt (edit/yuck_mustang/darken_paint.py) looked blotchy — not used. Re-roll S2 5–10 / S3 0–5 with new wording.
