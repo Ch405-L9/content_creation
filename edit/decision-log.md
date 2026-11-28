@@ -172,3 +172,4 @@ Record the name/path of each meaningful revision, what changed, and which previo
   matte-black hood plate + board M (hood_m_still.py, matte 142,30,38, driver-seat view) and composites it on all frames of
   both halves → review/yuck_mustang/S4_his_mirror_mouth_{0-5,5-10}_mustang_v2.mp4. Cap brim in mirror still light (flag).
 - S5 0–5 (Video 42): night + new cluster; Corvette flags stayed on the hub → edit/yuck_mustang/wheel_badge_plate.py (inpaint + chrome pony from emblem_key_v1) static plate. review/yuck_mustang/S5_her_mirror_mouth_0-5_mustang_v1.mp4
+- S5 5–10 (Video 43) + 0–5 redone: hub inpaint area widened (no flags remnant). review/yuck_mustang/S5_her_mirror_mouth_{0-5,5-10}_mustang_v1.mp4

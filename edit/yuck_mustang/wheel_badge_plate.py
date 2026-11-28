@@ -9,7 +9,7 @@ r = int(pw * 0.75)
 roi = f[cy - r:cy + r, cx - r:cx + r]
 hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
 bad = (((hsv[..., 2] > 70) & (hsv[..., 1] < 90)) | (((hsv[..., 0] < 12) | (hsv[..., 0] > 165)) & (hsv[..., 1] > 70) & (hsv[..., 2] > 50))).astype(np.uint8)
-yy, xx = np.mgrid[-r:r, -r:r]; bad[(xx**2 / (r * 0.95)**2 + yy**2 / (r * 0.7)**2) > 1] = 0
+yy, xx = np.mgrid[-r:r, -r:r]; bad[(xx**2 / (r * 0.95)**2 + yy**2 / (r * 0.95)**2) > 1] = 0
 bad = cv2.dilate(bad, np.ones((5, 5), np.uint8), iterations=2)
 roi = cv2.inpaint(roi, bad * 255, 6, cv2.INPAINT_TELEA)
 # 2) pony from the approved grille close-up
@@ -28,5 +28,5 @@ roi[y0:y0 + ph, x0:x0 + pw] = (pc * pa + sub * (1 - pa)).astype(np.uint8)
 plate = f.copy(); plate[cy - r:cy + r, cx - r:cx + r] = roi
 cv2.imwrite(plate_p, plate)
 mask = np.zeros(f.shape[:2], np.uint8)
-cv2.ellipse(mask, (cx, cy), (int(r * 0.98), int(r * 0.75)), 0, 0, 360, 255, -1)
+cv2.ellipse(mask, (cx, cy), (int(r * 0.98), int(r * 0.95)), 0, 0, 360, 255, -1)
 cv2.imwrite(mask_p, mask); print("ok", pw, ph)
