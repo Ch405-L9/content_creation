@@ -180,3 +180,4 @@ Record the name/path of each meaningful revision, what changed, and which previo
 - 2026-11-28: pushed. S8 5–10 failed 3× (Videos 47–49, incl. lighter refs) and the S3 0–5 paint re-roll failed (Video 50) — 4 straight
   failures, all refunded (balance 120) → looks like CapCut's temporary account restriction again. Paused; AI Studio can't edit
   uploaded video (region-blocked) so a fallback there would lose the lip sync — asked the user.
+- Retry after user OK (Video 51, S8 5–10): failed again (5th in a row, refunded). CapCut restriction still active; retry in a few hours.
