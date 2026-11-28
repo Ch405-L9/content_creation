@@ -157,4 +157,6 @@ Record the name/path of each meaningful revision, what changed, and which previo
 - User (2026-11-27): Speed in black/grey outfit + black M cap, Trixie red&black with the red jacket OFF, per the authoritative sheets; redo S1.
   Face-sheet refs failed (filter) → headless outfit crops work (refs/speed_outfit_body, speed_cap, trixie_outfit_body).
   S1 0–5 v3 (Video 35) + S1 5–10 v2 (Video 34) DONE: review/yuck_mustang/S1_night_selfie_{0-5_mustang_v3,5-10_mustang_v2}.mp4.
-  (0–5 v2 = Video 31 had a sports-brand chest logo; superseded.) CapCut balance dropped 180 → 30 overnight (bonus credits gone).
+  (0–5 v2 = Video 31 had a sports-brand chest logo; superseded.) (A "30 credits" reading was a UI glitch; balance 160 before S2.)
+- S2 0–5 s DONE (Video 36): CapCut left a white ring + dark disc where the "5" roundel was → local OpenCV inpaint
+  (edit/yuck_mustang/remove_door_ring.py, lower 20% band, large bright/dark components only) → review/yuck_mustang/S2_window_hero_0-5_mustang_v1.mp4.
