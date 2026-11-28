@@ -181,3 +181,4 @@ Record the name/path of each meaningful revision, what changed, and which previo
   failures, all refunded (balance 120) → looks like CapCut's temporary account restriction again. Paused; AI Studio can't edit
   uploaded video (region-blocked) so a fallback there would lose the lip sync — asked the user.
 - Retry after user OK (Video 51, S8 5–10): failed again (5th in a row, refunded). CapCut restriction still active; retry in a few hours.
+- Retry from the fresh bottom prompt box with all refs re-uploaded (Video 52, S8 5–10): rendered ~15 min, then failed (6th in a row, refunded; credits 120). Same chat thread; no separate new-chat control found in this draft.
