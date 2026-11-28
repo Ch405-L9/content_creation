@@ -134,3 +134,14 @@ Record the name/path of each meaningful revision, what changed, and which previo
 - Deliverables: review/next_shot/next_shot_A_buildup_speed_v1.mp4 (91 f) and next_shot_B_shiftdown_victory_calm_v1.mp4 (99 f),
   30 fps, car sounds only (model audio, loudnorm -14), no music/captions.
 - Incident: Ctrl+A/Delete in CapCut while the prompt wasn't focused deleted canvas cards; undone immediately (Undo). Never use Ctrl+A there.
+
+## 2026-11-27 — Next shot v2 (camera-language prompts, Arena first)
+- Pushed 25 commits (user go). Method: docs/chase_camera_language.md (rig → plain camera wording, speed cues, one move per shot).
+- Arena video battles (2/day cap): build-up → A kept (B added cuts, 10 s). Speed → user: "B is WAAAAAAYY better";
+  B had a red M on the DOOR → Arena Edit on B; edit result A removed it (plain sides), edit result B left a red stripe (rejected).
+  Door M appears at ~1.5 s in the original, so the whole edited clip is used (not original 0–2 s + edit).
+- Omni 1.2 Flash (16:9, 720p, 4 s): shift-down v2 OK; victory v2 REJECTED (prompt said "tripod" → tripod rendered); victory v3 OK;
+  calm v2 OK (replaces the local placeholder).
+- Build: edit/next_shot/build_v2.sh → review/next_shot/next_shot_A_buildup_speed_v2.mp4 (91 f),
+  next_shot_B_shiftdown_victory_calm_v2.mp4 (99 f). Luma k: 0.874, 0.735, 0.871, 0.888, 1.131. Sources in
+  assets/originals/arena_gen/next_shot/ and assets/originals/aistudio_gen/next_shot/ (omni_*_v2/v3).
