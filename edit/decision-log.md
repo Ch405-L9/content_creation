@@ -174,3 +174,4 @@ Record the name/path of each meaningful revision, what changed, and which previo
 - S5 0–5 (Video 42): night + new cluster; Corvette flags stayed on the hub → edit/yuck_mustang/wheel_badge_plate.py (inpaint + chrome pony from emblem_key_v1) static plate. review/yuck_mustang/S5_her_mirror_mouth_0-5_mustang_v1.mp4
 - S5 5–10 (Video 43) + 0–5 redone: hub inpaint area widened (no flags remnant). review/yuck_mustang/S5_her_mirror_mouth_{0-5,5-10}_mustang_v1.mp4
 - S6 0–5 (Video 44) DONE clean: review/yuck_mustang/S6_her_in_front_0-5_mustang_v1.mp4
+- S6 5–10 (Video 45) DONE: review/yuck_mustang/S6_her_in_front_5-10_mustang_v1.mp4
