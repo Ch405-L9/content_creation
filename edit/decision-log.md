@@ -145,3 +145,10 @@ Record the name/path of each meaningful revision, what changed, and which previo
 - Build: edit/next_shot/build_v2.sh → review/next_shot/next_shot_A_buildup_speed_v2.mp4 (91 f),
   next_shot_B_shiftdown_victory_calm_v2.mp4 (99 f). Luma k: 0.874, 0.735, 0.871, 0.888, 1.131. Sources in
   assets/originals/arena_gen/next_shot/ and assets/originals/aistudio_gen/next_shot/ (omni_*_v2/v3).
+
+## 2026-11-27 — Yuck clips → Mustang interior, night (CapCut)
+- Found: assets/originals/quarterfinals/YUCK_clips/S1–S8 (+ Desktop copy). S7 = lips macro, no car. All have lip-synced lyrics.
+- User: "use capcut". Method: Seedance 2.0 Mini, clip as video reference (scaled 640x1112), prompt = keep everything,
+  change only cockpit → 2026 Mustang Dark Horse + late night; red seat accents kept. Cost 10 cr per 5 s.
+- S1 0–5 s done: assets/originals/capcut_gen/yuck/S1_0-5_mustang_night_seedmini_v1.mp4 → delogo, 1080x1920, ORIGINAL audio
+  re-muxed → review/yuck_mustang/S1_night_selfie_0-5_mustang_v1.mp4. Performance/lip timing preserved. Awaiting review.
