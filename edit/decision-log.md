@@ -182,3 +182,6 @@ Record the name/path of each meaningful revision, what changed, and which previo
   uploaded video (region-blocked) so a fallback there would lose the lip sync — asked the user.
 - Retry after user OK (Video 51, S8 5–10): failed again (5th in a row, refunded). CapCut restriction still active; retry in a few hours.
 - Retry from the fresh bottom prompt box with all refs re-uploaded (Video 52, S8 5–10): rendered ~15 min, then failed (6th in a row, refunded; credits 120). Same chat thread; no separate new-chat control found in this draft.
+- ROOT CAUSE of the failure streak (Videos 47–53): CapCut's audio-copyright check on the song in the reference clip (stated in a fresh project's chat). Fix: upload the reference with audio stripped (refs/*_silent.mp4, `ffmpeg -an -c:v copy`); finish.sh re-adds the original Yuck audio anyway.
+- Fresh project (draft C0132BD5-3BFF-4796-ADBD-D29D3E04479F), Video 2 = S8 5–10 with the silent ref: rendered OK (10 cr). → capcut_gen/yuck/S8_5-10_mustang_night_outfits_seedmini_v1.mp4 → review/yuck_mustang/S8_closing_selfie_5-10_mustang_v1.mp4. Black polo + M cap, black corset, night cabin. Note: wheel hub shows a white M, not the pony (local pony plate possible).
+- Video 3 = S3 0–5 re-roll (jet-black paint wording, silent ref).
